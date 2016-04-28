@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2015-02-13 05:26+0000\n"
+"PO-Revision-Date: 2016-04-16 21:14+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/bg/)\n"
@@ -349,7 +349,7 @@ msgstr ""
 #: ../gurpmi2:307
 #, c-format
 msgid "An error occurred:"
-msgstr ""
+msgstr "Появи се грешка:"
 
 #: ../gurpmi2:319
 #, c-format
