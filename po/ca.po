@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2016-03-06 09:14+0000\n"
+"PO-Revision-Date: 2016-05-31 15:25+0000\n"
 "Last-Translator: Davidmp <medipas@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/MageiaLinux/mageia/language/"
 "ca/)\n"
@@ -233,7 +233,8 @@ msgstr ""
 #: ../gurpmi.pm:66 ../urpmi:107 ../urpmq:67
 #, c-format
 msgid "  --root         - use another root for rpm installation.\n"
-msgstr "  --root         - utilitza una altra arrel per la instal·lació rpm.\n"
+msgstr ""
+"  --root         - utilitza una altra arrel per a la instal·lació rpm.\n"
 
 #: ../gurpmi.pm:67 ../urpmi:133
 #, c-format
@@ -500,7 +501,7 @@ msgstr "el nom del fitxer rpm és incorrecte [%s]"
 #: ../urpm.pm:448
 #, c-format
 msgid "retrieving rpm file [%s] ..."
-msgstr "s'estan recuperant els fitxers rpm [%s] ..."
+msgstr "S'estan recuperant els fitxers rpm [%s] ..."
 
 #: ../urpm.pm:450 ../urpm/get_pkgs.pm:276
 #, c-format
@@ -626,8 +627,8 @@ msgid ""
 "You must mount CD-ROM yourself (or install perl-Hal-Cdroms to have it done "
 "automatically)"
 msgstr ""
-"Heu de muntar el CD-ROM manualment (o bé instal·leu perl-Hal-Cdroms per a "
-"fer-ho de forma automàtica)"
+"Heu de muntar el CD-ROM manualment (o bé instal·leu perl-Hal-Cdroms per fer-"
+"ho automàticament)"
 
 #: ../urpm/cdrom.pm:82
 #, c-format
@@ -638,7 +639,7 @@ msgstr ""
 #: ../urpm/cdrom.pm:174 ../urpm/cdrom.pm:179
 #, c-format
 msgid "medium \"%s\" is not available"
-msgstr "El suport «%s» no està disponible."
+msgstr "El mitjà «%s» no està disponible."
 
 #: ../urpm/cdrom.pm:218
 #, c-format
@@ -789,7 +790,7 @@ msgstr "el protocol definit per a %s és desconegut"
 msgid "no webfetch found, supported webfetch are: %s\n"
 msgstr ""
 "No s'ha trobat cap programa per baixar elements de la xarxa, els programes "
-"suportats són %s\n"
+"admesos són %s\n"
 
 #: ../urpm/download.pm:1018
 #, c-format
@@ -809,17 +810,17 @@ msgstr "no s'ha trobat el paquet %s."
 #: ../urpm/get_pkgs.pm:269
 #, c-format
 msgid "retrieving rpm files from medium \"%s\"..."
-msgstr "s'estan recuperant els fitxers rpm del mitjà «%s»..."
+msgstr "S'estan recuperant els fitxers rpm del mitjà «%s»..."
 
 #: ../urpm/install.pm:115 ../urpme:164
 #, c-format
 msgid "removing %s"
-msgstr "s'està eliminant %s"
+msgstr "S'està eliminant %s"
 
 #: ../urpm/install.pm:215
 #, c-format
 msgid "unable to extract rpm from delta-rpm package %s"
-msgstr "no s'ha pogut extreure el rpm del paquet delta-rpm %s"
+msgstr "no s'ha pogut extreure l'rpm del paquet delta-rpm %s"
 
 #: ../urpm/install.pm:242
 #, c-format
@@ -903,12 +904,12 @@ msgstr ""
 #: ../urpm/lock.pm:115
 #, c-format
 msgid "%s database is locked. Waiting..."
-msgstr "La base de dades %s està blocada. S'està esperant..."
+msgstr "La base de dades %s està blocada. Esperant..."
 
 #: ../urpm/lock.pm:116
 #, c-format
 msgid "aborting"
-msgstr "s'està interrompent"
+msgstr "S'està interrompent"
 
 #: ../urpm/main_loop.pm:58
 #, c-format
@@ -994,7 +995,7 @@ msgstr "Intentar la instal·lació sense comprovar dependències?"
 #: ../urpm/main_loop.pm:299
 #, c-format
 msgid "Try harder to install (--force)?"
-msgstr "Ho provo d'instal·lar per força (--force)?"
+msgstr "Provo d'instal·lar-ho per força (--force)?"
 
 #: ../urpm/main_loop.pm:590
 #, c-format
@@ -1069,14 +1070,14 @@ msgstr "s'ignora el mitjà no lliure «%s» "
 #, c-format
 msgid "un-ignoring non-free medium `%s' b/c nonfree packages are installed"
 msgstr ""
-"no-ignorant el mitjà no lliure `%s' perquè hi ha paquets no lliures "
+"no-ignorant el mitjà no lliure \"%s\" perquè hi ha paquets no lliures "
 "instal·lats"
 
 #: ../urpm/media.pm:799
 #, c-format
 msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
 msgstr ""
-"no ignorant el mitjà tainted `%s' perquè hi ha paquets tainted instal·lats"
+"no s'ignora el mitjà tainted \"%s\" perquè hi ha paquets tainted instal·lats"
 
 #: ../urpm/media.pm:827
 #, c-format
@@ -1091,7 +1092,7 @@ msgstr "S'està ometent el paquet %s"
 #: ../urpm/media.pm:860
 #, c-format
 msgid "would install instead of upgrade package %s"
-msgstr "instal·laria en comptes d'actualitzar el paquet %s"
+msgstr "s'instal·laria en comptes d'actualitzar el paquet %s"
 
 #: ../urpm/media.pm:943
 #, c-format
@@ -1106,7 +1107,7 @@ msgstr "(ignorat per omissió)"
 #: ../urpm/media.pm:991
 #, c-format
 msgid "adding medium \"%s\" before remote medium \"%s\""
-msgstr "S'està afegint el suport «%s» abans del suport remot «%s»"
+msgstr "S'està afegint el mitjà «%s» abans del mitjà remot «%s»"
 
 #: ../urpm/media.pm:997
 #, c-format
@@ -1158,7 +1159,7 @@ msgstr "s'ha intentat seleccionar un mitjà inexistent «%s»"
 #: ../urpm/media.pm:1253
 #, c-format
 msgid "selecting multiple media: %s"
-msgstr "s'estan seleccionant múltiples mitjans: %s"
+msgstr "S'estan seleccionant múltiples mitjans: %s"
 
 #: ../urpm/media.pm:1312
 #, c-format
@@ -1303,7 +1304,7 @@ msgstr "la recuperació de [%s] ha fallat"
 #: ../urpm/mirrors.pm:34 ../urpm/mirrors.pm:60
 #, c-format
 msgid "trying again with mirror %s"
-msgstr "s'està intentant de nou amb la rèplica %s"
+msgstr "s'està intentant un altre cop amb la rèplica %s"
 
 #: ../urpm/mirrors.pm:112
 #, c-format
@@ -2057,7 +2058,7 @@ msgstr "  --size         - mida un cop instal·lat\n"
 #: ../urpmf:74
 #, c-format
 msgid "  --sourcerpm    - source rpm name\n"
-msgstr "  --sourcerpm    - nom del rpm de les fonts\n"
+msgstr "  --sourcerpm    - nom de l'rpm de les fonts\n"
 
 #: ../urpmf:75
 #, c-format
@@ -2082,7 +2083,7 @@ msgstr "  --vendor       - proveïdor\n"
 #: ../urpmf:79
 #, c-format
 msgid "  -m             - the media in which the package was found\n"
-msgstr "  -m             - el suport en el qual s'ha trobat el paquet\n"
+msgstr "  -m             - el mitjà on s'ha trobat el paquet\n"
 
 #: ../urpmf:80 ../urpmq:97
 #, c-format
@@ -2154,7 +2155,7 @@ msgstr ""
 #: ../urpmi:82
 #, c-format
 msgid "  --no-install   - don't install packages (only download)\n"
-msgstr "  --no-install   - no instal·la cap paquet (només baixa)\n"
+msgstr "  --no-install   - no instal·lis cap paquet (només baixa'ls)\n"
 
 #: ../urpmi:83 ../urpmq:54
 #, c-format
@@ -2173,8 +2174,8 @@ msgid ""
 "                   are going to be installed or upgraded,\n"
 "                   default is %d.\n"
 msgstr ""
-"  --split-level  - divideix en una transacció petita si s'instal·laran o "
-"s'actualitzaran més dels paquets donats,\n"
+"  --split-level  - divideix en una transacció petita si s'han d'instal·lar o "
+"actualitzar més més paquets dels indicats,\n"
 "                   per defecte és %d.\n"
 
 #: ../urpmi:89
@@ -2233,7 +2234,7 @@ msgid ""
 "  --allow-nodeps - allow asking user to install packages without\n"
 "                   dependencies checking.\n"
 msgstr ""
-"  --allow-nodeps - permet de preguntar a l'usuari si vol instal·lar paquets "
+"  --allow-nodeps - permet preguntar a l'usuari si vol instal·lar paquets "
 "sense\n"
 "                   comprovar les dependències.\n"
 
@@ -2243,7 +2244,7 @@ msgid ""
 "  --allow-force  - allow asking user to install packages without\n"
 "                   dependencies checking and integrity.\n"
 msgstr ""
-"  --allow-force  - permet de preguntar a l'usuari si vol instal·lar paquets "
+"  --allow-force  - permet preguntar a l'usuari si vol instal·lar paquets "
 "sense\n"
 "                   comprovar les dependències i la integritat.\n"
 
@@ -2675,7 +2676,7 @@ msgid ""
 "and [options] are from\n"
 msgstr ""
 "ús: urpmi.addmedia [opcions] <nom> <url>\n"
-"on <url> és un d'aquests:\n"
+"en què <url> és un d'aquets valors:\n"
 "       [file:/]/<path>\n"
 "       ftp://<login>:<password>@<host>/<path>\n"
 "       ftp://<host>/<path>\n"
@@ -2941,7 +2942,8 @@ msgstr "  --probe-rpms   - no usis síntesis, usa fitxers rpm directament\n"
 #: ../urpmi.update:50
 #, c-format
 msgid "  -a             - select all enabled non-removable media.\n"
-msgstr "  -a             - selecciona tots els suports no extraïbles.\n"
+msgstr ""
+"  -a             - selecciona tots els mitjans no extraïbles habilitats.\n"
 
 #: ../urpmi.update:51
 #, c-format
@@ -3115,7 +3117,7 @@ msgstr "  --recommends   - mostra les recomanacions.\n"
 #: ../urpmq:85
 #, c-format
 msgid "  --sourcerpm    - print sourcerpm.\n"
-msgstr "  --sourcerpm    - mostra el rpm de les fonts.\n"
+msgstr "  --sourcerpm    - mostra l'rpm de les fonts.\n"
 
 #: ../urpmq:86
 #, c-format
@@ -3287,4 +3289,4 @@ msgstr "Executa l'instal·lador de paquets de Mageia"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:2
 msgid "Authentication is required to run Mageia Package Installer"
-msgstr "Cal autenticar-vos per executar l'instal·lador de paquets del Mageia"
+msgstr "Cal autenticació per executar l'instal·lador de paquets del Mageia"
