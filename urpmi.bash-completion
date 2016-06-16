@@ -169,7 +169,7 @@ _urpmq()
 	    --no-recommends --fuzzy \
 	    --keep --nokeep --list --list-url --list-media --list-nodes \
 	    --list-aliases --src --sources --provides --requires --obsoletes \
-	    --suggests --summary --sourcerpm --force --parallel --wget --curl \
+	    --recommends --summary --sourcerpm --force --parallel --wget --curl \
 	    --prozilla --changelog --conflicts --proxy --proxy-user --env \
 	    --dump-config --whatprovides --whatrequires \
 	    --whatrequires-recursive --skip --prefer --use-distrib \
@@ -232,7 +232,7 @@ _urpmf()
 	    --media --excludemedia --literal --sortmedia --synthesis --use-distrib \
 	    --uniq --name --group --license --size --epoch --summary \
 	    --description --sourcerpm --packager--buildhost --url --provides \
-	    --requires --suggests --files --conflicts --obsoletes --env" \
+	    --recommends --requires --files --conflicts --obsoletes --env" \
 	    -- $cur ) )
     else
 	# return available files
