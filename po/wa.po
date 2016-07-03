@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2015-02-13 05:26+0000\n"
+"PO-Revision-Date: 2016-06-27 23:05+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Walloon (http://www.transifex.com/projects/p/mageia/language/"
+"Language-Team: Walloon (http://www.transifex.com/MageiaLinux/mageia/language/"
 "wa/)\n"
 "Language: wa\n"
 "MIME-Version: 1.0\n"
@@ -900,7 +900,7 @@ msgstr ""
 #: ../urpm/main_loop.pm:58
 #, c-format
 msgid "Retry?"
-msgstr ""
+msgstr "Rissayî?"
 
 #: ../urpm/main_loop.pm:85
 #, c-format
@@ -2767,7 +2767,7 @@ msgstr ""
 #: ../urpmi.addmedia:156 ../urpmi.addmedia:181
 #, c-format
 msgid "unable to add medium"
-msgstr ""
+msgstr "dji n' sai radjouter l' sopoirt"
 
 #: ../urpmi.addmedia:164
 #, c-format
