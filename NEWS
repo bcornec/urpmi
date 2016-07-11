@@ -1,3 +1,5 @@
+Version 8.103 - 11 July 2016
+
 - fix reporting progress with newer aria2 (mga#16500)
 - fix Getopt::Long 4.60+ breakages (mga#17923)
 - s/suggests/recommends/ in bash completion
