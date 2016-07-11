@@ -696,7 +696,7 @@ sub sync_aria2 {
 	"/usr/bin/aria2c", $options->{debug} ? ('--log', "$options->{dir}/.aria2.log") : @{[]},
 	'--auto-file-renaming=false',
 	'--ftp-pasv',
-	'--summary-interval=0',
+	'--summary-interval=1',
 	'--follow-metalink=mem',
       $medium->{mirrorlist} ? (
 	'--metalink-enable-unique-protocol=true', # do not try to connect to the same server using the same protocol
@@ -764,8 +764,29 @@ sub _parse_aria2_output {
 				propagate_sync_callback($options, 'start', $file)
 				  if !$options->{is_retry};
 			}
-			#parses aria2c: [#1 SIZE:176.0KiB/2.5MiB(6%) CN:3 SPD:256.22KiBs ETA:09s]
-    		    if ($buf =~ m!^\[#\d*\s+\S+:([\d\.]+\w*).([\d\.]+\w*)\S([\d]+)\S+\s+\S+\s*([\d\.]+)\s\w*:([\d\.]+\w*)\s\w*:(\d+\w*)\]$!) {
+
+			# aria2c 1.16 and beyond:
+			# parses aria2c: [#2c8dae 496KiB/830KiB(59%) CN:1 DL:84KiB ETA:3s]
+			#
+			# using multiline mode and comments for better readability:
+			#
+			if ($buf =~ m!
+				^\[\#[\dA-Fa-f]+ # match #2c8dae
+				\s+
+				([\d\.]+\w*) # Match 496KiB
+					/
+				([\d\.]+\w*) # Match 830KiB
+				\s* \( (\d+) % \) # Match (59%)
+				\s+
+				CN:(\S+) # Match CN:1
+				\s+
+				DL:(\S+) # Match DL:84KiB
+				\s+
+				ETA:(\w+)
+				\]$
+				!msx
+			)
+			{
 			    my ($total, $percent, $speed, $eta) = ($2, $3, $5, $6);
 			    #- $1 = current downloaded size, $4 = connections
 		    if (propagate_sync_callback($options, 'progress', $file, $percent, $total, $eta, $speed) eq 'canceled') {
