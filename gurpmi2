@@ -195,7 +195,6 @@ sub ask_continue {
     my $vbox = Gtk3::VBox->new(0, 5);
     $vbox->pack_start(new_label($msg), 1, 1, 0);
     $urpm->{log}($msg);
-	warn ">> o_list='$o_list'\n";
     if ($o_end_msg) {
         $vbox->pack_start(new_label($o_list), 1, 1, 0);
         $vbox->pack_start(new_label($o_end_msg), 1, 1, 0);
