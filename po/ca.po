@@ -4,12 +4,12 @@
 # Translators:
 # Francesc Pinyol Margalef, 2012-2014
 # Davidmp <medipas@gmail.com>, 2015-2016
-# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2015
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2016-05-31 15:25+0000\n"
+"PO-Revision-Date: 2016-09-29 14:13+0000\n"
 "Last-Translator: Davidmp <medipas@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/MageiaLinux/mageia/language/"
 "ca/)\n"
@@ -263,7 +263,7 @@ msgstr "Cal ser root"
 #: ../gurpmi2:76
 #, c-format
 msgid "Preparing packages installation..."
-msgstr "S'estan preparant els paquets per a la instal·lació... "
+msgstr "S'està preparant la instal·lació dels paquets... "
 
 #: ../gurpmi2:91 ../urpmi:506
 #, c-format
@@ -363,7 +363,7 @@ msgstr "Per complir les dependències, s'instal·laran els paquets següents:"
 #: ../gurpmi2:270 ../urpm/main_loop.pm:467
 #, c-format
 msgid "unable to get source packages, aborting"
-msgstr "No es poden recuperar els paquets de les fonts. S'està interrompent"
+msgstr "no es poden recuperar els paquets de les fonts. S'interromp"
 
 #: ../gurpmi2:287 ../urpmi:634
 #, c-format
@@ -412,7 +412,7 @@ msgstr "Instal·lació acabada"
 #: ../gurpmi2:363 ../urpmi:692
 #, c-format
 msgid "restarting urpmi"
-msgstr "S'està reiniciant l'urpmi"
+msgstr "S'està reiniciant l'urpmi..."
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -456,7 +456,7 @@ msgstr "El superusuari és l'únic autoritzat per instal·lar paquets"
 #: ../rurpmi:18
 #, c-format
 msgid "Running urpmi in restricted mode..."
-msgstr "S'està executant urpmi en mode restringit..."
+msgstr "S'està executant l'urpmi en mode restringit..."
 
 #: ../urpm.pm:23
 #, c-format
@@ -501,7 +501,7 @@ msgstr "el nom del fitxer rpm és incorrecte [%s]"
 #: ../urpm.pm:448
 #, c-format
 msgid "retrieving rpm file [%s] ..."
-msgstr "S'estan recuperant els fitxers rpm [%s] ..."
+msgstr "s'està recuperant el fitxer rpm [%s] ..."
 
 #: ../urpm.pm:450 ../urpm/get_pkgs.pm:276
 #, c-format
@@ -773,7 +773,7 @@ msgstr "        %s%% completat, velocitat = %s"
 #: ../urpm/download.pm:915
 #, c-format
 msgid "retrieving %s"
-msgstr "S'està recuperant %s"
+msgstr "s'està recuperant %s"
 
 #: ../urpm/download.pm:926
 #, c-format
@@ -800,7 +800,7 @@ msgstr "incapaç de gestionar el protocol: %s"
 #: ../urpm/get_pkgs.pm:29
 #, c-format
 msgid "cleaning %s and %s"
-msgstr "S'està netejant %s i %s"
+msgstr "s'està netejant %s i %s"
 
 #: ../urpm/get_pkgs.pm:141
 #, c-format
@@ -810,12 +810,12 @@ msgstr "no s'ha trobat el paquet %s."
 #: ../urpm/get_pkgs.pm:269
 #, c-format
 msgid "retrieving rpm files from medium \"%s\"..."
-msgstr "S'estan recuperant els fitxers rpm del mitjà «%s»..."
+msgstr "s'estan recuperant els fitxers rpm del mitjà «%s»..."
 
 #: ../urpm/install.pm:115 ../urpme:164
 #, c-format
 msgid "removing %s"
-msgstr "S'està eliminant %s"
+msgstr "s'està eliminant %s"
 
 #: ../urpm/install.pm:215
 #, c-format
@@ -830,7 +830,7 @@ msgstr "no s'ha pogut instal·lar el paquet %s"
 #: ../urpm/install.pm:245
 #, c-format
 msgid "removing bad rpm (%s) from %s"
-msgstr "S'està eliminant el paquet rpm dolent (%s) de %s"
+msgstr "s'està eliminant el paquet rpm dolent (%s) de %s"
 
 #: ../urpm/install.pm:246 ../urpm/install.pm:374
 #, c-format
@@ -840,7 +840,7 @@ msgstr "la supressió de %s ha fallat: %s"
 #: ../urpm/install.pm:295
 #, c-format
 msgid "removing package %s"
-msgstr "S'està eliminant el paquet %s"
+msgstr "s'està eliminant el paquet %s"
 
 #: ../urpm/install.pm:341
 #, c-format
@@ -858,7 +858,7 @@ msgstr "no s'ha pogut crear la transacció"
 #: ../urpm/install.pm:372
 #, c-format
 msgid "removing installed rpms (%s) from %s"
-msgstr "S'estan eliminant els paquets rpms instal·lats (%s) de %s "
+msgstr "s'estan eliminant els rpm instal·lats (%s) de %s "
 
 #: ../urpm/install.pm:381
 #, c-format
@@ -909,7 +909,7 @@ msgstr "La base de dades %s està blocada. Esperant..."
 #: ../urpm/lock.pm:116
 #, c-format
 msgid "aborting"
-msgstr "S'està interrompent"
+msgstr "s'interromp"
 
 #: ../urpm/main_loop.pm:58
 #, c-format
@@ -965,7 +965,7 @@ msgstr "La instal·lació ha fallat"
 #: ../urpm/main_loop.pm:159
 #, c-format
 msgid "removing installed rpms (%s)"
-msgstr "S'estan suprimint els rpms instal·lats (%s)"
+msgstr "s'estan eliminant els rpms instal·lats (%s)"
 
 #: ../urpm/main_loop.pm:185
 #, c-format
@@ -975,17 +975,17 @@ msgstr "Intento continuar de totes maneres?"
 #: ../urpm/main_loop.pm:236
 #, c-format
 msgid "installing %s from %s"
-msgstr "S'està instal·lant %s des de %s"
+msgstr "s'està instal·lant %s des de %s"
 
 #: ../urpm/main_loop.pm:238
 #, c-format
 msgid "installing %s"
-msgstr "S'està instal·lant %s"
+msgstr "s'està instal·lant %s"
 
 #: ../urpm/main_loop.pm:245
 #, c-format
 msgid "distributing %s"
-msgstr "S'està distribuint %s"
+msgstr "s'està distribuint %s"
 
 #: ../urpm/main_loop.pm:291
 #, c-format
@@ -1005,7 +1005,7 @@ msgstr "Els paquets estan actualitzats."
 #: ../urpm/main_loop.pm:601 ../urpm/parallel.pm:299
 #, c-format
 msgid "Installation is possible"
-msgstr "La instal·lació és possible"
+msgstr "La instal·lació és possible."
 
 #: ../urpm/md5sum.pm:55
 #, c-format
@@ -1087,7 +1087,7 @@ msgstr "Inici de cerca: %s. Fi: %s"
 #: ../urpm/media.pm:844
 #, c-format
 msgid "skipping package %s"
-msgstr "S'està ometent el paquet %s"
+msgstr "s'omet el paquet %s"
 
 #: ../urpm/media.pm:860
 #, c-format
@@ -1107,12 +1107,12 @@ msgstr "(ignorat per omissió)"
 #: ../urpm/media.pm:991
 #, c-format
 msgid "adding medium \"%s\" before remote medium \"%s\""
-msgstr "S'està afegint el mitjà «%s» abans del mitjà remot «%s»"
+msgstr "s'està afegint el mitjà «%s» abans del mitjà remot «%s»"
 
 #: ../urpm/media.pm:997
 #, c-format
 msgid "adding medium \"%s\""
-msgstr "S'està afegint el mitjà «%s»"
+msgstr "s'està afegint el mitjà «%s»"
 
 #: ../urpm/media.pm:1021
 #, c-format
@@ -1159,12 +1159,12 @@ msgstr "s'ha intentat seleccionar un mitjà inexistent «%s»"
 #: ../urpm/media.pm:1253
 #, c-format
 msgid "selecting multiple media: %s"
-msgstr "S'estan seleccionant múltiples mitjans: %s"
+msgstr "s'estan seleccionant múltiples mitjans: %s"
 
 #: ../urpm/media.pm:1312
 #, c-format
 msgid "removing medium \"%s\""
-msgstr "s'està suprimint el mitjà «%s»"
+msgstr "s'està eliminant el mitjà «%s»"
 
 #: ../urpm/media.pm:1403
 #, c-format
@@ -1448,13 +1448,13 @@ msgid_plural ""
 "are now orphaned, if you wish to remove them, you can use \"urpme --auto-"
 "orphans\""
 msgstr[0] ""
-"El següent paquet:\n"
+"Ara el paquet següent és orfe:\n"
 "%s\n"
-"és ara orfe, si el voleu suprimir, podeu executar «urpme --auto-orphans»"
+"Si el voleu eliminar, podeu executar «urpme --auto-orphans»."
 msgstr[1] ""
-"Els següents paquets:\n"
+"Ara els paquets següents són orfes:\n"
 "%s\n"
-"són ara orfes, si els voleu suprimir, podeu executar «urpme --auto-orphans»"
+"Si els voleu eliminar, podeu executar «urpme --auto-orphans»."
 
 #: ../urpm/parallel.pm:15
 #, c-format
@@ -1701,7 +1701,7 @@ msgstr ""
 #: ../urpme:44
 #, c-format
 msgid "  --auto-orphans - remove orphans\n"
-msgstr "  --auto-orphans - suprimeix els orfes\n"
+msgstr "  --auto-orphans - elimina els orfes\n"
 
 #: ../urpme:45
 #, c-format
@@ -2632,13 +2632,14 @@ msgstr ""
 #, c-format
 msgid "The following orphan package will be removed."
 msgid_plural "The following orphan packages will be removed."
-msgstr[0] "Se suprimirà el paquet orfe següent:"
-msgstr[1] "Se suprimiran els paquets orfes següents:"
+msgstr[0] "S'eliminarà el paquet orfe següent:"
+msgstr[1] "S'eliminaran els paquets orfes següents:"
 
 #: ../urpmi:597
 #, c-format
 msgid "WARNING: %s option is in use. Some strange problems may happen"
-msgstr "AVÍS: s'està usant l'opció %s. Poden ocórrer alguns problemes estranys"
+msgstr ""
+"AVÍS: s'està usant l'opció %s. Poden ocórrer alguns problemes estranys."
 
 #: ../urpmi:609
 #, c-format
@@ -2985,12 +2986,12 @@ msgstr "«%s»"
 #: ../urpmi.update:99
 #, c-format
 msgid "ignoring media %s"
-msgstr "s'està ignorant el mitjà %s"
+msgstr "s'ignora el mitjà %s"
 
 #: ../urpmi.update:99
 #, c-format
 msgid "enabling media %s"
-msgstr "s'està habilitant el mitjà %s"
+msgstr "s'habilita el mitjà %s"
 
 #: ../urpmq:44
 #, c-format
