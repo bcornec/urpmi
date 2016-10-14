@@ -1,3 +1,5 @@
+- fix more Getopt::Long breakages (drop the "gnu_compat" option)
+
 Version 8.103 - 11 July 2016
 
 - fix reporting progress with newer aria2 (mga#16500)
