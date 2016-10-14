@@ -48,6 +48,8 @@ install: all
 clean:
 	@rm -rf *~ *.mo $(GOALS) $(PGOAL)_tmp.pot POTFILES.in
 
+test_dynamic:
+
 test:
 
 realclean: clean
