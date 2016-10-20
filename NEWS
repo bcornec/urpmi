@@ -1,3 +1,5 @@
+- adapt testsuite to rpm-4.13.0~rc2
+
 Version 8.104 - 15 October 2016
 
 - fix more Getopt::Long breakages (drop the "gnu_compat" option)

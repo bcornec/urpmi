@@ -12,7 +12,7 @@ need_root_and_prepare();
 test_install_rpm_fail('pre');
 test_install_rpm_fail('pretrans');
 test_install_rpm('post');
-test_install_rpm('preun');
+test_install_rpm_but_uninstall_fail('preun');
 test_install_rpm('postun');
 test_install_rpm('posttrans');
 
@@ -36,6 +36,16 @@ sub test_install_rpm_fail {
     my ($name) = @_;
     test_install_rpm_no_remove('sh');
     system_should_fail("rpm --root $::pwd/root -i media/$medium_name/$name-*.rpm");
+    check_installed_fullnames_and_remove("sh-1-1");
+}
+
+sub test_install_rpm_but_uninstall_fail {
+    my ($name) = @_;
+    test_install_rpm_no_remove('sh');
+    system_("rpm --root $::pwd/root -i media/$medium_name/$name-*.rpm");
+    check_installed_fullnames("$name-1-1", "sh-1-1");
+    system_should_fail("rpm --root $::pwd/root -e $name");
+    system_("rpm --root $::pwd/root -e $name --nopreun");
     check_installed_fullnames_and_remove("sh-1-1");
 }
 
