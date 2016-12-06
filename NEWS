@@ -1,3 +1,5 @@
+Version 8.106 - 6 December 2016
+
 - skip kernel-firmware-nonfree too when considering real kernels
   Thus preventing kernel-firmware-nonfree being falsely detected as an orphan
   package (mga#12361)
