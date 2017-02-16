@@ -7,13 +7,14 @@
 # Dilshod Marupov <dma165@hotmail.com>, 2003-2004
 # Murod Marupov <abdullovich@khujand.org>, 2004
 # Roger Kovacs <rkovacs@khujand.org>, 2003
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2017
 # Victor Ibragimov <youth_opportunities@tajikngo.org>, 2005
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-02-14 08:28+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2017-02-16 07:12+0000\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik (http://www.transifex.com/MageiaLinux/mageia/language/"
 "tg/)\n"
 "Language: tg\n"
@@ -35,7 +36,7 @@ msgstr ""
 #: ../gurpm/RPMProgressDialog.pm:128
 #, c-format
 msgid "Please wait..."
-msgstr "Интизор бошед..."
+msgstr "Лутфан, интизор шавед..."
 
 #: ../gurpm/RPMProgressDialog.pm:290
 #, c-format
@@ -1334,17 +1335,17 @@ msgstr ""
 #: ../urpm/msg.pm:199
 #, c-format
 msgid "KB"
-msgstr "KB"
+msgstr "КБ"
 
 #: ../urpm/msg.pm:199
 #, c-format
 msgid "MB"
-msgstr "MB"
+msgstr "МБ"
 
 #: ../urpm/msg.pm:199
 #, c-format
 msgid "GB"
-msgstr "GB"
+msgstr "ГБ"
 
 #: ../urpm/msg.pm:199 ../urpm/msg.pm:208
 #, c-format
@@ -2378,8 +2379,8 @@ msgid ""
 "Directory [%s] already exists, please use another directory for bug report "
 "or delete it"
 msgstr ""
-"Феҳристи [%s] аллакай мавҷуд аст, марҳамат карда дигар феҳристро барои "
-"маърӯзаи оиди хато, истифода баред ё онро нобуд созед"
+"Феҳристи [%s] аллакай мавҷуд аст, лутфан, феҳристи дигарро барои маърӯзаи "
+"оиди хато, истифода баред ё онро нобуд созед"
 
 #: ../urpmi:251
 #, c-format
