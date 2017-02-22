@@ -1,3 +1,5 @@
+- increase transaction size from 8 to 50 (mga#18426)
+
 Version 8.107 - 26 April 2017
 
 - make sure that urpmi.cfg is world-readable (mga#9386)
