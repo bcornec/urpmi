@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-02-28 05:11+0000\n"
+"PO-Revision-Date: 2017-03-15 08:30+0000\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik (http://www.transifex.com/MageiaLinux/mageia/language/"
 "tg/)\n"
@@ -587,7 +587,7 @@ msgstr ""
 #: ../urpm/args.pm:534
 #, c-format
 msgid "Copyright (C) %s by %s"
-msgstr ""
+msgstr "Ҳуқуқи муаллиф (C) %s аз тарафи %s"
 
 #: ../urpm/bug_report.pm:67 ../urpmi:256
 #, c-format
@@ -659,7 +659,7 @@ msgstr "Номи корванд:"
 #: ../urpm/download.pm:200
 #, c-format
 msgid "Password:"
-msgstr "Гузарвожа:"
+msgstr "Парол:"
 
 #: ../urpm/download.pm:286
 #, c-format
@@ -1310,7 +1310,7 @@ msgstr ""
 #: ../urpm/msg.pm:161
 #, c-format
 msgid "Arch"
-msgstr ""
+msgstr "Сохтор"
 
 #: ../urpm/msg.pm:170
 #, c-format
