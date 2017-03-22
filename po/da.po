@@ -2,18 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Translators:
-# Carl Andersen <carl@blue-dane.org>, 2015
+# Carl Andersen <carl@freeos.dk>, 2015
 # Keld Simonsen <keld@dkuug.dk>, 2003-2005,2007-2009
 # Keld Simonsen <keld@rap.dk>, 2003,2006
 # Kenneth Christiansen, 2000
 # Rémi Verschelde <akien@mageia.org>, 2013
+# scootergrisen, 2017
 # Troels Liebe Bentsen <tlb@iname.com>, 2000
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2015-11-17 15:21+0000\n"
-"Last-Translator: Carl Andersen <carl@blue-dane.org>\n"
+"PO-Revision-Date: 2017-03-21 19:52+0000\n"
+"Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "da/)\n"
 "Language: da\n"
@@ -87,7 +88,7 @@ msgstr "Fejl: kunne ikke finde fil %s, vil afbryde handling"
 #: ../gurpmi:64 ../gurpmi2:173 ../gurpmi2:203
 #, c-format
 msgid "_Ok"
-msgstr "_O.k."
+msgstr "_Ok"
 
 #: ../gurpmi:84
 #, c-format
@@ -164,7 +165,7 @@ msgstr "Vælg sted at gemme filen"
 #: ../gurpmi:126 ../gurpmi2:119
 #, c-format
 msgid "Ok"
-msgstr "O.k."
+msgstr "Ok"
 
 #: ../gurpmi.pm:56
 #, c-format
@@ -258,7 +259,7 @@ msgstr "Skal være root"
 #: ../gurpmi2:76
 #, c-format
 msgid "Preparing packages installation..."
-msgstr "Forbereder installation af pakker"
+msgstr "Forbereder installation af pakker..."
 
 #: ../gurpmi2:91 ../urpmi:506
 #, c-format
@@ -348,7 +349,7 @@ msgstr[1] "Fortsæt installationen med de %d pakker?"
 msgid ""
 "To satisfy dependencies, the following package is going to be installed:"
 msgstr ""
-"For at tilfredsstille afhængigheder vil den følgende pakke blive installeret "
+"For at tilfredsstille afhængigheder vil den følgende pakke blive installeret:"
 
 #: ../gurpmi2:260 ../urpmi:607
 #, c-format
@@ -1258,7 +1259,7 @@ msgstr "henter kilde-syntese for \"%s\"..."
 #: ../urpm/media.pm:1897
 #, c-format
 msgid "examining pubkey file of \"%s\"..."
-msgstr "undersøger pubkey-fil for '%s'"
+msgstr "undersøger pubkey-fil for '%s'..."
 
 #: ../urpm/media.pm:1909
 #, c-format
