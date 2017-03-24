@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-03-21 19:52+0000\n"
+"PO-Revision-Date: 2017-03-23 21:26+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "da/)\n"
@@ -1350,7 +1350,7 @@ msgstr "Arkitektur"
 #: ../urpm/msg.pm:170
 #, c-format
 msgid "(recommended)"
-msgstr ""
+msgstr "(anbefalet)"
 
 #: ../urpm/msg.pm:185
 #, c-format
@@ -1403,7 +1403,13 @@ msgid_plural ""
 "%s\n"
 "are now orphaned."
 msgstr[0] ""
+"Følgende pakke:\n"
+"%s\n"
+"er nu forældreløs."
 msgstr[1] ""
+"Følgende pakker:\n"
+"%s\n"
+"er nu forældreløse."
 
 #: ../urpm/orphans.pm:530
 #, c-format
@@ -2863,7 +2869,7 @@ msgstr "  --probe-rpms   - brug ikke syntese; brug rpm-filer direkte\n"
 #: ../urpmi.update:50
 #, c-format
 msgid "  -a             - select all enabled non-removable media.\n"
-msgstr ""
+msgstr "  -a             - vælg alle aktiverede ikke-flytbare medier.\n"
 
 #: ../urpmi.update:51
 #, c-format
@@ -2979,7 +2985,7 @@ msgstr "  --src          - næste pakke er en kildepakke (samme som -s).\n"
 #: ../urpmq:63
 #, c-format
 msgid "  --sources      - print source URLs of selected packages\n"
-msgstr ""
+msgstr "  --sources      - print de valgte pakkers kilde-URL'er\n"
 
 #: ../urpmq:65
 #, c-format
@@ -3025,7 +3031,7 @@ msgstr "  --requires     - udskriv afhængigheder\n"
 #: ../urpmq:84
 #, c-format
 msgid "  --recommends   - print recommends.\n"
-msgstr ""
+msgstr "  --recommends   - print anbefalinger.\n"
 
 #: ../urpmq:85
 #, c-format
@@ -3181,7 +3187,7 @@ msgstr "Grafisk frontend til installation af rpm-filer"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:1
 msgid "Run Mageia Package Installer"
-msgstr ""
+msgstr "Kør Mageia-pakkeinstallationsprogram"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:2
 msgid "Authentication is required to run Mageia Package Installer"
