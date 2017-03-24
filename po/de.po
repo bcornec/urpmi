@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Translators:
-# psyca, 2014-2016
+# psyca, 2014-2017
 # Marc Lattemann, 2014
 # Oliver Burger <obgr_seneca@mageia.org>, 2013
 # Sigrid Carrera <sigrid.carrera@googlemail.com>, 2013
@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2016-01-25 01:47+0000\n"
+"PO-Revision-Date: 2017-03-23 21:07+0000\n"
 "Last-Translator: psyca\n"
 "Language-Team: German (http://www.transifex.com/MageiaLinux/mageia/language/"
 "de/)\n"
@@ -1576,12 +1576,12 @@ msgstr ""
 #: ../urpm/select.pm:607
 #, c-format
 msgid "Package %s is already installed"
-msgstr "Paket %s ist installiert"
+msgstr "Paket %s ist bereits installiert"
 
 #: ../urpm/select.pm:608
 #, c-format
 msgid "Packages %s are already installed"
-msgstr "Pakete %s sind installiert"
+msgstr "Pakete %s sind bereits installiert"
 
 #: ../urpm/select.pm:625 ../urpm/select.pm:712
 #, c-format
