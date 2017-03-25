@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-03-23 21:26+0000\n"
+"PO-Revision-Date: 2017-03-25 10:25+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "da/)\n"
@@ -459,7 +459,7 @@ msgstr "Kører urpmi i begrænset tilstand..."
 #: ../urpm.pm:23
 #, c-format
 msgid "While some packages may have been installed, there were failures.\n"
-msgstr ""
+msgstr "Nogle pakker kan være blevet installeret, men nogle mislykkedes.\n"
 
 #: ../urpm.pm:194
 #, c-format
@@ -1415,8 +1415,8 @@ msgstr[1] ""
 #, c-format
 msgid "You may wish to remove it."
 msgid_plural "You may wish to remove them."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Du vil måske fjerne den."
+msgstr[1] "Du vil måske fjerne dem."
 
 #: ../urpm/orphans.pm:547
 #, c-format
@@ -1616,12 +1616,12 @@ msgstr "Ugyldig signatur (%s)"
 #: ../urpm/signature.pm:77
 #, c-format
 msgid "SECURITY: The following package is _NOT_ signed (%s): %s"
-msgstr ""
+msgstr "SIKKERHED: Følgende pakke er _IKKE_ signeret (%s): %s"
 
 #: ../urpm/signature.pm:83
 #, c-format
 msgid "SECURITY: NOT checking package \"%s\" (due to configuration)"
-msgstr ""
+msgstr "SIKKERHED: Tjekker IKKE pakken \"%s\" (på grund af konfiguration)"
 
 #: ../urpm/signature.pm:102
 #, c-format
@@ -1636,12 +1636,12 @@ msgstr "Manglende signatur (%s)"
 #: ../urpm/signature.pm:107
 #, c-format
 msgid "SECURITY: Medium \"%s\" has no key (%s)!"
-msgstr ""
+msgstr "SIKKERHED: Medie \"%s\" har ingen nøgle (%s)!"
 
 #: ../urpm/signature.pm:109
 #, c-format
 msgid "Medium without key (%s)"
-msgstr ""
+msgstr "Medie uden nøgle (%s)"
 
 #: ../urpm/sys.pm:199
 #, c-format
@@ -2036,7 +2036,7 @@ msgstr "  --sourcerpm    - navn på kilde-rpm\n"
 #: ../urpmf:75
 #, c-format
 msgid "  --recommends   - recommends tags\n"
-msgstr ""
+msgstr "  --recommends   - anbefalede mærkater\n"
 
 #: ../urpmf:76
 #, c-format
@@ -2111,7 +2111,7 @@ msgstr "  --auto-orphans - fjern forældreløse uden at spørge\n"
 #: ../urpmi:80 ../urpmq:52
 #, c-format
 msgid "  --no-recommends - do not auto select \"recommended\" packages.\n"
-msgstr ""
+msgstr "  --no-recommends - vælg ikke automatisk \"anbefalede\" pakker.\n"
 
 #: ../urpmi:81
 #, c-format
@@ -2214,7 +2214,7 @@ msgstr ""
 #: ../urpmi:105
 #, c-format
 msgid "  --allow-recommends - auto select \"recommended\" packages.\n"
-msgstr ""
+msgstr "  --allow-recommends - vælg automatisk \"anbefalede\" pakker.\n"
 
 #: ../urpmi:109
 #, c-format
@@ -2590,7 +2590,7 @@ msgstr[1] "De følgende forældreløse pakker vil blive fjernet."
 #: ../urpmi:597
 #, c-format
 msgid "WARNING: %s option is in use. Some strange problems may happen"
-msgstr ""
+msgstr "ADVARSEL: %s-tilvalget er i brug. Mærkelige problemer kan opstå"
 
 #: ../urpmi:609
 #, c-format
@@ -3191,4 +3191,4 @@ msgstr "Kør Mageia-pakkeinstallationsprogram"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:2
 msgid "Authentication is required to run Mageia Package Installer"
-msgstr ""
+msgstr "Der kræves godkendelse for at køre Mageia-pakkeinstallationsprogrammet"
