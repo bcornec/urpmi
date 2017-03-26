@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-03-25 10:25+0000\n"
+"PO-Revision-Date: 2017-03-26 12:45+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "da/)\n"
@@ -1064,7 +1064,7 @@ msgstr ""
 #: ../urpm/media.pm:799
 #, c-format
 msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
-msgstr ""
+msgstr "afignorer tainted medie `%s' da tainted pakker er installeret"
 
 #: ../urpm/media.pm:827
 #, c-format
@@ -2183,6 +2183,8 @@ msgid ""
 "  --downgrade    - downgrade a package from the version currently installed\n"
 "                   to the previously highest version\n"
 msgstr ""
+"  --downgrade    - nedgradér en pakke fra den installeret version\n"
+"                   til den forrige højeste version\n"
 
 #: ../urpmi:99
 #, c-format
@@ -2627,6 +2629,27 @@ msgid ""
 "\n"
 "and [options] are from\n"
 msgstr ""
+"anvendelse: urpmi.addmedia [tilvalg] <navn> <url>\n"
+"hvor <url> er en af\n"
+"       [fil:/]/<sti>\n"
+"       ftp://<login>:<adgangskode>@<vært>/<sti>\n"
+"       ftp://<vært>/<sti>\n"
+"       http://<vært>/<sti>\n"
+"       cdrom://<sti>\n"
+"\n"
+"anvendelse: urpmi.addmedia [tilvalg] --distrib --mirrorlist <url>\n"
+"anvendelse: urpmi.addmedia [tilvalg] --mirrorlist <url> <navn> <relativ "
+"sti>\n"
+"\n"
+"eksempler:\n"
+"\n"
+"  urpmi.addmedia --distrib --mirrorlist '$SPEJLSERVERLISTE'\n"
+"  urpmi.addmedia --mirrorlist '$SPEJLSERVERLISTE' backports media/main/"
+"backports\n"
+"  urpmi.addmedia --distrib --zeroconf\n"
+"\n"
+"\n"
+"og [tilvalg] er fra\n"
 
 #: ../urpmi.addmedia:56 ../urpmi.update:33 ../urpmq:71
 #, c-format
