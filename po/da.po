@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-03-26 12:45+0000\n"
+"PO-Revision-Date: 2017-04-16 00:50+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "da/)\n"
@@ -110,7 +110,7 @@ msgstr ""
 "af den\n"
 "ville gøre det muligt for dig at ændre i kildeteksten og så oversætte den).\n"
 "\n"
-"Hvad ønsker du at gøre?"
+"Hvad vil du gøre?"
 
 #: ../gurpmi:92 ../gurpmi:103
 #, c-format
@@ -685,7 +685,7 @@ msgstr "Brugernavn:"
 #: ../urpm/download.pm:200
 #, c-format
 msgid "Password:"
-msgstr "Kodeord:"
+msgstr "Adgangskode:"
 
 #: ../urpm/download.pm:286
 #, c-format
@@ -878,7 +878,7 @@ msgstr "Ingen base angivet"
 #: ../urpm/ldap.pm:188 ../urpm/ldap.pm:191
 #, c-format
 msgid "Cannot connect to ldap uri:"
-msgstr "Kan ikke opkoble til LDAP-adresse:"
+msgstr "Kan ikke oprette forbindelse til LDAP-adresse:"
 
 #: ../urpm/lock.pm:99
 #, c-format
@@ -928,7 +928,7 @@ msgid ""
 msgstr ""
 "Der er ikke nok plads i dit filsystem til at hente alle pakker (%s kræves, "
 "%s tilgængelig).\n"
-"Er du sikker på at du vil fortsætte?"
+"Er du sikker på, at du vil fortsætte?"
 
 #: ../urpm/main_loop.pm:138
 #, c-format
@@ -1431,14 +1431,14 @@ msgid_plural ""
 "are now orphaned, if you wish to remove them, you can use \"urpme --auto-"
 "orphans\""
 msgstr[0] ""
-"De følgende pakker:\n"
+"Følgende pakker:\n"
 "%s\n"
-"er nu forældreløse, hvis du ønsker at fjerne dem, så brug \"urpme --auto-"
+"er nu forældreløs, hvis du vil at fjerne den, kan du bruge \"urpme --auto-"
 "orphans\""
 msgstr[1] ""
-"Den følgende pakke:\n"
+"Følgende pakke:\n"
 "%s\n"
-"er nu forældreløs, hvis du ønsker at fjerne den, så brug \"urpme --auto-"
+"er nu forældreløse, hvis du vil at fjerne dem, kan du bruge \"urpme --auto-"
 "orphans\""
 
 #: ../urpm/parallel.pm:15
