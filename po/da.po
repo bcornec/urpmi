@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-04-16 00:50+0000\n"
+"PO-Revision-Date: 2017-04-16 20:08+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "da/)\n"
@@ -198,8 +198,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  --force        - force invocation even if some packages do not exist.\n"
-msgstr ""
-"  --force        - gennemfør kald selv om nogen pakker ikke eksisterer.\n"
+msgstr "  --force        - gennemfør kald selv om nogen pakker ikke findes.\n"
 
 #: ../gurpmi.pm:61 ../urpmi:131
 #, c-format
@@ -479,7 +478,7 @@ msgstr "Kan ikke hente pakker til %s"
 #: ../urpm.pm:254
 #, c-format
 msgid "Environment directory %s does not exist"
-msgstr "Miljøkatalog %s eksisterer ikke"
+msgstr "Miljøkatalog %s findes ikke"
 
 #: ../urpm.pm:255 ../urpmf:244 ../urpmq:163
 #, c-format
@@ -574,7 +573,7 @@ msgstr "normalt venter urpmf en regexp. du bør bruge parameteren \"--literal\""
 #: ../urpm/args.pm:483
 #, c-format
 msgid "chroot directory doesn't exist"
-msgstr "chroot-katalog eksisterer ikke"
+msgstr "chroot-katalog findes ikke"
 
 #: ../urpm/args.pm:506
 #, c-format
@@ -1053,13 +1052,12 @@ msgstr ""
 #: ../urpm/media.pm:786
 #, c-format
 msgid "ignoring non-free medium `%s'"
-msgstr "ignorerer  non-free  medie '%s'"
+msgstr "ignorerer ikke-frie-medie '%s'"
 
 #: ../urpm/media.pm:795
 #, c-format
 msgid "un-ignoring non-free medium `%s' b/c nonfree packages are installed"
-msgstr ""
-"un-ignorerer ikke non-free  medie '%s' b/c nonfree pakker er installeret"
+msgstr "afignorerer ikke-frie-medie '%s' da ikke-frie-pakker er installeret"
 
 #: ../urpm/media.pm:799
 #, c-format
@@ -1084,7 +1082,7 @@ msgstr "ville installere i stedet for at opgradere pakke %s"
 #: ../urpm/media.pm:943
 #, c-format
 msgid "medium \"%s\" already exists"
-msgstr "medie \"%s\" eksisterer allerede"
+msgstr "medie \"%s\" findes allerede"
 
 #: ../urpm/media.pm:985
 #, c-format
@@ -1109,7 +1107,7 @@ msgstr "kinne ikke kopiere media.cfg til %s (%d)"
 #: ../urpm/media.pm:1092
 #, c-format
 msgid "directory %s does not exist"
-msgstr "katalog %s eksisterer ikke"
+msgstr "katalog %s findes ikke"
 
 #: ../urpm/media.pm:1100
 #, c-format
@@ -1726,8 +1724,8 @@ msgid ""
 "  --use-distrib  - configure urpme on the fly from a distrib tree, useful\n"
 "                   to (un)install a chroot with --root option.\n"
 msgstr ""
-"  --use-distrib  - konfigurér urpme løbende fra et distrib træ, "
-"nyttigt               til at (af)installere en chroot med root-tilvalget.\n"
+"  --use-distrib  - konfigurér urpme løbende fra et distrib træ, nyttigt\n"
+"til at (af)installere en chroot med root-tilvalget.\n"
 
 #: ../urpme:54 ../urpmi:150 ../urpmq:87
 #, c-format
@@ -1764,7 +1762,7 @@ msgstr[1] "Fjernelse af de følgende pakker vil skade dit system:"
 #: ../urpme:123
 #, c-format
 msgid "Nothing to remove"
-msgstr "Ingenting at fjerne"
+msgstr "Intet at fjerne"
 
 #: ../urpme:140
 #, c-format
@@ -1853,7 +1851,7 @@ msgstr "  --synthesis    - brug synthesis angivet i stedet for urpmi-db.\n"
 #: ../urpmf:40
 #, c-format
 msgid "  --uniq         - do not print identical lines twice.\n"
-msgstr "  --uniq          - udskriv ikke identiske linjer.\n"
+msgstr "  --uniq         - udskriv ikke identiske linjer.\n"
 
 #: ../urpmf:41 ../urpmi:70 ../urpmq:42
 #, c-format
@@ -1946,7 +1944,7 @@ msgstr "  --arch         - arkitektur\n"
 #: ../urpmf:57
 #, c-format
 msgid "  --buildhost    - build host\n"
-msgstr "  --buildhost     - byggevært\n"
+msgstr "  --buildhost    - byggevært\n"
 
 #: ../urpmf:58
 #, c-format
@@ -1961,12 +1959,12 @@ msgstr "  --conffiles    - konfigurationsfiler\n"
 #: ../urpmf:60
 #, c-format
 msgid "  --conflicts    - conflict tags\n"
-msgstr "  --conflicts     - konfliktmærker\n"
+msgstr "  --conflicts    - konfliktmærker\n"
 
 #: ../urpmf:61
 #, c-format
 msgid "  --description  - package description\n"
-msgstr "  --description   - pakkebeskrivelse.\n"
+msgstr "  --description  - pakkebeskrivelse.\n"
 
 #: ../urpmf:62
 #, c-format
@@ -1991,7 +1989,7 @@ msgstr "  --files        - liste over filer i pakken\n"
 #: ../urpmf:66
 #, c-format
 msgid "  --group        - group\n"
-msgstr "  --group         - gruppe\n"
+msgstr "  --group        - gruppe\n"
 
 #: ../urpmf:67
 #, c-format
@@ -2011,7 +2009,7 @@ msgstr "  --obsoletes     - mærk forældet\n"
 #: ../urpmf:70
 #, c-format
 msgid "  --packager     - packager\n"
-msgstr "  --packager      - pakkeprogram.\n"
+msgstr "  --packager     - pakkeprogram.\n"
 
 #: ../urpmf:71
 #, c-format
@@ -2046,7 +2044,7 @@ msgstr "  --summary      - sammendrag\n"
 #: ../urpmf:77
 #, c-format
 msgid "  --url          - url\n"
-msgstr "  --url           - url\n"
+msgstr "  --url          - url\n"
 
 #: ../urpmf:78
 #, c-format
@@ -2285,7 +2283,7 @@ msgid ""
 "  --resume       - resume transfer of partially-downloaded files\n"
 "                   (--no-resume disables it, default is disabled).\n"
 msgstr ""
-" --resume       - genoptag overførsel af delvist hentede filer\n"
+"  --resume       - genoptag overførsel af delvist hentede filer\n"
 "                   (--no-resume deaktiverer det, standard er deaktiveret).\n"
 
 #: ../urpmi:124 ../urpmi.addmedia:62 ../urpmi.update:39 ../urpmq:74
@@ -2439,7 +2437,7 @@ msgid ""
 "Directory [%s] already exists, please use another directory for bug report "
 "or delete it"
 msgstr ""
-"Kataloget [%s] eksisterer allerede, brug venligst et andet katalog til "
+"Kataloget [%s] findes allerede, brug venligst et andet katalog til "
 "fejlrapporten, eller slet det"
 
 #: ../urpmi:251
@@ -2731,7 +2729,7 @@ msgstr "  --all-media    - med --distrib, tilføj hvert listede medie\n"
 #: ../urpmi.addmedia:78
 #, c-format
 msgid "  --virtual      - create virtual media wich are always up-to-date.\n"
-msgstr "  --virtual       - opret virtuelt medie som altid er opdateret.\n"
+msgstr "  --virtual      - opret virtuelt medie som altid er opdateret.\n"
 
 #: ../urpmi.addmedia:79 ../urpmi.update:44
 #, c-format
@@ -2771,7 +2769,7 @@ msgstr "intet argument krævet for --distrib --mirrorlist <url>"
 #: ../urpmi.addmedia:112
 #, c-format
 msgid "bad <url> (for local directory, the path must be absolute)"
-msgstr "Ugyldig <adresse> (for lokalt katalog, stien skal være absolut)."
+msgstr "Ugyldig <adresse> (for lokalt katalog, stien skal være absolut)"
 
 #: ../urpmi.addmedia:116
 #, c-format
@@ -2844,7 +2842,7 @@ msgstr "Kun superbrugeren har lov til at fjerne medier"
 #: ../urpmi.removemedia:71
 #, c-format
 msgid "nothing to remove (use urpmi.addmedia to add a media)\n"
-msgstr "ingenting at fjerne (brug urpmi.addmedia til at tilføje et medie)\n"
+msgstr "intet at fjerne (brug urpmi.addmedia til at tilføje et medie)\n"
 
 #: ../urpmi.removemedia:77
 #, c-format
@@ -2912,7 +2910,7 @@ msgstr "Kun superbrugeren har lov til at opdatere medier"
 #: ../urpmi.update:86
 #, c-format
 msgid "nothing to update (use urpmi.addmedia to add a media)\n"
-msgstr "ingenting at opdatere (brug urpmi.addmedia til at tilføje et medie)\n"
+msgstr "intet at opdatere (brug urpmi.addmedia til at tilføje et medie)\n"
 
 #: ../urpmi.update:87
 #, c-format
@@ -2970,7 +2968,7 @@ msgstr "  --fuzzy        - gennemfør søgning efter fuzzy (samme som -y).\n"
 #: ../urpmq:56
 #, c-format
 msgid "  --list         - list available packages.\n"
-msgstr "  --list          - skriv tilgængelige pakker.\n"
+msgstr "  --list         - skriv tilgængelige pakker.\n"
 
 #: ../urpmq:57
 #, c-format
@@ -3034,12 +3032,12 @@ msgstr "  --changelog    - udskriv ændringslog.\n"
 #: ../urpmq:80
 #, c-format
 msgid "  --conflicts    - print conflicts.\n"
-msgstr "  --conflicts     - udskriv konflikter.\n"
+msgstr "  --conflicts    - udskriv konflikter.\n"
 
 #: ../urpmq:81
 #, c-format
 msgid "  --obsoletes    - print obsoletes.\n"
-msgstr "  --obsoletes     - udskriv forældede\n"
+msgstr "  --obsoletes    - udskriv forældede\n"
 
 #: ../urpmq:82
 #, c-format
@@ -3114,7 +3112,7 @@ msgstr "  -i             - udskriv nyttig information på læsevenlig form.\n"
 #: ../urpmq:100
 #, c-format
 msgid "  -l             - list files in package.\n"
-msgstr "  -l..          - udskriv filer i pakken.\n"
+msgstr "  -l             - udskriv filer i pakken.\n"
 
 #: ../urpmq:101
 #, c-format
