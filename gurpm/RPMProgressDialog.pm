@@ -77,7 +77,7 @@ sub new {
     $w->set_border_width(12);
     $w->set_title($w->title);
     $w->signal_connect(destroy => $o_quit) if $o_quit;
-    $w->set_position('center');
+    $w->set_position('center_always');
     $w->set_default_size($progressbar_size, 60);
     # for matchbox window manager during install:
     if (!$o_no_modal) {
