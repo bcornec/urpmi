@@ -1,3 +1,5 @@
+Version 8.108 - 9 May 2017
+
 - increase transaction size from 8 to 50 (mga#18426)
 
 Version 8.107 - 26 April 2017
