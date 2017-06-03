@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-06-03 17:02+0000\n"
+"PO-Revision-Date: 2017-06-03 20:50+0000\n"
 "Last-Translator: psyca\n"
 "Language-Team: German (http://www.transifex.com/MageiaLinux/mageia/language/"
 "de/)\n"
@@ -1267,7 +1267,7 @@ msgstr "md5-Datei von »%s« wird kopiert …"
 #: ../urpm/media.pm:1796
 #, c-format
 msgid "invalid MD5SUM file (downloaded from %s)"
-msgstr "Ungültige md5sum-Datei (heruntergeladen von%s)"
+msgstr "Ungültige md5sum-Datei (heruntergeladen von %s)"
 
 #: ../urpm/media.pm:1799
 #, c-format
@@ -1512,7 +1512,7 @@ msgstr "Scp schlug auf Server %s fehl (%d)"
 #: ../urpm/parallel_ssh.pm:37
 #, c-format
 msgid "cp failed on host %s (%d)"
-msgstr "Cp schlug auf Server %s fehl (%d)"
+msgstr "cp schlug auf Server %s fehl (%d)"
 
 #: ../urpm/parallel_ssh.pm:84
 #, c-format
@@ -1542,7 +1542,7 @@ msgstr "Aushängen von %s"
 #, c-format
 msgid "urpmi was restarted, and the list of priority packages did not change"
 msgstr ""
-"Urpmi wurde neu gestartet, und die Liste der vorrangigen Pakete hat sich "
+"urpmi wurde neu gestartet, und die Liste der vorrangigen Pakete hat sich "
 "nicht geändert"
 
 #: ../urpm/select.pm:47
@@ -1550,7 +1550,7 @@ msgstr ""
 msgid ""
 "urpmi was restarted, and the list of priority packages did change: %s vs %s"
 msgstr ""
-"Urpmi wurde neu gestartet, und die Liste der vorrangigen Pakete hat sich "
+"urpmi wurde neu gestartet, und die Liste der vorrangigen Pakete hat sich "
 "geändert: %s gegenüber %s"
 
 #: ../urpm/select.pm:220
