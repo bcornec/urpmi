@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-06-03 20:50+0000\n"
+"PO-Revision-Date: 2017-06-04 14:31+0000\n"
 "Last-Translator: psyca\n"
 "Language-Team: German (http://www.transifex.com/MageiaLinux/mageia/language/"
 "de/)\n"
@@ -2751,7 +2751,7 @@ msgid ""
 "                   one of: never, on-demand, update-only, always. cf urpmi."
 "cfg(5)\n"
 msgstr ""
-"  --xml-info     - Angebene Regel zum Herunterladen von xml-Info-Dateien "
+"  --xml-info     - Angegebene Regel zum Herunterladen von xml-Info-Dateien "
 "verwenden,\n"
 "                   eine von: never, on-demand, update-only, always. cf urpmi."
 "cfg(5)\n"
@@ -3093,7 +3093,7 @@ msgstr "  --src          - es folgt ein Quellpaket (identisch zu »-s«).\n"
 #: ../urpmq:63
 #, c-format
 msgid "  --sources      - print source URLs of selected packages\n"
-msgstr "  --sources      - druckt Quell URS der ausgewählten Pakete\n"
+msgstr "  --sources      - druckt Quell URLs der ausgewählten Pakete\n"
 
 #: ../urpmq:65
 #, c-format
@@ -3238,8 +3238,8 @@ msgstr ""
 #, c-format
 msgid "  -Y             - like -y, but forces to match case-insensitively.\n"
 msgstr ""
-"  -Y             - wie -y, aber erzwingt eine großschreibungsunabhängige "
-"Schreibweise.\n"
+"  -Y             - wie -y, aber erzwingt Unabhängigkeit der Groß-/"
+"Kleinschreibung\n"
 
 #: ../urpmq:107
 #, c-format
