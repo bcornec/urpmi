@@ -1,3 +1,5 @@
+- workaround a segfault in gurpmi (mga#21167)
+
 Version 8.109 - 5 June 2017
 
 - translation updates
