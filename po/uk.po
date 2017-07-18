@@ -1566,12 +1566,12 @@ msgstr "Наступні пакунки містять %s: %s"
 #: ../urpm/select.pm:224
 #, c-format
 msgid "You should use \"-a\" to use all of them"
-msgstr "Потрібно використовувати \"-a\", щоб вказати їх усіх"
+msgstr "Слід скористатися \"-a\", щоб вказати їх усі"
 
 #: ../urpm/select.pm:372
 #, c-format
 msgid "found package(s) %s in urpmi db, but none are installed"
-msgstr "знайдено пакунки %s у базі даних urpmi, але жоден з них не встановлено"
+msgstr "у базі даних urpmi знайдено пакунки %s, але жоден з них не встановлено"
 
 #: ../urpm/select.pm:607
 #, c-format
