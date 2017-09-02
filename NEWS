@@ -1,5 +1,7 @@
 - gurpmi:
   o update perl-Pango first too (mga#21425)
+- urpmi:
+  o update perl-base first too
 
 Version 8.110 - 13 July 2017
 
