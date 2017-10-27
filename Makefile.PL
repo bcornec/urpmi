@@ -140,6 +140,7 @@ package main;
 
 WriteMakefile(
     NAME		=> 'urpmi',
+    ABSTRACT_FROM	=> 'urpm.pm',
     AUTHOR		=> 'Thierry Vignaud',
     PREREQ_PM		=> {
 	'Locale::gettext'	=> '1.01',
