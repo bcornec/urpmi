@@ -140,7 +140,7 @@ package main;
 
 WriteMakefile(
     NAME		=> 'urpmi',
-    ABSTRACT_FROM	=> 'urpm.pm',
+    ABSTRACT		=> 'Tools to handle the rpm & urpmi databases (install, query, remove installed/available packages)',
     LICENSE		=> 'gpl_2',
     AUTHOR		=> 'Thierry Vignaud',
     PREREQ_PM		=> {
