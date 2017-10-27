@@ -140,6 +140,7 @@ package main;
 
 WriteMakefile(
     NAME		=> 'urpmi',
+    AUTHOR		=> 'Thierry Vignaud',
     PREREQ_PM		=> {
 	'Locale::gettext'	=> '1.01',
 	'MDV::Packdrakeng'	=> '1.01',
