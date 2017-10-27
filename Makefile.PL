@@ -143,9 +143,26 @@ WriteMakefile(
     ABSTRACT		=> 'Tools to handle the rpm & urpmi databases (install, query, remove installed/available packages)',
     LICENSE		=> 'gpl_2',
     AUTHOR		=> 'Thierry Vignaud',
+    'CONFIGURE_REQUIRES' => {
+	'ExtUtils::MakeMaker' => '6.64'
+    },
     PREREQ_PM		=> {
+	'Filesys::Df'		=> '0',
+	'Getopt::Long'		=> '0',
 	'Locale::gettext'	=> '1.01',
+	'MDV::Distribconf'	=> '0',
+	'Net::LDAP'		=> '0',
+	'Time::ZoneInfo'	=> '0',
 	'URPM'			=> '4.15',
+	'XML::LibXML'		=> '0',
+	'XML::LibXML::Reader'	=> '0',
+    },
+    'TEST_REQUIRES' => {
+	'Expect'		=> '0',
+	'File::Slurp'		=> '0',
+	'Net::Server'		=> '0',
+	'Test::Pod'		=> '0',
+	'Test::Pod::Coverage'	=> '0',
     },
     VERSION_FROM	=> 'urpm.pm',
     macro		=> {
