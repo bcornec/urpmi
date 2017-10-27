@@ -177,6 +177,7 @@ WriteMakefile(
 		    web =>  'http://gitweb.mageia.org/software/rpm/urpmi/',
 		},
             },
+	    release_status => 'stable',
         } ) : ()
     ),
     EXE_FILES		=> [ @bin_scripts, @sbin_scripts, @libexec_scripts ],
