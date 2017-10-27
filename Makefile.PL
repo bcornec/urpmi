@@ -141,6 +141,7 @@ package main;
 WriteMakefile(
     NAME		=> 'urpmi',
     ABSTRACT_FROM	=> 'urpm.pm',
+    LICENSE		=> 'gpl_2',
     AUTHOR		=> 'Thierry Vignaud',
     PREREQ_PM		=> {
 	'Locale::gettext'	=> '1.01',
