@@ -153,7 +153,7 @@ WriteMakefile(
 	'MDV::Distribconf'	=> '0',
 	'Net::LDAP'		=> '0',
 	'Time::ZoneInfo'	=> '0',
-	'URPM'			=> '4.15',
+	'URPM'			=> '5.15',
 	'XML::LibXML'		=> '0',
 	'XML::LibXML::Reader'	=> '0',
     },
