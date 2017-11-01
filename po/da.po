@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Translators:
-# Carl Andersen <carl@freeos.dk>, 2015
+# Carl Andersen <carl@black-pearl.dk>, 2015
 # Keld Simonsen <keld@dkuug.dk>, 2003-2005,2007-2009
 # Keld Simonsen <keld@rap.dk>, 2003,2006
 # Kenneth Christiansen, 2000
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-04-16 20:08+0000\n"
+"PO-Revision-Date: 2017-11-01 04:25+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "da/)\n"
@@ -136,7 +136,7 @@ msgid ""
 "\n"
 "You may prefer to just save it. What is your choice?"
 msgstr ""
-"Du er ved at installere den følgende programmelpakke på din maskine:\n"
+"Du er ved at installere den følgende softwarepakke på din maskine:\n"
 "\n"
 "%s\n"
 "\n"
@@ -303,7 +303,7 @@ msgstr "Pakkevalg"
 #: ../gurpmi2:174
 #, c-format
 msgid "One of the following packages is needed:"
-msgstr "Der er brug for en af de følgende pakker:"
+msgstr "Der er brug for en af følgende pakker:"
 
 #: ../gurpmi2:204
 #, c-format
@@ -317,7 +317,7 @@ msgid ""
 "%s\n"
 "Continue installation anyway?"
 msgstr ""
-"De følgende pakker skal fjernes for at andre kan opgraderes:\n"
+"Følgende pakker skal fjernes for at andre kan opgraderes:\n"
 "%s\n"
 "Skal installationen fortsættes alligevel?"
 
@@ -370,7 +370,7 @@ msgstr "Vær venlig at indsætte mediet med navnet %s"
 #: ../gurpmi2:307
 #, c-format
 msgid "An error occurred:"
-msgstr "Der er opstået en fejl:"
+msgstr "Der opstod en fejl:"
 
 #: ../gurpmi2:319
 #, c-format
@@ -602,7 +602,7 @@ msgid ""
 msgstr ""
 "%s version %s\n"
 "%s\n"
-"Dette er frit programmel og kan redistribueres under vilkårene for GNU GPL.\n"
+"Dette er frit software og kan redistribueres under vilkårene for GNU GPL.\n"
 "\n"
 "brug:\n"
 
@@ -937,7 +937,7 @@ msgstr "Den følgende pakke har dårlig signatur"
 #: ../urpm/main_loop.pm:139
 #, c-format
 msgid "The following packages have bad signatures"
-msgstr "De følgende pakker har dårlige signaturer"
+msgstr "Følgende pakker har dårlige signaturer"
 
 #: ../urpm/main_loop.pm:140
 #, c-format
@@ -1593,7 +1593,7 @@ msgid ""
 "The following packages have to be removed for others to be upgraded:\n"
 "%s"
 msgstr ""
-"De følgende pakker skal fjernes for at andre kan opgraderes:\n"
+"Følgende pakker skal fjernes for at andre kan opgraderes:\n"
 "%s"
 
 #: ../urpm/select.pm:702
@@ -2123,7 +2123,7 @@ msgstr ""
 #: ../urpmi:82
 #, c-format
 msgid "  --no-install   - don't install packages (only download)\n"
-msgstr "  --no-install   - installér ikke pakker (kun nedhentning)\n"
+msgstr "  --no-install   - installér ikke pakker (kun hentning)\n"
 
 #: ../urpmi:83 ../urpmq:54
 #, c-format
@@ -2484,8 +2484,7 @@ msgid ""
 "In order to satisfy the '%s' dependency, one of the following packages is "
 "needed:"
 msgstr ""
-"For at tilfredsstille afhængigheden af %s er én af de følgende pakker "
-"nødvendig:"
+"For at tilfredsstille afhængigheden af %s er én af følgende pakker nødvendig:"
 
 #: ../urpmi:443
 #, c-format
@@ -2510,7 +2509,7 @@ msgid ""
 "that are older than the installed ones:\n"
 "%s"
 msgstr ""
-"De følgende pakker kan ikke installeres, fordi de afhænger af pakker,\n"
+"Følgende pakker kan ikke installeres, fordi de afhænger af pakker,\n"
 "som er ældre end de installerede:\n"
 "%s"
 
@@ -2585,7 +2584,7 @@ msgstr ""
 msgid "The following orphan package will be removed."
 msgid_plural "The following orphan packages will be removed."
 msgstr[0] "Den følgende forældreløse pakke vil blive fjernet."
-msgstr[1] "De følgende forældreløse pakker vil blive fjernet."
+msgstr[1] "Følgende forældreløse pakker vil blive fjernet."
 
 #: ../urpmi:597
 #, c-format
@@ -3200,7 +3199,7 @@ msgstr "Ingen ændringslog fundet\n"
 
 #: ../gurpmi.desktop.in.h:1
 msgid "Software Installer"
-msgstr "Programmel-installering"
+msgstr "softwareinstallering"
 
 #: ../gurpmi.desktop.in.h:2
 msgid "Graphical front end to install RPM files"
