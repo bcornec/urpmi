@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-11-24 16:24+0000\n"
+"PO-Revision-Date: 2017-11-25 09:46+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/MageiaLinux/mageia/language/"
 "ca/)\n"
@@ -99,7 +99,7 @@ msgid ""
 "\n"
 "What would you like to do?"
 msgstr ""
-"Heu seleccionat un paquet de les fonts:\n"
+"Heu seleccionat un paquet de fonts:\n"
 "\n"
 "%s\n"
 "\n"
@@ -272,7 +272,7 @@ msgid ""
 "Some requested packages cannot be installed:\n"
 "%s"
 msgstr ""
-"Alguns dels paquets demanats no es poden instal·lar:\n"
+"No es poden instal·lar alguns paquets sol·licitats:\n"
 "%s"
 
 #: ../gurpmi2:99
@@ -282,7 +282,7 @@ msgid ""
 "%s\n"
 "Continue installation anyway?"
 msgstr ""
-"Alguns dels paquets demanats no s'han pogut instal·lar:\n"
+"No es poden instal·lar alguns paquets sol·licitats:\n"
 "%s\n"
 "Voleu continuar igualment?"
 
@@ -353,18 +353,18 @@ msgstr[1] "Voleu continuar la instal·lació dels %d paquets?"
 #, c-format
 msgid ""
 "To satisfy dependencies, the following package is going to be installed:"
-msgstr "Per complir les dependències, s'instal·larà el paquet següent:"
+msgstr "Per satisfer les dependències, s'instal·larà el paquet següent:"
 
 #: ../gurpmi2:260 ../urpmi:607
 #, c-format
 msgid ""
 "To satisfy dependencies, the following packages are going to be installed:"
-msgstr "Per complir les dependències, s'instal·laran els paquets següents:"
+msgstr "Per satisfer les dependències, s'instal·laran els paquets següents:"
 
 #: ../gurpmi2:270 ../urpm/main_loop.pm:467
 #, c-format
 msgid "unable to get source packages, aborting"
-msgstr "no es poden recuperar els paquets de les fonts. S'interromp"
+msgstr "no es poden recuperar els paquets de les fonts, s'avorta"
 
 #: ../gurpmi2:287 ../urpmi:634
 #, c-format
@@ -684,8 +684,7 @@ msgstr ""
 #, c-format
 msgid "Please enter your credentials for accessing proxy\n"
 msgstr ""
-"Si us plau, introduïu les vostres credencials per accedir al servidor "
-"intermediari\n"
+"Introduïu les vostres credencials per accedir al servidor intermediari\n"
 
 #: ../urpm/download.pm:200
 #, c-format
@@ -895,7 +894,7 @@ msgstr "No s'ha pogut connectar amb l'uri del ldap:"
 #: ../urpm/lock.pm:99
 #, c-format
 msgid "%s database is locked, process %d is already using it"
-msgstr "la base de dades %s està blocada, el procés %d l'està fent servir"
+msgstr "la base de dades %s està bloquejada, el procés %d l'està fent servir"
 
 #: ../urpm/lock.pm:101
 #, c-format
@@ -906,7 +905,7 @@ msgstr ""
 #: ../urpm/lock.pm:115
 #, c-format
 msgid "%s database is locked. Waiting..."
-msgstr "La base de dades %s està blocada. Esperant..."
+msgstr "La base de dades %s està bloquejada. Esperant..."
 
 #: ../urpm/lock.pm:116
 #, c-format
@@ -941,7 +940,7 @@ msgid ""
 msgstr ""
 "No hi ha prou espai al sistema de fitxers per a baixar tots els paquets (cal "
 "%s, disponible %s).\n"
-"Esteu segurs de voler continuar?"
+"Esteu segur que voleu continuar?"
 
 #: ../urpm/main_loop.pm:138
 #, c-format
@@ -1161,7 +1160,7 @@ msgstr "s'ha intentat seleccionar un mitjà inexistent «%s»"
 #: ../urpm/media.pm:1253
 #, c-format
 msgid "selecting multiple media: %s"
-msgstr "s'estan seleccionant múltiples mitjans: %s"
+msgstr "s'estan seleccionant diversos mitjans: %s"
 
 #: ../urpm/media.pm:1312
 #, c-format
@@ -1594,7 +1593,7 @@ msgstr "s'està intentant promoure %s"
 #: ../urpm/select.pm:633
 #, c-format
 msgid "in order to keep %s"
-msgstr "per tal de mantenir %s"
+msgstr "per mantenir %s"
 
 #: ../urpm/select.pm:674
 #, c-format
@@ -1799,7 +1798,8 @@ msgid "To satisfy dependencies, the following package will be removed"
 msgid_plural ""
 "To satisfy dependencies, the following %d packages will be removed"
 msgstr[0] "Per complir les dependències, s'eliminarà el paquet següent:"
-msgstr[1] "Per complir les dependències, s'eliminaran els %d paquets següents:"
+msgstr[1] ""
+"Per satisfer les dependències, s'eliminaran els %d paquets següents:"
 
 #: ../urpme:151
 #, c-format
@@ -2059,7 +2059,7 @@ msgstr "  --size         - mida un cop instal·lat\n"
 #: ../urpmf:74
 #, c-format
 msgid "  --sourcerpm    - source rpm name\n"
-msgstr "  --sourcerpm    - nom de l'rpm de les fonts\n"
+msgstr "  --sourcerpm    - nom de l'rpm dels fonts\n"
 
 #: ../urpmf:75
 #, c-format
@@ -2126,7 +2126,7 @@ msgstr ""
 #: ../urpmi:77
 #, c-format
 msgid "    --no-md5sum    - disable MD5SUM file checking.\n"
-msgstr "    --no-md5sum    - deshabilita la comprovació MD5SUM.\n"
+msgstr "    --no-md5sum    - inhabilita la comprovació del fitxer MD5SUM.\n"
 
 #: ../urpmi:78
 #, c-format
@@ -2164,8 +2164,8 @@ msgid ""
 "  --keep         - keep existing packages if possible, reject requested\n"
 "                   packages that lead to removals.\n"
 msgstr ""
-"  --keep         - manté els paquets existents si és possible, rebutja els "
-"paquets demanats\n"
+"  --keep         - mantén els paquets existents si és possible, rebutja els "
+"paquets sol·licitats\n"
 "                   que porten a l'eliminació d'altres paquets.\n"
 
 #: ../urpmi:85
@@ -2480,7 +2480,7 @@ msgstr "es torna per defecte a --buildrequires"
 msgid ""
 "please use --buildrequires or --install-src, defaulting to --buildrequires"
 msgstr ""
-"si us plau, useu --buildrequires o --install-src, es torna per defecte a --"
+"utilitzeu --buildrequires o --install-src, es torna per defecte a --"
 "buildrequires"
 
 #: ../urpmi:250
@@ -2535,7 +2535,9 @@ msgstr "%s (per instal·lar)"
 msgid ""
 "In order to satisfy the '%s' dependency, one of the following packages is "
 "needed:"
-msgstr "Per satisfer la dependència de '%s', cal un dels paquets següents:"
+msgstr ""
+"Amb la intenció de satisfer la dependència de '%s', cal un dels paquets "
+"següents:"
 
 #: ../urpmi:443
 #, c-format
@@ -2584,7 +2586,7 @@ msgid ""
 "A requested package cannot be installed:\n"
 "%s"
 msgstr ""
-"Un paquet demanat no es pot instal·lar:\n"
+"No es pot instal·lar un paquet sol·licitat:\n"
 "%s"
 
 #: ../urpmi:526
@@ -2786,7 +2788,7 @@ msgstr ""
 #: ../urpmi.addmedia:79 ../urpmi.update:44
 #, c-format
 msgid "  --no-md5sum    - disable MD5SUM file checking.\n"
-msgstr "  --no-md5sum    - deshabilita la comprovació MD5SUM.\n"
+msgstr "  --no-md5sum    - inhabilita la comprovació del fitxer MD5SUM.\n"
 
 #: ../urpmi.addmedia:80
 #, c-format
@@ -2868,7 +2870,7 @@ msgstr "falta <relative path of synthesis> \n"
 #: ../urpmi.addmedia:167
 #, c-format
 msgid "Can't use %s with remote medium"
-msgstr "No es pot fer servir «%s» amb el mitjà remot"
+msgstr "No es pot utilitzar «%s» amb el mitjà remot"
 
 #: ../urpmi.removemedia:38
 #, c-format
@@ -3004,7 +3006,7 @@ msgid ""
 "packages.\n"
 msgstr ""
 "  --searchmedia  - utilitza només els mitjans donats per cercar paquets "
-"demanats (o actualitzats).\n"
+"sol·licitats (o actualitzats).\n"
 
 #: ../urpmq:49
 #, c-format
@@ -3092,7 +3094,7 @@ msgstr ""
 #: ../urpmq:79
 #, c-format
 msgid "  --changelog    - print changelog.\n"
-msgstr "  --changelog    - mostra els canvis.\n"
+msgstr "  --changelog    - mostra el registre de canvis.\n"
 
 #: ../urpmq:80
 #, c-format
@@ -3122,7 +3124,7 @@ msgstr "  --recommends   - mostra les recomanacions.\n"
 #: ../urpmq:85
 #, c-format
 msgid "  --sourcerpm    - print sourcerpm.\n"
-msgstr "  --sourcerpm    - mostra l'rpm de les fonts.\n"
+msgstr "  --sourcerpm    - mostra l'rpm dels fonts.\n"
 
 #: ../urpmq:86
 #, c-format
@@ -3278,7 +3280,7 @@ msgstr ""
 #: ../urpmq:487
 #, c-format
 msgid "No changelog found\n"
-msgstr "No s'ha trobat la llista de canvis\n"
+msgstr "No s'ha trobat el registre de canvis\n"
 
 #: ../gurpmi.desktop.in.h:1
 msgid "Software Installer"
