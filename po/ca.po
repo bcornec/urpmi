@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-11-26 11:09+0000\n"
+"PO-Revision-Date: 2017-11-27 08:57+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/MageiaLinux/mageia/language/"
 "ca/)\n"
@@ -421,7 +421,7 @@ msgid ""
 "usage: %s [options]\n"
 "where [options] are from\n"
 msgstr ""
-"sintaxi: %s [opcions]\n"
+"ús: %s [opcions]\n"
 "on [opcions] pot ser\n"
 
 #: ../rpm-find-leaves:17
@@ -611,7 +611,7 @@ msgstr ""
 "Aquest programa és lliure i es pot redistribuir sota els termes de la GPL de "
 "GNU.\n"
 "\n"
-"sintaxi:\n"
+"ús:\n"
 
 #: ../urpm/args.pm:534
 #, c-format
@@ -894,13 +894,13 @@ msgstr "No s'ha pogut connectar amb l'uri del ldap:"
 #: ../urpm/lock.pm:99
 #, c-format
 msgid "%s database is locked, process %d is already using it"
-msgstr "la base de dades %s està bloquejada, el procés %d l'està fent servir"
+msgstr "la base de dades %s està bloquejada, el procés %d l'està utilitzant"
 
 #: ../urpm/lock.pm:101
 #, c-format
 msgid "%s database is locked (another program is already using it)"
 msgstr ""
-"la base de dades %s està bloquejada (ja l'està fent servir un altre programa)"
+"la base de dades %s està bloquejada (ja l'està utilitzant un altre programa)"
 
 #: ../urpm/lock.pm:115
 #, c-format
@@ -1946,7 +1946,7 @@ msgstr "  !              - NOT unari.\n"
 #, c-format
 msgid "  ( )            - left and right parentheses.\n"
 msgstr ""
-"  ( )            - parentesis esquerre i dret per expressions de grup.\n"
+"  ( )            - parèntesis esquerre i dret per expressions de grup.\n"
 
 #: ../urpmf:53
 #, c-format
@@ -2688,7 +2688,7 @@ msgid ""
 "and [options] are from\n"
 msgstr ""
 "ús: urpmi.addmedia [opcions] <nom> <url>\n"
-"en què <url> és un d'aquets valors:\n"
+"en què <url> és un d'aquests valors:\n"
 "       [file:/]/<path>\n"
 "       ftp://<login>:<password>@<host>/<path>\n"
 "       ftp://<host>/<path>\n"
@@ -2854,7 +2854,7 @@ msgstr "No s'ha pogut crear el fitxer de configuració [%s]"
 #: ../urpmi.addmedia:128
 #, c-format
 msgid "no need to give <relative path of synthesis> with --distrib"
-msgstr "no cal donar el <relative path of synthesis> amb --distrib"
+msgstr "no cal donar <relative path of synthesis> amb --distrib"
 
 #: ../urpmi.addmedia:136
 #, c-format
@@ -2886,8 +2886,8 @@ msgid ""
 "usage: urpmi.removemedia (-a | <name> ...)\n"
 "where <name> is a medium name to remove.\n"
 msgstr ""
-"sintaxi: urpmi.removemedia (-a | <nom> ...)\n"
-"on <nom> és el nom del mitjà a eliminar.\n"
+"ús: urpmi.removemedia (-a | <nom> ...)\n"
+"on <nom> és el nom del mitjà que s'ha d'eliminar.\n"
 
 #: ../urpmi.removemedia:41
 #, c-format
@@ -2925,8 +2925,8 @@ msgid ""
 "usage: urpmi.update [options] <name> ...\n"
 "where <name> is a medium name to update.\n"
 msgstr ""
-"sintaxi: urpmi.update [opcions] <nom> ...\n"
-"on <nom> és el nom del mitjà a actualitzar.\n"
+"ús: urpmi.update [opcions] <nom> ...\n"
+"on <nom> és el nom del mitjà que s'ha d'actualitzar.\n"
 
 #: ../urpmi.update:43
 #, c-format
@@ -2952,8 +2952,8 @@ msgstr "  --no-ignore    - no actualitzis, marca el mitjà com a habilitat.\n"
 #, c-format
 msgid "  --probe-rpms   - do not use synthesis, use rpm files directly\n"
 msgstr ""
-"  --probe-rpms   - no utilitzis la síntesis, utilitza directament els "
-"fitxers rpm\n"
+"  --probe-rpms   - no utilitzis la síntesi, utilitza directament els fitxers "
+"rpm\n"
 
 #: ../urpmi.update:50
 #, c-format
@@ -3061,7 +3061,7 @@ msgstr ""
 #: ../urpmq:60
 #, c-format
 msgid "  --list-aliases - list available parallel aliases.\n"
-msgstr "  --list-aliases - llista els àlias paral·lels disponibles.\n"
+msgstr "  --list-aliases - llista els àlies paral·lels disponibles.\n"
 
 #: ../urpmq:61
 #, c-format
@@ -3244,7 +3244,7 @@ msgstr ""
 #: ../urpmq:154
 #, c-format
 msgid "usage: \"urpmq --auto-orphans\" with no argument"
-msgstr "utilització: «urpmq --auto-orphans» sense arguments"
+msgstr "ús: «urpmq --auto-orphans» sense arguments"
 
 #: ../urpmq:207
 #, c-format
