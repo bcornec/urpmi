@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-11-27 08:57+0000\n"
+"PO-Revision-Date: 2017-12-02 08:26+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/MageiaLinux/mageia/language/"
 "ca/)\n"
@@ -821,7 +821,7 @@ msgstr "s'està eliminant %s"
 #: ../urpm/install.pm:215
 #, c-format
 msgid "unable to extract rpm from delta-rpm package %s"
-msgstr "no s'ha pogut extreure l'rpm del paquet delta-rpm %s"
+msgstr "no s'ha pogut extreure el rpm a partir de la delta rpm del paquet %s"
 
 #: ../urpm/install.pm:242
 #, c-format
@@ -2061,7 +2061,7 @@ msgstr "  --size         - mida un cop instal·lat\n"
 #: ../urpmf:74
 #, c-format
 msgid "  --sourcerpm    - source rpm name\n"
-msgstr "  --sourcerpm    - nom de l'rpm de les fonts\n"
+msgstr "  --sourcerpm    - nom del rpm de les fonts\n"
 
 #: ../urpmf:75
 #, c-format
@@ -3133,7 +3133,7 @@ msgstr "  --recommends   - mostra les recomanacions.\n"
 #: ../urpmq:85
 #, c-format
 msgid "  --sourcerpm    - print sourcerpm.\n"
-msgstr "  --sourcerpm    - mostra l'rpm de les fonts.\n"
+msgstr "  --sourcerpm    - mostra el rpm de les fonts.\n"
 
 #: ../urpmq:86
 #, c-format
