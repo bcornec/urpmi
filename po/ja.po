@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2018-03-12 12:57+0000\n"
+"PO-Revision-Date: 2018-03-16 13:36+0000\n"
 "Last-Translator: Masanori Kakura <kakurasan@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/MageiaLinux/mageia/"
 "language/ja/)\n"
@@ -2007,7 +2007,7 @@ msgstr "  --sourcerpm    - ソース RPM の名前\n"
 #: ../urpmf:75
 #, c-format
 msgid "  --recommends   - recommends tags\n"
-msgstr ""
+msgstr "  --recommends   - recommends タグ\n"
 
 #: ../urpmf:76
 #, c-format
