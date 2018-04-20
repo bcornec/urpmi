@@ -3,15 +3,15 @@
 #
 # Translators:
 # Francesc Pinyol Margalef, 2012-2014
-# Davidmp <medipas@gmail.com>, 2015-2017
+# Davidmp <medipas@gmail.com>, 2015-2018
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-12-17 12:16+0000\n"
-"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
+"PO-Revision-Date: 2018-04-20 12:39+0000\n"
+"Last-Translator: Davidmp <medipas@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/MageiaLinux/mageia/language/"
 "ca/)\n"
 "Language: ca\n"
@@ -323,7 +323,7 @@ msgid ""
 "%s\n"
 "Continue installation anyway?"
 msgstr ""
-"Els paquets següents s'han d'eliminar perquè altres s'actualitzin:\n"
+"Els paquets següents s'han d'eliminar per actualitzar-ne uns altres:\n"
 "%s\n"
 "Voleu continuar igualment?"
 
@@ -1601,7 +1601,7 @@ msgid ""
 "The following package has to be removed for others to be upgraded:\n"
 "%s"
 msgstr ""
-"El paquet següent s'ha d'eliminar perquè altres s'actualitzin:\n"
+"El paquet següent s'ha d'eliminar per actualitzar-ne uns altres:\n"
 "%s"
 
 #: ../urpm/select.pm:675
@@ -1610,7 +1610,7 @@ msgid ""
 "The following packages have to be removed for others to be upgraded:\n"
 "%s"
 msgstr ""
-"Els paquets següents s'han d'eliminar perquè altres s'actualitzin:\n"
+"Els paquets següents s'han d'eliminar per actualitzar-ne uns altres:\n"
 "%s"
 
 #: ../urpm/select.pm:702
@@ -1621,7 +1621,7 @@ msgstr "per tal d'instal·lar %s"
 #: ../urpm/select.pm:708
 #, c-format
 msgid "due to missing %s"
-msgstr "a causa que no hi ha %s"
+msgstr "perquè falta %s"
 
 #: ../urpm/signature.pm:62
 #, c-format
@@ -2559,7 +2559,7 @@ msgid ""
 "%s"
 msgstr ""
 "El paquet següent no es pot instal·lar perquè depèn de paquets que són més "
-"antics que els que hi ha instal·lats:\n"
+"antics que als ja instal·lats:\n"
 "%s"
 
 #: ../urpmi:487
@@ -2570,7 +2570,7 @@ msgid ""
 "%s"
 msgstr ""
 "Els paquets següents no es poden instal·lar perquè depenen de paquets que "
-"són més antics que els que hi ha instal·lats:\n"
+"són més antics que als ja instal·lats:\n"
 "%s"
 
 #: ../urpmi:493 ../urpmi:511
@@ -2609,7 +2609,7 @@ msgid ""
 "%s\n"
 msgstr ""
 "La instal·lació no pot continuar, ja que el paquet següent \n"
-"s'ha d'eliminar per poder actualitzar-ne uns altres:\n"
+"s'ha d'eliminar per actualitzar-ne uns altres:\n"
 "%s\n"
 
 #: ../urpmi:536
@@ -2620,7 +2620,7 @@ msgid ""
 "%s\n"
 msgstr ""
 "La instal·lació no pot continuar, ja que els paquets següents\n"
-"s'han d'eliminar per poder actualitzar-ne uns altres:\n"
+"s'han d'eliminar per actualitzar-ne uns altres:\n"
 "%s\n"
 
 #: ../urpmi:544
