@@ -1,3 +1,6 @@
+- urpmi_rpm-find-leaves
+  o fix running with perl-5.26 (mga#23172)
+
 Version 8.111 - 19 September 2017
 
 - gurpmi:
