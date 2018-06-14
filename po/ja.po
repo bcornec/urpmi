@@ -1399,7 +1399,7 @@ msgid_plural ""
 "are now orphaned."
 msgstr[0] ""
 "以下のパッケージは自動でインストールされましたが、もう必要とされていません:\n"
-"%s\n"
+"%s"
 
 #: ../urpm/orphans.pm:530
 #, c-format
@@ -2183,7 +2183,7 @@ msgstr ""
 #, c-format
 msgid "  --allow-recommends - auto select \"recommended\" packages.\n"
 msgstr ""
-"  --allow-recommends - \"recommended\" のパッケージ\\を自動的に選択するn"
+"  --allow-recommends - \"recommended\" のパッケージ\\を自動的に選択するn\n"
 
 #: ../urpmi:109
 #, c-format
