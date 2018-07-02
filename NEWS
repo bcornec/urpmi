@@ -1,3 +1,5 @@
+- adapt testsuite to rpm-4.14.0~rc1
+
 Version 8.112 - 14 June 2018
 
 - cpan testers:

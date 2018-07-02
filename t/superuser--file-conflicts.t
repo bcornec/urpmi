@@ -184,7 +184,7 @@ sub test_rpm_i_fail {
     system_should_fail("rpm --root $::pwd/root -i $rpms");
 }
 sub check_no_etc_files() {
-    if (my @l = grep { !m!/urpmi$! } glob("$::pwd/root/etc/*")) {
+    if (my @l = grep { !m!/urpmi|rpm$! } glob("$::pwd/root/etc/*")) {
 	fail(join(' ', @l) . " files should not be there");
     }
 }
