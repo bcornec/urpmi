@@ -1,3 +1,5 @@
+Version 8.113 - 14 September 2018
+
 - adapt testsuite to rpm-4.14.0~rc1
 - add support for verify callback when installing (mga#23531)
 
