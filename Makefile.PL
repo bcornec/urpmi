@@ -150,7 +150,7 @@ WriteMakefile(
 	'Filesys::Df'		=> '0',
 	'Getopt::Long'		=> '0',
 	'Locale::gettext'	=> '1.01',
-	'MDV::Distribconf'	=> '0',
+	'MDV::Distribconf'	=> '4.100',
 	'Net::LDAP'		=> '0',
 	'Time::ZoneInfo'	=> '0',
 	'URPM'			=> '5.15',
