@@ -1,3 +1,6 @@
+- enhanced doc
+- fix testsuite with rpm-4.14.2
+
 Version 8.113 - 14 September 2018
 
 - adapt testsuite to rpm-4.14.0~rc1
