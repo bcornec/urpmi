@@ -2,6 +2,7 @@
   o actually needs perl >= 5.10 for //= operator
   o fix failing scriptlets test with rpm < 4.13.0
   o skip tests if we have no supported downloader
+  o testsuite needs rpmtools
 
 Version 8.120 - 21 October 2019
 
