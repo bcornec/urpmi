@@ -59,7 +59,7 @@ sub install {
     # Take into account scripts in sbin under blib
     # and new manpage sections
     if ($inherited !~ s/"\$\(INST_BIN\)" "\$\(DESTINSTALL(\w*)BIN\)"/$& "\$(INST_SBIN)" "\$(DESTINSTALL$1SBIN)" "\$(INST_LIBEXEC)" "\$(DESTINSTALLLIBEXECDIR)" "\$(INST_MAN5DIR)" "\$(DESTINSTALLMAN5DIR)" "\$(INST_MAN8DIR)" "\$(DESTINSTALLMAN8DIR)"/g) {
-        die "Could not replace INST_SBIN!";
+        die "Could not replace INST_SBIN!" if $] >= 5.022000;
     }
     # install files under /etc and /var
     my $po = $with_po ? ' installpo' : '';
