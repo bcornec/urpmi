@@ -161,6 +161,7 @@ WriteMakefile(
 	'Expect'		=> '0',
 	'File::Slurp'		=> '0',
 	'Net::Server'		=> '0',
+	'Test::More'		=> '0',
 	'Test::Pod'		=> '0',
 	'Test::Pod::Coverage'	=> '0',
     },
