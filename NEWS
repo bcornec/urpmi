@@ -1,5 +1,6 @@
 - library:
   o fix _rpm_version() when rpm is translated
+  o use proper versionning (RT#127142)
 - testsuite:
   o make it work with rpm < 4.14.2 again
 - cpan_testers: update deps
