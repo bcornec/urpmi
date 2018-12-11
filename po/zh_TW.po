@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2018-12-10 14:27+0000\n"
+"PO-Revision-Date: 2018-12-11 01:31+0000\n"
 "Last-Translator: You-Cheng Hsieh <yochenhsieh@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/MageiaLinux/mageia/"
 "language/zh_TW/)\n"
@@ -2006,7 +2006,7 @@ msgstr "  --vendor       - 提供者\n"
 #: ../urpmf:79
 #, c-format
 msgid "  -m             - the media in which the package was found\n"
-msgstr "  -m             - 這個軟體套件被找到的媒介\n"
+msgstr "  -m             - 這個軟體套件被找到的媒體\n"
 
 #: ../urpmf:80 ../urpmq:97
 #, c-format
@@ -2582,8 +2582,8 @@ msgid ""
 "  --update       - create an update medium, \n"
 "                   or discard non-update media (when used with --distrib)\n"
 msgstr ""
-"  --update       - 建立一個更新媒介，\n"
-"                   或者捨棄非更新媒介 (當與 --distrib 一同使用時)\n"
+"  --update       - 建立一個更新媒體，\n"
+"                   或者捨棄非更新媒體 (當與 --distrib 一同使用時)\n"
 
 #: ../urpmi.addmedia:68
 #, c-format
@@ -2646,7 +2646,7 @@ msgstr "  --nopubkey     - 不匯入新增的媒體的公鑰\n"
 #: ../urpmi.addmedia:81
 #, c-format
 msgid "  --raw          - add the media in config, but don't update it.\n"
-msgstr "  --raw          - 加入這個媒介到設定檔中，但不更新它。\n"
+msgstr "  --raw          - 加入這個媒體到設定檔中，但不更新它。\n"
 
 #: ../urpmi.addmedia:82 ../urpmi.removemedia:43 ../urpmi.update:53
 #, c-format
