@@ -2,13 +2,13 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Translators:
-# Ardit Dani <ardit.dani@gmail.com>, 2014-2017
+# Ardit Dani <ardit.dani@gmail.com>, 2014-2017,2019
 # Naim Daka <naim70@freesurf.ch>, 2002
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2017-01-27 01:33+0000\n"
+"PO-Revision-Date: 2019-03-15 11:00+0000\n"
 "Last-Translator: Ardit Dani <ardit.dani@gmail.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/sq/)\n"
@@ -78,7 +78,7 @@ msgstr "Instalimi RPM"
 #: ../gurpmi:63
 #, c-format
 msgid "Error: unable to find file %s, will cancel operation"
-msgstr ""
+msgstr "Gabim: i paaftë për të gjetur skedarin %s, do të anulojë veprimin"
 
 #: ../gurpmi:64 ../gurpmi2:173 ../gurpmi2:203
 #, c-format
@@ -97,6 +97,15 @@ msgid ""
 "\n"
 "What would you like to do?"
 msgstr ""
+"Ju keni zgjedhur një paketë burimesh:\n"
+"\n"
+"%s\n"
+"\n"
+"Ju ndoshta nuk doni ta instaloni në kompjuterin tuaj (instalimi i saj do "
+"t'ju lejojë të bëni modifikime në kodin burimor të tij, pastaj hartoni "
+"atë).\n"
+"\n"
+"Çfarë do të dëshironit të bënit?"
 
 #: ../gurpmi:92 ../gurpmi:103
 #, c-format
@@ -107,6 +116,11 @@ msgid ""
 "\n"
 "Proceed?"
 msgstr ""
+"Ju po instaloni paketat e mëposhtme programesh në kompjuterin tuaj:\n"
+"\n"
+"%s\n"
+"\n"
+"Vazhdoj?"
 
 #: ../gurpmi:98
 #, c-format
@@ -166,6 +180,8 @@ msgid ""
 "  --auto         - non-interactive mode, assume default answers to "
 "questions.\n"
 msgstr ""
+"  --auto         - modaliteti jo-interaktiv, supozo përgjigjet e "
+"parazgjedhura në pyetje.\n"
 
 #: ../gurpmi.pm:59 ../urpmi:75 ../urpmq:48
 #, c-format
@@ -187,6 +203,9 @@ msgid ""
 "  --verify-rpm   - verify rpm signature before installation\n"
 "                   (--no-verify-rpm disables it, default is enabled).\n"
 msgstr ""
+"  --verify-rpm   - verifiko nënshkrimin e rpm para instalimit\n"
+"                   (--no-verify-rpm pamundëson atë, parazgjedhja është "
+"aktivizuar).\n"
 
 #: ../gurpmi.pm:63 ../urpmf:36 ../urpmi:68 ../urpmq:43
 #, c-format
@@ -208,7 +227,7 @@ msgstr "  -P             - mos hulumto në këto pajisje për ta gjetur pakon.\n
 #: ../gurpmi.pm:66 ../urpmi:107 ../urpmq:67
 #, c-format
 msgid "  --root         - use another root for rpm installation.\n"
-msgstr ""
+msgstr "  --root         - përdorni një root tjetër për instalimin e rpm.\n"
 
 #: ../gurpmi.pm:67 ../urpmi:133
 #, c-format
@@ -216,12 +235,15 @@ msgid ""
 "  --test         - only verify if the installation can be achieved "
 "correctly.\n"
 msgstr ""
+"  --test         - vetëm verifikoni nëse instalimi mund të arrihet në mënyrë "
+"korrekte.\n"
 
 #: ../gurpmi.pm:68 ../urpmi:71
 #, c-format
 msgid ""
 "  --searchmedia  - use only the given media to search requested packages.\n"
 msgstr ""
+"  --searchmedia  - përdorni vetëm mënyrat e dhëna për të kërkuar programe.\n"
 
 #: ../gurpmi.pm:115
 #, c-format
