@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2019-03-15 11:00+0000\n"
+"PO-Revision-Date: 2019-04-01 22:14+0000\n"
 "Last-Translator: Ardit Dani <ardit.dani@gmail.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/sq/)\n"
@@ -166,7 +166,7 @@ msgstr "Ok"
 #: ../gurpmi.pm:56
 #, c-format
 msgid "Options:"
-msgstr "Opsione:"
+msgstr "Alternativat:"
 
 #: ../gurpmi.pm:57 ../urpme:42 ../urpmf:30 ../urpmi:67 ../urpmi.addmedia:55
 #: ../urpmi.removemedia:40 ../urpmi.update:32 ../urpmq:41
@@ -607,7 +607,7 @@ msgstr ""
 #: ../urpm/args.pm:534
 #, c-format
 msgid "Copyright (C) %s by %s"
-msgstr "E drejtë autori (C) %s %s"
+msgstr "E Drejta Autorit (C) %s %s"
 
 #: ../urpm/bug_report.pm:67 ../urpmi:256
 #, c-format
