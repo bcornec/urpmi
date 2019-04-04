@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2019-04-01 22:14+0000\n"
+"PO-Revision-Date: 2019-04-04 01:06+0000\n"
 "Last-Translator: Ardit Dani <ardit.dani@gmail.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/sq/)\n"
@@ -387,7 +387,7 @@ msgstr ""
 #: ../gurpmi2:339
 #, c-format
 msgid "You may want to update your urpmi database."
-msgstr ""
+msgstr "Ju mund të dëshironi të përditësoni bazën e të dhënave tuaja urpmi."
 
 #: ../gurpmi2:343 ../urpm/main_loop.pm:288 ../urpm/main_loop.pm:580
 #, c-format
@@ -749,22 +749,22 @@ msgstr ""
 #: ../urpm/download.pm:829
 #, c-format
 msgid "        %s%% of %s completed, ETA = %s, speed = %s"
-msgstr ""
+msgstr "        %s%% of %s përfunduar, ETA = %s, shpejtësi= %s"
 
 #: ../urpm/download.pm:830
 #, c-format
 msgid "        %s%% completed, speed = %s"
-msgstr ""
+msgstr "        %s%% përfunduar, shpejtësi = %s"
 
 #: ../urpm/download.pm:915
 #, c-format
 msgid "retrieving %s"
-msgstr ""
+msgstr "marrje %s"
 
 #: ../urpm/download.pm:926
 #, c-format
 msgid "retrieved %s"
-msgstr ""
+msgstr "marrë %s"
 
 #: ../urpm/download.pm:989
 #, c-format
@@ -784,7 +784,7 @@ msgstr "i pa mundur përdorimi i protokolit: %s"
 #: ../urpm/get_pkgs.pm:29
 #, c-format
 msgid "cleaning %s and %s"
-msgstr ""
+msgstr "pastrim %s dhe %s"
 
 #: ../urpm/get_pkgs.pm:141
 #, c-format
@@ -799,12 +799,12 @@ msgstr "rikuperimi i skedareve rpm nga burimi\"%s\"..."
 #: ../urpm/install.pm:115 ../urpme:164
 #, c-format
 msgid "removing %s"
-msgstr "zhdukja e %s"
+msgstr "heqje %s"
 
 #: ../urpm/install.pm:215
 #, c-format
 msgid "unable to extract rpm from delta-rpm package %s"
-msgstr ""
+msgstr "i paaftë për nxjerrjen e rpm nga paketa delta-rpm %s"
 
 #: ../urpm/install.pm:242
 #, c-format
@@ -814,17 +814,17 @@ msgstr "i pa mundur instalimi i pakos %s"
 #: ../urpm/install.pm:245
 #, c-format
 msgid "removing bad rpm (%s) from %s"
-msgstr ""
+msgstr "heqje e rpm së keqe (%s) nga %s"
 
 #: ../urpm/install.pm:246 ../urpm/install.pm:374
 #, c-format
 msgid "removing %s failed: %s"
-msgstr ""
+msgstr "heqja %s dështoj: %s"
 
 #: ../urpm/install.pm:295
 #, c-format
 msgid "removing package %s"
-msgstr "zhdukja e pakos %s"
+msgstr "heqje paketës %s"
 
 #: ../urpm/install.pm:341
 #, c-format
@@ -842,12 +842,12 @@ msgstr "i pa mundur krijimi i një akcioni transmetues"
 #: ../urpm/install.pm:372
 #, c-format
 msgid "removing installed rpms (%s) from %s"
-msgstr ""
+msgstr "heqja e rpms së instaluar (%s) nga %s"
 
 #: ../urpm/install.pm:381
 #, c-format
 msgid "More information on package %s"
-msgstr ""
+msgstr "Më shumë informacion mbi paketën %s"
 
 #: ../urpm/ldap.pm:42
 #, c-format
@@ -943,17 +943,17 @@ msgstr "Instalimi dështio"
 #: ../urpm/main_loop.pm:159
 #, c-format
 msgid "removing installed rpms (%s)"
-msgstr ""
+msgstr "heqja e rpms së instaluar (%s)"
 
 #: ../urpm/main_loop.pm:185
 #, c-format
 msgid "Try to continue anyway?"
-msgstr ""
+msgstr "Mundohuni të vazhdoni gjithsesi?"
 
 #: ../urpm/main_loop.pm:236
 #, c-format
 msgid "installing %s from %s"
-msgstr ""
+msgstr "Instalimi %s nga %s"
 
 #: ../urpm/main_loop.pm:238
 #, c-format
@@ -968,7 +968,7 @@ msgstr "shpërndarje e %s"
 #: ../urpm/main_loop.pm:291
 #, c-format
 msgid "Try installation without checking dependencies?"
-msgstr ""
+msgstr "Provoni të instaloni pa kontrolluar varësitë?"
 
 #: ../urpm/main_loop.pm:299
 #, c-format
@@ -978,7 +978,7 @@ msgstr ""
 #: ../urpm/main_loop.pm:590
 #, c-format
 msgid "Packages are up to date"
-msgstr ""
+msgstr "Paketat janë të përditësuara"
 
 #: ../urpm/main_loop.pm:601 ../urpm/parallel.pm:299
 #, c-format
@@ -988,7 +988,7 @@ msgstr "Instalimi është i mundur"
 #: ../urpm/md5sum.pm:55
 #, c-format
 msgid "warning: md5sum for %s unavailable in MD5SUM file"
-msgstr ""
+msgstr "paralajmërim: md5sum për %s i pa-disponueshëm në skedarin MD5SUM"
 
 #: ../urpm/media.pm:268
 #, c-format
@@ -1136,7 +1136,7 @@ msgstr "zgjedhje të shumta burimesh: %s"
 #: ../urpm/media.pm:1312
 #, c-format
 msgid "removing medium \"%s\""
-msgstr "zhdukja e burimit \"%s\""
+msgstr "heqje medium \"%s\""
 
 #: ../urpm/media.pm:1403
 #, c-format
@@ -2471,7 +2471,7 @@ msgstr ""
 #: ../urpmi:526
 #, c-format
 msgid "removing package %s will break your system"
-msgstr "zhdukja a pakove %s do të dëmtoj sistemin tuaj"
+msgstr "heqje paketës %s do të dëmtoj sistemin tuaj"
 
 #: ../urpmi:534
 #, c-format
