@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2019-04-04 01:06+0000\n"
+"PO-Revision-Date: 2019-04-10 13:20+0000\n"
 "Last-Translator: Ardit Dani <ardit.dani@gmail.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/sq/)\n"
@@ -363,7 +363,7 @@ msgstr "e pa mundur marrja e burimit të pakos, ndërpritje"
 #: ../gurpmi2:287 ../urpmi:634
 #, c-format
 msgid "Please insert the medium named \"%s\""
-msgstr ""
+msgstr "Futni një emër për medium \"%s\""
 
 #: ../gurpmi2:307
 #, c-format
@@ -2044,7 +2044,7 @@ msgstr ""
 #: ../urpmf:303
 #, c-format
 msgid "no xml-info available for medium \"%s\""
-msgstr ""
+msgstr "nuk ka xml-info për të medium \"%s\""
 
 #: ../urpmi:76
 #, c-format
