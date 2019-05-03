@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2014-09-13 21:15+0200\n"
-"PO-Revision-Date: 2019-04-22 13:42+0000\n"
+"PO-Revision-Date: 2019-05-02 13:40+0000\n"
 "Last-Translator: Ardit Dani <ardit.dani@gmail.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/sq/)\n"
@@ -928,6 +928,9 @@ msgid ""
 "needed, %s available).\n"
 "Are you sure you want to continue?"
 msgstr ""
+"Nuk ka hapësirë të mjaftueshme në skedarët tuaj për të shkarkuar të gjitha "
+"programet (%s duhet, %s disponueshëm).\n"
+"Jeni i sigurt se doni të vazhdoni?"
 
 #: ../urpm/main_loop.pm:138
 #, c-format
@@ -1053,12 +1056,13 @@ msgstr ""
 #: ../urpm/media.pm:786
 #, c-format
 msgid "ignoring non-free medium `%s'"
-msgstr ""
+msgstr "injorim i non-free medium `%s'"
 
 #: ../urpm/media.pm:795
 #, c-format
 msgid "un-ignoring non-free medium `%s' b/c nonfree packages are installed"
 msgstr ""
+"jo-injorim i non-free medium `%s' b/c janë instaluar programe jo të lirë"
 
 #: ../urpm/media.pm:799
 #, c-format
@@ -1088,7 +1092,7 @@ msgstr "burimi \"%s\" ekziston me heret"
 #: ../urpm/media.pm:985
 #, c-format
 msgid "(ignored by default)"
-msgstr ""
+msgstr "(injoruar në parazgjedhje)"
 
 #: ../urpm/media.pm:991
 #, c-format
@@ -1118,17 +1122,17 @@ msgstr "ky vend nuk duket se përmban ndonjë shpërndarje"
 #: ../urpm/media.pm:1124
 #, c-format
 msgid "unable to parse media.cfg"
-msgstr ""
+msgstr "i pamundur analizimi i media.cfg"
 
 #: ../urpm/media.pm:1127
 #, c-format
 msgid "unable to access the distribution medium (no media.cfg file found)"
-msgstr ""
+msgstr "e pamundur hyrja në mediumin e shpërndarjes (skedari media.cfg mungon)"
 
 #: ../urpm/media.pm:1149
 #, c-format
 msgid "skipping non compatible media `%s' (for %s)"
-msgstr ""
+msgstr "kapërcimi mediave jo të pajtueshme `%s' (për %s)"
 
 #: ../urpm/media.pm:1207
 #, c-format
