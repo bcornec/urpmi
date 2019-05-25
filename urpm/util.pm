@@ -30,6 +30,7 @@ our @EXPORT = qw(add2hash_
     reduce_pathname
     remove_internal_name
     same_size_and_mtime
+    uefi_type
     uniq
     uniq_
     unquotespace
@@ -213,6 +214,16 @@ sub append_to_file {
     open(my $F, '>>', $f) or die "writing to file $f failed: $!\n";
     print $F $_ foreach @_;
     1;
+}
+
+#- return the UEFI machine type short name
+sub uefi_type() {
+    if (-e '/sys/firmware/efi/fw_platform_size') {
+        # No support for ARM yet
+        cat_('/sys/firmware/efi/fw_platform_size') =~ /32/ ? 'ia32' : 'x64';
+    } else {
+        'none';
+    }
 }
 
 1;

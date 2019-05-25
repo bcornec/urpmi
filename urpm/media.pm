@@ -4,7 +4,7 @@ package urpm::media;
 use strict;
 use urpm qw(file_from_local_medium is_local_medium);
 use urpm::msg;
-use urpm::util qw(any append_to_file basename cat_ difference2 dirname intersection member output_safe begins_with copy_and_own file_size offset_pathname reduce_pathname);
+use urpm::util qw(any append_to_file basename cat_ difference2 dirname intersection member output_safe begins_with copy_and_own file_size offset_pathname reduce_pathname uefi_type);
 use urpm::removable;
 use urpm::lock;
 use urpm::md5sum;
@@ -784,13 +784,13 @@ sub is_media_to_add_by_default {
     my $add_by_default = !$distribconf->getvalue($medium, 'noauto');
     my @media_types = split(':', $distribconf->getvalue($medium, 'media_type'));
     return $add_by_default if !@media_types;
+    my $non_regular_medium = intersection(\@media_types, [ qw(backports debug source testing) ]);
     if ($product_id->{product} eq 'Free') {
 	if (member('non-free', @media_types)) {
 	    $urpm->{log}(N("ignoring non-free medium `%s'", $medium));
 	    $add_by_default = 0;
 	}
     } else {
-	my $non_regular_medium = intersection(\@media_types, [ qw(backports debug source testing) ]);
 	if (!$add_by_default && !$non_regular_medium) {
 	    my $medium_name = $distribconf->getvalue($medium, 'name') || '';
             # Don't enable 32-bit media by default on 64-bit systems (mga#24376). '32bit' only appears
@@ -802,6 +802,16 @@ sub is_media_to_add_by_default {
 	    if ($medium_name =~ /Tainted/ && $medium_name !~ /32bit/ && $tainted) {
 		$add_by_default = 1;
 		$urpm->{log}(N("un-ignoring tainted medium `%s' b/c tainted packages are installed", $medium_name));
+	    }
+	}
+    }
+    if ($distribconf->getvalue('media_info', 'arch') eq 'x86_64' && uefi_type() eq 'ia32') {
+	if (!$add_by_default && !$non_regular_medium) {
+	    my $medium_name = $distribconf->getvalue($medium, 'name') || '';
+            # Enable 32-bit media by default to allow 32-bit grub2-efi to be installed/updated.
+	    if ($medium_name =~ /Core/ && $medium_name =~ /32bit/) {
+		$add_by_default = 1;
+		$urpm->{log}(N("un-ignoring 32bit medium `%s' b/c system is 32-bit EFI", $medium_name));
 	    }
 	}
     }

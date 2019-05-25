@@ -1,4 +1,6 @@
 - don't enable 32-bit media by default on 64-bit systems (mga#24376)
+  o except on systems with 32-bit EFI, where we need the Core 32bit
+    media for the bootloader
 
 Version 8.115 - 1 May 2019
 
