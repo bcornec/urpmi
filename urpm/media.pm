@@ -793,11 +793,13 @@ sub is_media_to_add_by_default {
 	my $non_regular_medium = intersection(\@media_types, [ qw(backports debug source testing) ]);
 	if (!$add_by_default && !$non_regular_medium) {
 	    my $medium_name = $distribconf->getvalue($medium, 'name') || '';
-	    if ($medium_name =~ /Nonfree/ && $nonfree) {
+            # Don't enable 32-bit media by default on 64-bit systems (mga#24376). '32bit' only appears
+            # in the medium name in the 64-bit media info, so we can simply filter on that.
+	    if ($medium_name =~ /Nonfree/ && $medium_name !~ /32bit/ && $nonfree) {
 		$add_by_default = 1;
 		$urpm->{log}(N("un-ignoring non-free medium `%s' b/c nonfree packages are installed", $medium_name));
 	    }
-	    if ($medium_name =~ /Tainted/ && $tainted) {
+	    if ($medium_name =~ /Tainted/ && $medium_name !~ /32bit/ && $tainted) {
 		$add_by_default = 1;
 		$urpm->{log}(N("un-ignoring tainted medium `%s' b/c tainted packages are installed", $medium_name));
 	    }

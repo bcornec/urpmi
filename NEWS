@@ -1,3 +1,5 @@
+- don't enable 32-bit media by default on 64-bit systems (mga#24376)
+
 Version 8.115 - 1 May 2019
 
 - library:
