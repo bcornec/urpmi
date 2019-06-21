@@ -1,3 +1,5 @@
+Version 8.117 - 21 June 2019
+
 - ensure urpmi config and cache files are world-readable (mga#24636)
 
 Version 8.116 - 27 May 2019
