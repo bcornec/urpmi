@@ -551,12 +551,14 @@ sub write_urpmi_cfg {
     };
     remove_passwords_and_write_private_netrc($urpm, $config);
 
-    # urpmi.cfg must be world-readable, else mgaapplet won't be able to read it
-    # as it is executed from the user session. We enforce umask here in the case
-    # where the msec security level is set to 'secure' (which means umask 077).
-    umask 0022;
+    #- urpmi.cfg must be world-readable, else mgaapplet and urpm* commands run as
+    #- a normal user won't be able to read it. We enforce umask here in the case
+    #- where the msec security level is set to 'secure' (which means umask 077)
+    #- or where we are run from a gdm-x-session (mga#24636)
+    my $old_umask = umask 0022;
     urpm::cfg::dump_config($urpm->{config}, $config)
 	or $urpm->{fatal}(6, N("unable to write config file [%s]", $urpm->{config}));
+    umask $old_umask;
 
     $urpm->{log}(N("wrote config file [%s]", $urpm->{config}));
 
@@ -972,12 +974,18 @@ sub add_medium {
 	$medium->{$_} = $options{$_} if exists $options{$_};
     }
 
+    #- The medium files must be world-readable, else mgaapplet and urpm* commands run
+    #- as a normal user won't be able to read them. We enforce umask here in the case
+    #- where the msec security level is set to 'secure' (which means umask 077) or
+    #- where we are run from a gdm-x-session (mga#24636)
+    my $old_umask = umask 0022;
     #- those files must not be there (cf mdvbz#36267)
     _clean_statedir_medium_files($urpm, $medium);
     if (!($options{virtual} && _local_file($medium))
 	  && !$urpm->{urpmi_root}) { # with --urpmi-root, we do not use statedir_media_info_file to allow compatibility with older urpmi
 	mkdir statedir_media_info_dir($urpm, $medium), 0755;
     }
+    umask $old_umask;
 
     if ($options{virtual}) {
 	$medium->{virtual} = 1;

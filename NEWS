@@ -1,3 +1,5 @@
+- ensure urpmi config and cache files are world-readable (mga#24636)
+
 Version 8.116 - 27 May 2019
 
 - don't enable 32-bit media by default on 64-bit systems (mga#24376)
