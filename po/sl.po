@@ -2,7 +2,8 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Translators:
-# Filip Komar <filip.komar@gmail.com>, 2012-2014,2017
+# Filip Komar <filip.komar@guest.arnes.si>, 2012-2014,2017
+# Filip Komar <filip.komar@guest.arnes.si>, 2019
 # Gregor Pirnaver <gregor.pirnaver@mandrakeprinas.org>, 2004
 # Gregor Pirnaver <gregor.pirnaver@sdm-si.org>, 2005
 # Jaka Kranjc <jakakranjc@email.si>, 2005-2006
@@ -14,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2019-06-26 09:37+0300\n"
-"PO-Revision-Date: 2017-04-15 20:04+0000\n"
-"Last-Translator: Filip Komar <filip.komar@gmail.com>\n"
+"PO-Revision-Date: 2019-06-26 09:06+0000\n"
+"Last-Translator: Filip Komar <filip.komar@guest.arnes.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/sl/)\n"
 "Language: sl\n"
@@ -1077,11 +1078,9 @@ msgstr ""
 "tainted »%s«, saj je nekaj takih nameščenih"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid "un-ignoring 32bit medium `%s' b/c system is 32-bit EFI"
-msgstr ""
-"omogočanje vira s patentno zaščitenimi programi/gonilniki z angleškim imenom "
-"tainted »%s«, saj je nekaj takih nameščenih"
+msgstr "omogočanje 32-bitnega vira »%s«, saj je sistem 32-bitni EFI"
 
 #: ../urpm/media.pm:844
 #, c-format
