@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2019-06-26 09:37+0300\n"
-"PO-Revision-Date: 2019-04-29 16:35+0000\n"
+"PO-Revision-Date: 2019-06-26 15:15+0000\n"
 "Last-Translator: Davidmp <medipas@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/MageiaLinux/mageia/language/"
 "ca/)\n"
@@ -1081,10 +1081,10 @@ msgstr ""
 "no s'ignora el mitjà tainted \"%s\" perquè hi ha paquets tainted instal·lats"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid "un-ignoring 32bit medium `%s' b/c system is 32-bit EFI"
 msgstr ""
-"no s'ignora el mitjà tainted \"%s\" perquè hi ha paquets tainted instal·lats"
+"no s'ignora el mitjà de 32 bits \"%s\" perquè és un sistema EFI de 32 bits"
 
 #: ../urpm/media.pm:844
 #, c-format
