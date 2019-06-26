@@ -3,7 +3,7 @@
 #
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2018
-# psyca, 2014-2017
+# psyca, 2014-2017,2019
 # Marc Lattemann, 2014
 # Oliver Burger <obgr_seneca@mageia.org>, 2013
 # Sigrid Carrera <sigrid.carrera@googlemail.com>, 2013
@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2019-06-26 09:37+0300\n"
-"PO-Revision-Date: 2018-01-03 18:30+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2019-06-26 19:09+0000\n"
+"Last-Translator: psyca\n"
 "Language-Team: German (http://www.transifex.com/MageiaLinux/mageia/language/"
 "de/)\n"
 "Language: de\n"
@@ -1080,19 +1080,19 @@ msgstr "Das Nonfree-Medium %s ignorieren"
 #, c-format
 msgid "un-ignoring non-free medium `%s' b/c nonfree packages are installed"
 msgstr ""
-"unfreie Quelle wird nicht ignoriert `%s' b/c unfreie Pakete sind installiert"
+"unfreie Quelle wird nicht ignoriert `%s', da unfreie Pakete installiert sind"
 
 #: ../urpm/media.pm:806
 #, c-format
 msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
 msgstr ""
-"tainted Quelle wird nicht ignoriert `%s' b/c tainted Pakete sind installiert"
+"tainted Quelle wird nicht ignoriert `%s', da unfreie Pakete installiert sind"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid "un-ignoring 32bit medium `%s' b/c system is 32-bit EFI"
 msgstr ""
-"tainted Quelle wird nicht ignoriert `%s' b/c tainted Pakete sind installiert"
+"32-Bit Quelle wird nicht ignoriert `%s', da das System ein 32-Bit EFI ist"
 
 #: ../urpm/media.pm:844
 #, c-format
