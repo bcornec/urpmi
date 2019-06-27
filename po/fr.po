@@ -25,8 +25,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2019-06-26 09:37+0300\n"
-"PO-Revision-Date: 2019-01-31 20:43+0000\n"
-"Last-Translator: stroibe974 <sebsweb@gmail.com>\n"
+"PO-Revision-Date: 2019-06-26 06:40+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: French (http://www.transifex.com/MageiaLinux/mageia/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -1098,11 +1098,9 @@ msgstr ""
 "installés"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid "un-ignoring 32bit medium `%s' b/c system is 32-bit EFI"
 msgstr ""
-"Prise en compte des medium tainted `%s' car des paquetages tainted sont "
-"installés"
 
 #: ../urpm/media.pm:844
 #, c-format
