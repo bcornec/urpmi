@@ -8,15 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2019-06-26 09:37+0300\n"
-"PO-Revision-Date: 2015-07-11 17:56+0000\n"
-"Last-Translator: fri\n"
+"PO-Revision-Date: 2019-06-26 06:40+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Czech (http://www.transifex.com/MageiaLinux/mageia/language/"
 "cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
@@ -339,6 +340,7 @@ msgid_plural "Proceed with the installation of the %d packages?"
 msgstr[0] "Pokračovat v instalaci %d balíčku?"
 msgstr[1] "Pokračovat v instalaci %d balíčků?"
 msgstr[2] "Pokračovat v instalaci %d balíčků?"
+msgstr[3] "Pokračovat v instalaci %d balíčků?"
 
 #: ../gurpmi2:259 ../urpmi:608
 #, c-format
@@ -1065,11 +1067,9 @@ msgstr ""
 "balíčky"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid "un-ignoring 32bit medium `%s' b/c system is 32-bit EFI"
 msgstr ""
-"Vzít v úvahu \"tainted\" média `%s', protože jsou nainstalovány \"tainted\" "
-"balíčky"
 
 #: ../urpm/media.pm:844
 #, c-format
@@ -1427,6 +1427,12 @@ msgstr[2] ""
 "%s\n"
 "\n"
 "je označen za sirotky."
+msgstr[3] ""
+"Následující balíček:\n"
+"\n"
+"%s\n"
+"\n"
+"je označen za sirotky."
 
 #: ../urpm/orphans.pm:616
 #, c-format
@@ -1435,6 +1441,7 @@ msgid_plural "You may wish to remove them."
 msgstr[0] "Možná si je přejete odstranit."
 msgstr[1] "Možná si je přejete odstranit."
 msgstr[2] "Možná si jej přejete odstranit."
+msgstr[3] "Možná si jej přejete odstranit."
 
 #: ../urpm/orphans.pm:633
 #, c-format
@@ -1457,6 +1464,10 @@ msgstr[1] ""
 "%s\n"
 "jsou nyní sirotci, k jejich odstranění můžete použít „urpme --auto-orphans”"
 msgstr[2] ""
+"Následující balíčky:\n"
+"%s\n"
+"jsou nyní sirotci, k jejich odstranění můžete použít „urpme --auto-orphans”"
+msgstr[3] ""
 "Následující balíčky:\n"
 "%s\n"
 "jsou nyní sirotci, k jejich odstranění můžete použít „urpme --auto-orphans”"
@@ -1781,6 +1792,7 @@ msgid_plural "Removing the following packages will break your system:"
 msgstr[0] "Odebrání následujícího balíčku naruší funkčnost vašeho systému:"
 msgstr[1] "Odebrání následujících balíčků naruší funkčnost vašeho systému:"
 msgstr[2] "Odebrání následujících balíčků naruší funkčnost vašeho systému:"
+msgstr[3] "Odebrání následujících balíčků naruší funkčnost vašeho systému:"
 
 #: ../urpme:123
 #, c-format
@@ -1800,6 +1812,7 @@ msgid_plural ""
 msgstr[0] "Aby byly splněny závislosti, bude odebrán %d balíček"
 msgstr[1] "Aby byly splněny závislosti, budou odebrány %d balíčky"
 msgstr[2] "Aby byly splněny závislosti, bude odebráno %d balíčků"
+msgstr[3] "Aby byly splněny závislosti, bude odebráno %d balíčků"
 
 #: ../urpme:151
 #, c-format
@@ -1808,6 +1821,7 @@ msgid_plural "(orphan packages)"
 msgstr[0] "(osiřelý balíček)"
 msgstr[1] "(osiřelé balíčky)"
 msgstr[2] "(osiřelých balíčků)"
+msgstr[3] "(osiřelých balíčků)"
 
 #: ../urpme:158
 #, c-format
@@ -1816,6 +1830,7 @@ msgid_plural "Remove %d packages?"
 msgstr[0] "Odstranit %d balíček?"
 msgstr[1] "Odstranit %d balíčky?"
 msgstr[2] "Odstranit %d balíčků?"
+msgstr[3] "Odstranit %d balíčků?"
 
 #: ../urpme:163
 #, c-format
@@ -2612,6 +2627,7 @@ msgid_plural "The following orphan packages will be removed."
 msgstr[0] "Bude odstraněn následující sirotek."
 msgstr[1] "Budou odstraněni následující sirotci."
 msgstr[2] "Budou odstraněni následující sirotci."
+msgstr[3] "Budou odstraněni následující sirotci."
 
 #: ../urpmi:599
 #, c-format
