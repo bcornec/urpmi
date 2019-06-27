@@ -8,8 +8,9 @@
 # Jose Carlos D. S. Saraiva <jose.d.s.saraiva@clix.pt>, 2004
 # zecas <jjorge@free.fr>, 2004
 # Jose Jorge <jose.jorge@oreka.com>, 2003
-# Manuela Silva <manuela.silva@sky.com>, 2014,2017
+# Manuela Silva <manuelarodsilva@gmail.com>, 2014,2017
 # Pedro <simplew8@gmail.com>, 2012
+# Rui <xymarior@yandex.com>, 2018-2019
 # Zé <mmodem00@gmail.com>, 2010
 # Zé <mmodem00@netvisao.pt>, 2004-2006
 # Zé <ze@mandriva.org>, 2006-2008,2010
@@ -17,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2019-06-26 09:37+0300\n"
-"PO-Revision-Date: 2017-04-05 18:20+0000\n"
-"Last-Translator: Manuela Silva <manuela.silva@sky.com>\n"
+"PO-Revision-Date: 2019-06-26 06:40+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Portuguese (http://www.transifex.com/MageiaLinux/mageia/"
 "language/pt/)\n"
 "Language: pt\n"
@@ -1373,7 +1374,7 @@ msgstr "Arquitectura"
 #: ../urpm/msg.pm:169
 #, c-format
 msgid "(recommended)"
-msgstr ""
+msgstr "(recomendado)"
 
 #: ../urpm/msg.pm:184
 #, c-format
@@ -2069,7 +2070,7 @@ msgstr "  --sourcerpm    - nome do rpm de código fonte\n"
 #: ../urpmf:75
 #, c-format
 msgid "  --recommends   - recommends tags\n"
-msgstr ""
+msgstr "  --recommends   - recomenda etiquetas\n"
 
 #: ../urpmf:76
 #, c-format
@@ -2146,6 +2147,8 @@ msgstr "  --auto-orphans - remove os órfãos sem perguntar\n"
 #, c-format
 msgid "  --no-recommends - do not auto select \"recommended\" packages.\n"
 msgstr ""
+"  --no-recommends - não selecionar automaticamente a opção pacotes "
+"\"recomendados\".\n"
 
 #: ../urpmi:81
 #, c-format
@@ -2254,6 +2257,7 @@ msgstr ""
 #, c-format
 msgid "  --allow-recommends - auto select \"recommended\" packages.\n"
 msgstr ""
+"  --allow-recommends - seleciona automaticamente pacotes \"recomendados\".\n"
 
 #: ../urpmi:109
 #, c-format
@@ -3109,7 +3113,7 @@ msgstr "  --requires     - mostra os requerimentos.\n"
 #: ../urpmq:84
 #, c-format
 msgid "  --recommends   - print recommends.\n"
-msgstr ""
+msgstr "  --recommends   - imprime/mostra recomendados.\n"
 
 #: ../urpmq:85
 #, c-format
@@ -3276,8 +3280,10 @@ msgstr "Interface gráfico para instalar ficheiros RPM"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:1
 msgid "Run Mageia Package Installer"
-msgstr ""
+msgstr "Executar o Instalador de Pacotes Mageia"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:2
 msgid "Authentication is required to run Mageia Package Installer"
 msgstr ""
+"É necessário fazer a autenticação para executar o Instalador de Pacotes "
+"Mageia"
