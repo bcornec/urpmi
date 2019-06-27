@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2019-06-26 09:37+0300\n"
-"PO-Revision-Date: 2016-04-15 14:27+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2019-06-26 13:12+0000\n"
+"Last-Translator: tomaja <toma.jankovic@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/MageiaLinux/mageia/language/"
 "sr/)\n"
 "Language: sr\n"
@@ -291,17 +291,17 @@ msgstr ""
 #: ../gurpmi2:250 ../urpmi:617
 #, c-format
 msgid "%s of additional disk space will be used."
-msgstr ""
+msgstr "%s од додатног простора на диску ће бити искоришћено."
 
 #: ../gurpmi2:251 ../urpmi:618
 #, c-format
 msgid "%s of disk space will be freed."
-msgstr ""
+msgstr "%s од просторра на диску ће бити ослобођено."
 
 #: ../gurpmi2:252 ../urpmi:619
 #, c-format
 msgid "%s of packages will be retrieved."
-msgstr ""
+msgstr "%s од пакета ће бити преузето."
 
 #: ../gurpmi2:253 ../urpmi:620
 #, c-format
@@ -331,12 +331,12 @@ msgstr "извор пакета није доступан, излазим..."
 #: ../gurpmi2:287 ../urpmi:636
 #, c-format
 msgid "Please insert the medium named \"%s\""
-msgstr ""
+msgstr "Унесите медиј са именом \"%s\" "
 
 #: ../gurpmi2:307
 #, c-format
 msgid "An error occurred:"
-msgstr ""
+msgstr "Појавила се грешка:"
 
 #: ../gurpmi2:319
 #, c-format
@@ -353,7 +353,7 @@ msgstr ""
 #: ../gurpmi2:339
 #, c-format
 msgid "You may want to update your urpmi database."
-msgstr ""
+msgstr "Можда желите да ажурирате своју urpmi базу података."
 
 #: ../gurpmi2:343 ../urpm/main_loop.pm:289 ../urpm/main_loop.pm:581
 #, c-format
@@ -713,12 +713,12 @@ msgstr ""
 #: ../urpm/download.pm:854
 #, c-format
 msgid "        %s%% of %s completed, ETA = %s, speed = %s"
-msgstr ""
+msgstr "        %s%% од %s завршено, ETA = %s, брзина = %s"
 
 #: ../urpm/download.pm:855
 #, c-format
 msgid "        %s%% completed, speed = %s"
-msgstr ""
+msgstr "        %s%% завршено, брзина = %s"
 
 #: ../urpm/download.pm:940
 #, c-format
@@ -1239,7 +1239,7 @@ msgstr ""
 #: ../urpm/media.pm:2175
 #, c-format
 msgid "retrieval of [%s] failed"
-msgstr ""
+msgstr "добављање [%s] није успело"
 
 #: ../urpm/mirrors.pm:33 ../urpm/mirrors.pm:59
 #, c-format
@@ -1285,17 +1285,17 @@ msgstr "Погрешан избор, пробајте поново\n"
 #: ../urpm/msg.pm:160
 #, c-format
 msgid "Package"
-msgstr ""
+msgstr "Пакет"
 
 #: ../urpm/msg.pm:160
 #, c-format
 msgid "Version"
-msgstr ""
+msgstr "Верзија"
 
 #: ../urpm/msg.pm:160
 #, c-format
 msgid "Release"
-msgstr ""
+msgstr "Издање"
 
 #: ../urpm/msg.pm:160
 #, c-format
@@ -2015,7 +2015,7 @@ msgstr ""
 #: ../urpmf:303
 #, c-format
 msgid "no xml-info available for medium \"%s\""
-msgstr ""
+msgstr "Нема xml-инфа за медиј \"%s\""
 
 #: ../urpmi:76
 #, c-format
@@ -2636,7 +2636,7 @@ msgstr ""
 #: ../urpmi.addmedia:112
 #, c-format
 msgid "bad <url> (for local directory, the path must be absolute)"
-msgstr ""
+msgstr "лош <url> (за локални директоријум, путања мора бити апсолутна)"
 
 #: ../urpmi.addmedia:116
 #, c-format
