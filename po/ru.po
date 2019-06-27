@@ -1,29 +1,33 @@
-# translation of ru.po to Russian
-# Translation of urpmi messages to Russian
-# Copyright (C) 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
 #
-# Aleksey Smirnov <smi@logic.ru>, 2000.
-# Vladimir Choundalov <choundalovvv@point.pwp.ru>, 2001.
-# Pavel Maryanov <acid_jack@ukr.net>, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009.
-# Alice Lafox <alice@lafox.com.ua>, 2003.
-# Alice Lafox <alice@lafox.net>, 2004, 2005.
-# akdengi <kazancas@mandriva.ru>, 2008, 2009.
-# akdengi <kazancas@gmail.com>, 2008.
-# Alexander Kazancev <kazancas@gmail.com>, 2008.
+# Translators:
+# akdengi <kazancas@gmail.com>, 2008
+# Alexander Kazancev <kazancas@mandriva.ru>, 2008-2009
+# Aleksey Smirnov <smi@logic.ru>, 2000
+# Alexander Kazancev <kazancas@gmail.com>, 2008
+# AlexL <loginov.alex.valer@gmail.com>, 2019
+# Alice Lafox <alice@lafox.com.ua>, 2003
+# Alice Lafox <alice@lafox.net>, 2004-2005
+# Анатолий Валерианович <ffox909@mail.ru>, 2014
+# Pavel Maryanov <acid_jack@ukr.net>, 2002-2009
+# Валентин Сайков <saikov.vb@gmail.com>, 2014
+# Vladimir Choundalov <choundalovvv@point.pwp.ru>, 2001
 msgid ""
 msgstr ""
-"Project-Id-Version: ru\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2019-06-26 09:37+0300\n"
-"PO-Revision-Date: 2014-10-13 20:57+0300\n"
+"PO-Revision-Date: 2019-06-26 23:11+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Russian <gnu@mx.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/MageiaLinux/mageia/language/"
+"ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
@@ -345,8 +349,10 @@ msgstr "Будет загружено %s пакетов."
 #, c-format
 msgid "Proceed with the installation of one package?"
 msgid_plural "Proceed with the installation of the %d packages?"
-msgstr[0] "Установить один пакет?"
-msgstr[1] "Установить %d пакетов?"
+msgstr[0] "Продолжить установку пакета?"
+msgstr[1] "Продолжить установку %d пакетов?"
+msgstr[2] "Продолжить установку %d пакетов?"
+msgstr[3] "Продолжить установку %d пакетов?"
 
 #: ../gurpmi2:259 ../urpmi:608
 #, c-format
@@ -1079,11 +1085,11 @@ msgstr ""
 "сомнительными условиями лицензирования"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid "un-ignoring 32bit medium `%s' b/c system is 32-bit EFI"
 msgstr ""
-"отмена игнорирования tainted источника `%s', так как установлены пакеты с "
-"сомнительными условиями лицензирования"
+"отмена игнорирования 32-битного источника пакетов `%s', поскольку система "
+"является 32-битной системой EFI"
 
 #: ../urpm/media.pm:844
 #, c-format
@@ -1426,18 +1432,28 @@ msgid_plural ""
 msgstr[0] ""
 "Следующий пакет:\n"
 "%s\n"
-"теперь является осиротевшим."
+"теперь осиротел."
 msgstr[1] ""
 "Следующие пакеты:\n"
 "%s\n"
-"теперь являются осиротевшими."
+"теперь осиротели."
+msgstr[2] ""
+"Следующие пакеты:\n"
+"%s\n"
+"теперь осиротели."
+msgstr[3] ""
+"Следующие пакеты:\n"
+"%s\n"
+"теперь осиротели."
 
 #: ../urpm/orphans.pm:616
 #, c-format
 msgid "You may wish to remove it."
 msgid_plural "You may wish to remove them."
-msgstr[0] "Вы можете его удалить."
-msgstr[1] "Вы можете их удалить."
+msgstr[0] "Вы можете удалить его."
+msgstr[1] "Вы можете удалить их."
+msgstr[2] "Вы можете удалить их."
+msgstr[3] "Вы можете удалить их."
 
 #: ../urpm/orphans.pm:633
 #, c-format
@@ -1454,13 +1470,23 @@ msgid_plural ""
 msgstr[0] ""
 "Следующий пакет:\n"
 "%s\n"
-"теперь является осиротевшим. Для его удаления используйте команду «urpme --"
-"auto-orphans»"
+"теперь осиротел, если вы хотите удалить его, используйте \"urpme --auto-"
+"orphans\""
 msgstr[1] ""
 "Следующие пакеты:\n"
 "%s\n"
-"теперь являются осиротевшими. Для их удаления используйте команду «urpme --"
-"auto-orphans»"
+"теперь осиротели, если вы хотите удалить их, используйте \"urpme --auto-"
+"orphans\""
+msgstr[2] ""
+"Следующие пакеты:\n"
+"%s\n"
+"теперь осиротели, если вы хотите удалить их, используйте \"urpme --auto-"
+"orphans\""
+msgstr[3] ""
+"Следующие пакеты:\n"
+"%s\n"
+"теперь осиротели, если вы хотите удалить их, используйте \"urpme --auto-"
+"orphans\""
 
 #: ../urpm/parallel.pm:31
 #, c-format
@@ -1780,10 +1806,10 @@ msgstr "неизвестный пакет"
 #, c-format
 msgid "Removing the following package will break your system:"
 msgid_plural "Removing the following packages will break your system:"
-msgstr[0] ""
-"после удаления следующего пакета будет нарушена работа всей системы:"
-msgstr[1] ""
-"после удаления следующих пакетов будет нарушена работа всей системы:"
+msgstr[0] "Удаление следующего пакета повредит Вашу систему:"
+msgstr[1] "Удаление следующих пакетов повредит Вашу систему"
+msgstr[2] "Удаление следующих пакетов повредит Вашу систему"
+msgstr[3] "Удаление следующих пакетов повредит Вашу систему"
 
 #: ../urpme:123
 #, c-format
@@ -1800,8 +1826,10 @@ msgstr "Нет осиротевших пакетов для удаления"
 msgid "To satisfy dependencies, the following package will be removed"
 msgid_plural ""
 "To satisfy dependencies, the following %d packages will be removed"
-msgstr[0] "Для удовлетворения зависимостей будет удалён следующий пакет"
-msgstr[1] "Для удовлетворения зависимостей будут удалены следующие %d пакетов"
+msgstr[0] "Для удовлетворения зависимостей, следующий пакет будет удалён"
+msgstr[1] "Для удовлетворения зависимостей, следующие %d пакеты будут удалены"
+msgstr[2] "Для удовлетворения зависимостей, следующие %d пакеты будут удалены"
+msgstr[3] "Для удовлетворения зависимостей, следующие %d пакеты будут удалены"
 
 #: ../urpme:151
 #, c-format
@@ -1809,13 +1837,17 @@ msgid "(orphan package)"
 msgid_plural "(orphan packages)"
 msgstr[0] "(осиротевший пакет)"
 msgstr[1] "(осиротевшие пакеты)"
+msgstr[2] "(осиротевшие пакеты)"
+msgstr[3] "(осиротевшие пакеты)"
 
 #: ../urpme:158
 #, c-format
 msgid "Remove %d package?"
 msgid_plural "Remove %d packages?"
-msgstr[0] "Удалить %d пакет?"
-msgstr[1] "Удалить %d пакетов?"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] "Удалить %d пакеты?"
+msgstr[3] "Удалить %d пакеты?"
 
 #: ../urpme:163
 #, c-format
@@ -2057,7 +2089,7 @@ msgstr "  --sourcerpm    - rpm с исходными кодами\n"
 #: ../urpmf:75
 #, c-format
 msgid "  --recommends   - recommends tags\n"
-msgstr "  --recommends     - теги recommends (рекомендуются)\n"
+msgstr "--recommends - метки рекомендаций\n"
 
 #: ../urpmf:76
 #, c-format
@@ -2133,8 +2165,7 @@ msgstr "  --auto-orphans - удалить сирот без вывода зап�
 #: ../urpmi:80 ../urpmq:52
 #, c-format
 msgid "  --no-recommends - do not auto select \"recommended\" packages.\n"
-msgstr ""
-"  --no-recommends  - не выбирать автоматически рекомендованные пакеты\n"
+msgstr "--no-recommends - не выбирать автоматически «рекомендованные» пакеты\n"
 
 #: ../urpmi:81
 #, c-format
@@ -2238,7 +2269,8 @@ msgstr ""
 #: ../urpmi:105
 #, c-format
 msgid "  --allow-recommends - auto select \"recommended\" packages.\n"
-msgstr "  --allow-recommends - автоматически выбирать рекомендованные пакеты\n"
+msgstr ""
+" --allow-recommends - выбирать автоматически «рекомендованные» пакеты\n"
 
 #: ../urpmi:109
 #, c-format
@@ -2619,8 +2651,10 @@ msgstr ""
 #, c-format
 msgid "The following orphan package will be removed."
 msgid_plural "The following orphan packages will be removed."
-msgstr[0] "Будет удалён следующий осиротевший пакет."
-msgstr[1] "Будут удалены следующие осиротевшие пакеты."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] "Следующие осиротевшие пакеты будут удалены."
+msgstr[3] "Следующие осиротевшие пакеты будут удалены."
 
 #: ../urpmi:599
 #, c-format
@@ -3100,7 +3134,7 @@ msgstr "  --requires     - показать требуемые файлы\n"
 #: ../urpmq:84
 #, c-format
 msgid "  --recommends   - print recommends.\n"
-msgstr "  --recommends     - показать рекомендуемые файлы\n"
+msgstr "  --recommends   - вывести список рекомендаций.\n"
 
 #: ../urpmq:85
 #, c-format
@@ -3273,258 +3307,3 @@ msgstr "Запуск программы установки пакетов Mageia
 msgid "Authentication is required to run Mageia Package Installer"
 msgstr ""
 "Требуется аутентификация для запуска программы установки пакетов Mageia"
-
-#~ msgid "(suggested)"
-#~ msgstr "(рекомендуется)"
-
-#~ msgid "  --suggests     - suggests tags\n"
-#~ msgstr "  --suggests     - теги suggests (рекомендуются)\n"
-
-#~ msgid "  --suggests     - print suggests.\n"
-#~ msgstr "  --suggests     - показать рекомендуемые файлы\n"
-
-#~ msgid "(%d package, %d MB)"
-#~ msgid_plural "(%d packages, %d MB)"
-#~ msgstr[0] "(%d пакет, %d МБ)"
-#~ msgstr[1] "(%d пакетов, %d МБ)"
-
-#~ msgid "[repackaging]"
-#~ msgstr "[повторная упаковка]"
-
-#~ msgid "curl failed: upload canceled\n"
-#~ msgstr "ошибка curl: выгрузка отменена\n"
-
-#~ msgid "  --repackage    - Re-package the files before erasing\n"
-#~ msgstr "  --repackage    - повторно упаковывать файлы перед удалением\n"
-
-#~ msgid "  --checkpoint   - set repackaging start now\n"
-#~ msgstr "  --checkpoint   - установить точку для повторной упаковки\n"
-
-#, fuzzy
-#~ msgid "  --noclean      - don't clean repackage directory on checkpoint\n"
-#~ msgstr "  --noclean      - не удалять rpm-файлы из кэша\n"
-
-#~ msgid ""
-#~ "  --list         - list transactions since provided date/duration "
-#~ "argument\n"
-#~ msgstr ""
-#~ "  --list         - список транзакций относительно указанной\n"
-#~ "                   даты/продолжительности\n"
-
-#, fuzzy
-#~ msgid "  --list-all     - list all transactions in rpmdb (long)\n"
-#~ msgstr "  --list-url     - показать список доступных источников и их url\n"
-
-#~ msgid "  --list-safe    - list transactions since checkpoint\n"
-#~ msgstr "  --list-safe    - список всех транзакций после контрольной точки\n"
-
-#~ msgid ""
-#~ "  --rollback     - rollback until specified date,\n"
-#~ "                   or rollback the specified number of transactions\n"
-#~ msgstr ""
-#~ "  --rollback     - откат до указанной даты,\n"
-#~ "                   или откат указанного числа транзакций\n"
-
-#, fuzzy
-#~ msgid "  --disable      - turn off repackaging\n"
-#~ msgstr "  --filename     - имя пакета\n"
-
-#, fuzzy
-#~ msgid "Invalid date or duration [%s]\n"
-#~ msgstr "недопустимый владелец каталога %s"
-
-#, fuzzy
-#~ msgid "Repackage directory not defined\n"
-#~ msgstr "пакет %s не найден."
-
-#, fuzzy
-#~ msgid "Can't write to repackage directory [%s]\n"
-#~ msgstr "не удалось создать каталог %s"
-
-#, fuzzy
-#~ msgid "Cleaning up repackage directory [%s]...\n"
-#~ msgstr "не удалось создать каталог %s"
-
-#~ msgid "Spurious command-line arguments [%s]\n"
-#~ msgstr "Ложные аргументы командной строки [%s]\n"
-
-#~ msgid "You can't specify --checkpoint and --rollback at the same time\n"
-#~ msgstr "Нельзя одновременно использовать --checkpoint и --rollback\n"
-
-#~ msgid "You can't specify --checkpoint and --list at the same time\n"
-#~ msgstr "Нельзя одновременно использовать --checkpoint и --list\n"
-
-#~ msgid "You can't specify --rollback and --list at the same time\n"
-#~ msgstr "Нельзя одновременно использовать --rollback и --list\n"
-
-#~ msgid "You can't specify --disable along with another option"
-#~ msgstr "Нельзя использовать --disable вместе с другим параметром"
-
-#~ msgid "No transaction found since %s\n"
-#~ msgstr "Не найдены транзакции от %s\n"
-
-#~ msgid "You must be superuser to do this"
-#~ msgstr "Для этого нужны права суперпользователя"
-
-#, fuzzy
-#~ msgid "Writing rpm macros file [%s]...\n"
-#~ msgstr "извлекается rpm-файл [%s] ..."
-
-#, fuzzy
-#~ msgid "No rollback date found\n"
-#~ msgstr "Не найден журнал изменений\n"
-
-#~ msgid "Rollback until %s...\n"
-#~ msgstr "Откат до %s...\n"
-
-#, fuzzy
-#~ msgid "Disabling repackaging\n"
-#~ msgstr "[повторная упаковка]"
-
-#~ msgid ""
-#~ "urpme version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "urpme версия %s\n"
-#~ "%s\n"
-#~ "Это свободное программное обеспечение и может распространяться согласно "
-#~ "условиям GNU GPL.\n"
-#~ "\n"
-#~ "использование:\n"
-
-#, fuzzy
-#~ msgid ""
-#~ "urpmf version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage: urpmf [options] pattern-expression\n"
-#~ msgstr ""
-#~ "urpmf версия %s\n"
-#~ "%s\n"
-#~ "Это свободное программное обеспечение и может распространяться согласно "
-#~ "условиям GNU GPL.\n"
-#~ "\n"
-#~ "использование: urpmf [параметры] путь-выражение\n"
-
-#, fuzzy
-#~ msgid ""
-#~ "urpmi.recover version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "urpmq версия %s\n"
-#~ "%s\n"
-#~ "Это свободное программное обеспечение и может распространяться согласно "
-#~ "условиям GNU GPL.\n"
-#~ "\n"
-#~ "использование:\n"
-
-#, fuzzy
-#~ msgid ""
-#~ "urpmq version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "urpmq версия %s\n"
-#~ "%s\n"
-#~ "Это свободное программное обеспечение и может распространяться согласно "
-#~ "условиям GNU GPL.\n"
-#~ "\n"
-#~ "использование:\n"
-
-#~ msgid ""
-#~ "Installation failed, some files are missing:\n"
-#~ "%s\n"
-#~ "You may want to update your urpmi database"
-#~ msgstr ""
-#~ "Установка не удалась, отсутствуют некоторые файлы:\n"
-#~ "%s\n"
-#~ "Возможно, необходимо обновить базу данных urpmi"
-
-#, fuzzy
-#~ msgid ""
-#~ "# Here are logs of your DUDF uploads.\n"
-#~ "# Line format is : <date time of generation> <uid>\n"
-#~ "# You can use uids to see the content of your uploads at this url :\n"
-#~ "# %s"
-#~ msgstr ""
-#~ "#Это журнал ваших сообщений DUDF.\n"
-#~ "# Формат строк: <дата время генерации> <uid>\n"
-#~ "# Вы можете использовать uid чтобы увидеть содержимое ваших сообщений по "
-#~ "этому адресу :\n"
-#~ "# http://dudf.forge.mandriva.com/"
-
-#~ msgid "curl is missing, cannot upload DUDF file.\n"
-#~ msgstr "curl не найден, не могу выгрузить файл DUDF.\n"
-
-#~ msgid "Compressing DUDF data... "
-#~ msgstr "Сжатие данных DUDF..."
-
-#~ msgid "NOT OK\n"
-#~ msgstr "НЕ ОК\n"
-
-#~ msgid "OK\n"
-#~ msgstr "OK\n"
-
-#~ msgid "Uploading DUDF data:\n"
-#~ msgstr "Выгружаем данные DUDF:\n"
-
-#~ msgid ""
-#~ "\n"
-#~ "You can see your DUDF report at the following URL :\n"
-#~ "\t"
-#~ msgstr ""
-#~ "\n"
-#~ "Вы можете видеть ваши сообщения DUDF по следующему адресу :\n"
-#~ "\t"
-
-#~ msgid ""
-#~ "You can access a log of your uploads in\n"
-#~ "\t"
-#~ msgstr ""
-#~ "Вы можете получить доступ к журналу ваших отправлений в\n"
-#~ "\t"
-
-#~ msgid ""
-#~ "A problem has been encountered. You can help Mandriva to improve package\n"
-#~ "installation by uploading a DUDF report file.\n"
-#~ "This is a part of the Mancoosi european research project.\n"
-#~ "More at http://www.mancoosi.org\n"
-#~ msgstr ""
-#~ "Была обнаружена проблема. Вы можете помочь Mandriva улучшить установку\n"
-#~ "пакета, переслав файл сообщения DUDF.\n"
-#~ "Это часть европейского исследовательского проекта Mancoosi.\n"
-#~ "Подробнее на http://www.mancoosi.org\n"
-
-#~ msgid "Do you want to upload a DUDF report to Mandriva?"
-#~ msgstr "Вы хотите выгрузить отчет DUDF в Mandriva?"
-
-#~ msgid ""
-#~ "\n"
-#~ "Generating DUDF... "
-#~ msgstr ""
-#~ "\n"
-#~ "Генерация DUDF..."
-
-#~ msgid "Cannot write DUDF file.\n"
-#~ msgstr "Не удаётся записать DUDF-файл\n"
-
-#~ msgid ""
-#~ "  --sources      - give all source packages before downloading (root "
-#~ "only).\n"
-#~ msgstr ""
-#~ "  --sources      - показать все пакеты с исходными кодами перед "
-#~ "загрузкой\n"
-#~ "                   (только для root'a)\n"
