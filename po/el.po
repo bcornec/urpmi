@@ -1,35 +1,29 @@
-# translation of urpmi-el.po to Greek
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
 #
-# Latest versions of po files are at http://www.mandrivalinux.com/l10n/el.php3
-#
-# translation of urpmi-el.po to Greek
-# Greek Traslation of urpmi.
-# Copyright (C) 2001,2003, 2005, 2006 Free Software Foundation, Inc.
-#
-# Thanos Kyritsis <djart@hellug.gr>, 2001.
-#  Νίκος Νύκταρης (Nick Niktaris) <niktarin@yahoo.com>, 2003.
-# Balaskas Euaggelos <ebalaskas@ebalaskas.gr>, 2005.
-# Theophanis Mastakas <mastakas@otenet.gr>, 2006.
-# Glentadakis Dimitrios <dglent@gmail.com>, 2008, 2009.
-# Nikos Papadopoulos <231036448@freemail.gr>, 2008.
-# Dimitrios Glentadakis <dglent@gmail.com>, 2010, 2011, 2012, 2013, 2014.
+# Translators:
+# ebal <ebalaskas@ebalaskas.gr>, 2005
+# Dimitrios Glentadakis <dglent@free.fr>, 2019
+# Dimitrios Glentadakis <dglent@gmail.com>, 2010-2014
+# Glentadakis Dimitrios <dglent@gmail.com>, 2008-2009
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2014
+# nikos_pap <nikos769@yahoo.gr>, 2008
+# Thanos Kyritsis <djart@hellug.gr>, 2001
+# Theophanis Mastakas <mastakas@otenet.gr>, 2006
+#  Νίκος Νύκταρης (Nick Niktaris) <niktarin@yahoo.com>, 2003
 msgid ""
 msgstr ""
-"Project-Id-Version: urpmi-el\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2019-06-26 09:37+0300\n"
-"PO-Revision-Date: 2014-11-20 07:26+0100\n"
+"PO-Revision-Date: 2019-07-03 05:10+0000\n"
 "Last-Translator: Dimitrios Glentadakis <dglent@free.fr>\n"
-"Language-Team: Greek <i18n-el@ml.mageia.org>\n"
+"Language-Team: Greek (http://www.transifex.com/MageiaLinux/mageia/language/"
+"el/)\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
@@ -1102,11 +1096,10 @@ msgstr ""
 "πακέτα"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid "un-ignoring 32bit medium `%s' b/c system is 32-bit EFI"
 msgstr ""
-"συμπερίληψη του μέσου «tainted» `%s' υπάρχουν εγκατεστημένα «b/c tainted» "
-"πακέτα"
+"αναίρεση αγνόησης του μέσου 32δυφίων '%s' το b/c σύστημα είναι EFI 32δυφίων"
 
 #: ../urpm/media.pm:844
 #, c-format
@@ -3287,7 +3280,6 @@ msgstr ""
 "χαρακτήρων\n"
 "                   (κεφαλαία/πεζά).\n"
 
-# ???
 #: ../urpmq:107
 #, c-format
 msgid "  names or rpm files given on command line are queried.\n"
@@ -3359,290 +3351,3 @@ msgstr "Εκτέλεση του Εγκαταστάτη Πακέτων Mageia"
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:2
 msgid "Authentication is required to run Mageia Package Installer"
 msgstr "Απαιτείται πιστοποίηση για την εκτέλεση του Εγκαταστάτη Πακέτων Mageia"
-
-#~ msgid "(suggested)"
-#~ msgstr "(προτεινόμενα)"
-
-#~ msgid "  --suggests     - suggests tags\n"
-#~ msgstr "  --suggests     - αναζήτηση στο πεδίο «Suggests»\n"
-
-#~ msgid "  --suggests     - print suggests.\n"
-#~ msgstr "  --suggests     - εκτύπωση των προτεινόμενων (suggests).\n"
-
-#~ msgid "(%d package, %d MB)"
-#~ msgid_plural "(%d packages, %d MB)"
-#~ msgstr[0] "(%d πακέτο, %d MB)"
-#~ msgstr[1] "(%d πακέτα, %d MB)"
-
-#~ msgid "[repackaging]"
-#~ msgstr "[επαναπακετάρισμα]"
-
-#~ msgid "curl failed: upload canceled\n"
-#~ msgstr "το curl απέτυχε: ακύρωση αποστολής\n"
-
-#~ msgid "  --repackage    - Re-package the files before erasing\n"
-#~ msgstr "  --repackage    - Ξανά-πακετάρισμα των αρχείων πριν την διαγραφή\n"
-
-#~ msgid "  --checkpoint   - set repackaging start now\n"
-#~ msgstr "  --checkpoint   - ορίστε τώρα το σημείο αναφοράς\n"
-
-#~ msgid "  --noclean      - don't clean repackage directory on checkpoint\n"
-#~ msgstr ""
-#~ "  --noclean      - να μην γίνει καθαρισμός του φακέλου αναδημιουργίας "
-#~ "πακέτων\n"
-#~ "κατά την αρχικοποίηση του σημείου αναφοράς\n"
-
-#~ msgid ""
-#~ "  --list         - list transactions since provided date/duration "
-#~ "argument\n"
-#~ msgstr ""
-#~ "  --list         - λίστα συναλλαγών που έγιναν από μια καθορισμένη "
-#~ "ημερομηνία/διάρκεια και μετά\n"
-
-#~ msgid "  --list-all     - list all transactions in rpmdb (long)\n"
-#~ msgstr ""
-#~ "  --list-all     - εμφανίζει την λίστα με όλες τις συναλλαγές της βάσης "
-#~ "RPM.\n"
-
-#~ msgid "  --list-safe    - list transactions since checkpoint\n"
-#~ msgstr ""
-#~ "  --list-safe    - εμφανίζει την λίστα με τις συναλλαγές από το σημείο\n"
-#~ "                    αναφοράς (checkpoint) και μετά\n"
-
-#~ msgid ""
-#~ "  --rollback     - rollback until specified date,\n"
-#~ "                   or rollback the specified number of transactions\n"
-#~ msgstr ""
-#~ "  --rollback     - επαναφορά στην κατάσταση που αντιστοιχεί στην "
-#~ "καθορισμένη ημερομηνία,\n"
-#~ "                   ή υποχώρηση σύμφωνα με τον καθορισμένο αριθμό "
-#~ "συναλλαγών\n"
-
-#~ msgid "  --disable      - turn off repackaging\n"
-#~ msgstr "  --disable      - απενεργοποιεί την αναδημιουργία πακέτων\n"
-
-#~ msgid "Invalid date or duration [%s]\n"
-#~ msgstr "Άκυρη ημερομηνία ή διάρκεια [%s]\n"
-
-#~ msgid "Repackage directory not defined\n"
-#~ msgstr "Ο κατάλογος επαναπακεταρίσματος δεν προσδιορίστηκε\n"
-
-#~ msgid "Can't write to repackage directory [%s]\n"
-#~ msgstr "Αδυναμία εγγραφής στον κατάλογο επαναπακεταρίσματος [%s]\n"
-
-#~ msgid "Cleaning up repackage directory [%s]...\n"
-#~ msgstr "Καθαρισμός του καταλόγου επαναπακεταρίσματος [%s]...\n"
-
-#~ msgid "%d file removed\n"
-#~ msgid_plural "%d files removed\n"
-#~ msgstr[0] "%d αρχείο αφαιρέθηκε\n"
-#~ msgstr[1] "%d αρχεία αφαιρέθηκαν\n"
-
-#~ msgid "Spurious command-line arguments [%s]\n"
-#~ msgstr "Λανθασμένα ορίσματα της γραμμής εντολών [%s]\n"
-
-#~ msgid "You can't specify --checkpoint and --rollback at the same time\n"
-#~ msgstr ""
-#~ "Δεν μπορείς να προσδιορίσεις συγχρόνως το --checkpoint και το --"
-#~ "rollback \n"
-
-#~ msgid "You can't specify --checkpoint and --list at the same time\n"
-#~ msgstr ""
-#~ "Δεν μπορείς να προσδιορίσεις συγχρόνως το --checkpoint και το --list \n"
-
-#~ msgid "You can't specify --rollback and --list at the same time\n"
-#~ msgstr ""
-#~ "Δεν μπορείς να προσδιορίσεις συγχρόνως το --rollback και το --list \n"
-
-#~ msgid "You can't specify --disable along with another option"
-#~ msgstr "Δεν μπορείς να προσδιορίσεις το --disable μαζί με μια άλλη επιλογή"
-
-#~ msgid "No transaction found since %s\n"
-#~ msgstr "Δεν βρέθηκε συναλλαγή από %s\n"
-
-#~ msgid "You must be superuser to do this"
-#~ msgstr "Πρέπει να είστε υπερχρήστης για να  το πράξετε αυτό"
-
-#~ msgid "Writing rpm macros file [%s]...\n"
-#~ msgstr "Εγγραφή αρχείου rpm μακροεντολών [%s]...\n"
-
-#~ msgid "No rollback date found\n"
-#~ msgstr "Δεν βρέθηκε ημερομηνία επαναφοράς\n"
-
-#~ msgid "Rollback until %s...\n"
-#~ msgstr "Υποχώρηση έως %s...\n"
-
-#~ msgid "Disabling repackaging\n"
-#~ msgstr "Απενεργοποίηση του επαναπακεταρίσματος\n"
-
-#~ msgid ""
-#~ "urpme version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "urpme έκδοση %s\n"
-#~ "%s\n"
-#~ "Αυτό είναι ελεύθερο λογισμικό και μπορεί να αναδιανεμηθεί υπό τους όρους "
-#~ "της GNU GPL.\n"
-#~ "\n"
-#~ "χρήση :\n"
-
-#~ msgid ""
-#~ "urpmf version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage: urpmf [options] pattern-expression\n"
-#~ msgstr ""
-#~ " urpmf έκδοση %s\n"
-#~ "%s\n"
-#~ "Αυτό είναι ελεύθερο λογισμικό και μπορεί να αναδιανεμηθεί υπό τους όρους "
-#~ "της GNU GPL.\n"
-#~ "\n"
-#~ "χρήση : urpmf [επιλογές] ακολουθία-έκφραση ( urpmf [options] pattern-"
-#~ "expression )\n"
-
-#~ msgid ""
-#~ "urpmi.recover version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "Έκδοση urpmi.recover %s\n"
-#~ "%s\n"
-#~ "Αυτό είναι ελεύθερο λογισμικό και μπορεί να διανεμηθεί υπό τους όρους της "
-#~ "GNU GPL.\n"
-#~ "\n"
-#~ "χρήση:\n"
-
-#~ msgid ""
-#~ "urpmq version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "Έκδοση urpmq %s\n"
-#~ "%s\n"
-#~ "Αυτό είναι ελεύθερο λογισμικό και μπορεί να διανεμηθεί υπό τους όρους της "
-#~ "GNU GPL.\n"
-#~ "\n"
-#~ "χρήση:\n"
-
-#~ msgid ""
-#~ "Installation failed, some files are missing:\n"
-#~ "%s\n"
-#~ "You may want to update your urpmi database"
-#~ msgstr ""
-#~ "Η εγκατάσταση απέτυχε, ορισμένα αρχεία λείπουν:\n"
-#~ "%s\n"
-#~ "Θα πρέπει να ενημερώσετε τη βάση δεδομένων urpmi"
-
-#~ msgid ""
-#~ "# Here are logs of your DUDF uploads.\n"
-#~ "# Line format is : <date time of generation> <uid>\n"
-#~ "# You can use uids to see the content of your uploads at this url :\n"
-#~ "# %s"
-#~ msgstr ""
-#~ "# Εδώ είναι οι καταγραφές των αποστολών σας DUDF.\n"
-#~ "# Η μορφή της σειράς είναι : <ημερομηνία ώρα δημιουργίας> <uid>\n"
-#~ "# Μπορείτε να κάνετε χρήση uid για να δείτε το περιεχόμενο των αποστολών "
-#~ "σας σε αυτή τη διεύθυνση :\n"
-#~ "# %s"
-
-#~ msgid "curl is missing, cannot upload DUDF file.\n"
-#~ msgstr "λείπει το curl, αδύνατη η αποστολή του αρχείου DUDF.\n"
-
-#~ msgid "Compressing DUDF data... "
-#~ msgstr "Συμπίεση δεδομένων DUDF..."
-
-#~ msgid "NOT OK\n"
-#~ msgstr "ΔΕΝ ΕΙΝΑΙ ΕΝΤΑΞΕΙ\n"
-
-#~ msgid "OK\n"
-#~ msgstr "ΕΝΤΑΞΕΙ\n"
-
-#~ msgid "Uploading DUDF data:\n"
-#~ msgstr "Αποστολή δεδομένων DUDF:\n"
-
-#~ msgid ""
-#~ "\n"
-#~ "You can see your DUDF report at the following URL :\n"
-#~ "\t"
-#~ msgstr ""
-#~ "\n"
-#~ "Μπορείτε να δείτε την αναφορά DUDF στην παρακάτω διεύθυνση :\n"
-#~ "\t"
-
-#~ msgid ""
-#~ "You can access a log of your uploads in\n"
-#~ "\t"
-#~ msgstr ""
-#~ "Μπορείτε να έχετε πρόσβαση σε μια καταγραφή των αποστολών σας στο\n"
-#~ "\t"
-
-#~ msgid ""
-#~ "A problem has been encountered. You can help Mandriva to improve package\n"
-#~ "installation by uploading a DUDF report file.\n"
-#~ "This is a part of the Mancoosi european research project.\n"
-#~ "More at http://www.mancoosi.org\n"
-#~ msgstr ""
-#~ "Παρουσιάστηκε ένα πρόβλημα. Μπορείτε να συμβάλετε ώστε η Mandriva να "
-#~ "βελτιώσει\n"
-#~ "την εγκατάσταση πακέτων, στέλνοντας ένα αρχείο αναφοράς DUDF.\n"
-#~ "Αυτό είναι ένα μέρος του ευρωπαϊκού έργου έρευνας Mancoosi.\n"
-#~ "Περισσότερα στο http://www.mancoosi.org\n"
-
-#~ msgid "Do you want to upload a DUDF report to Mandriva?"
-#~ msgstr "Επιθυμείτε να στείλετε στη Mandriva μια αναφορά DUDF;"
-
-#~ msgid ""
-#~ "\n"
-#~ "Generating DUDF... "
-#~ msgstr ""
-#~ "\n"
-#~ "Δημιουργία DUDF..."
-
-#~ msgid "Cannot write DUDF file.\n"
-#~ msgstr "Αδυναμία εγγραφής του αρχείου DUDF.\n"
-
-#~ msgid ""
-#~ "  --sources      - give all source packages before downloading (root "
-#~ "only).\n"
-#~ msgstr ""
-#~ "  --sources      - δίνει όλα τα πηγαία πακέτα πριν τη λήψη (μόνο root).\n"
-
-#~ msgid ""
-#~ "A problem has been encountered. You can help Mandriva to improve packages "
-#~ "installation \n"
-#~ msgstr ""
-#~ "Παρουσιάστηκε ένα πρόβλημα. Μπορείτε να βοηθήσετε την Mandriva στην "
-#~ "βελτίωση της εγκατάστασης πακέτων \n"
-
-#~ msgid ""
-#~ "by uploading us a DUDF report file. This is a part of the Mancoosi "
-#~ "european research project.\n"
-#~ msgstr ""
-#~ "στέλνοντας ένα αρχείο αναφοράς DUDF. Είναι μέρος του Ευρωπαϊκού έργου "
-#~ "έρευνας Mancoosi.\n"
-
-#~ msgid "More at http://www.mancoosi.org\n"
-#~ msgstr "Περισσότερα στο http://www.mancoosi.org\n"
-
-#~ msgid "due to already installed %s"
-#~ msgstr "επειδή το %s είναι ήδη εγκατεστημένο"
-
-#~ msgid ""
-#~ "  --from         - use specified url for list of mirrors, the default is\n"
-#~ "                   %s\n"
-#~ msgstr ""
-#~ "  --from         - χρήση του καθορισμένου url για την λίστα των mirrors, "
-#~ "η προεπιλογή είναι\n"
-#~ "                   %s\n"
