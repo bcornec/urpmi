@@ -763,26 +763,27 @@ sub _auto_update_media {
 
 =item needed_extra_media($urpm)
 
-Return 2 booleans telling whether nonfree & tainted packages are installed respectively.
+Return 3 booleans telling whether nonfree & tainted & i?86 packages are installed respectively.
 
 =cut
 
 sub needed_extra_media {
     my ($urpm) = @_;
     my $db = urpm::db_open_or_die_($urpm);
-    my ($nonfree, $tainted);
+    my ($nonfree, $tainted, $add32bit);
     $db->traverse(sub {
 	my ($pkg) = @_;
 	return if $nonfree && $tainted;
 	my $rel = $pkg->release;
 	$nonfree ||= $rel =~ /nonfree$/;
 	$tainted ||= $rel =~ /tainted$/;
+	$add32bit ||= $pkg->arch =~ /i.86/;
     });
-    ($nonfree, $tainted);
+    ($nonfree, $tainted, $add32bit);
 }
 
 sub is_media_to_add_by_default {
-    my ($urpm, $distribconf, $medium, $product_id, $nonfree, $tainted) = @_;
+    my ($urpm, $distribconf, $medium, $product_id, $nonfree, $tainted, $add32bit) = @_;
     my $add_by_default = !$distribconf->getvalue($medium, 'noauto');
     my @media_types = split(':', $distribconf->getvalue($medium, 'media_type'));
     return $add_by_default if !@media_types;
@@ -797,23 +798,22 @@ sub is_media_to_add_by_default {
 	    my $medium_name = $distribconf->getvalue($medium, 'name') || '';
             # Don't enable 32-bit media by default on 64-bit systems (mga#24376). '32bit' only appears
             # in the medium name in the 64-bit media info, so we can simply filter on that.
-	    if ($medium_name =~ /Nonfree/ && $medium_name !~ /32bit/ && $nonfree) {
+	    if ($medium_name =~ /Nonfree/ && ($add32bit || $medium_name !~ /32bit/) && $nonfree) {
 		$add_by_default = 1;
 		$urpm->{log}(N("un-ignoring non-free medium `%s' b/c nonfree packages are installed", $medium_name));
 	    }
-	    if ($medium_name =~ /Tainted/ && $medium_name !~ /32bit/ && $tainted) {
+	    if ($medium_name =~ /Tainted/ && ($add32bit || $medium_name !~ /32bit/) && $tainted) {
 		$add_by_default = 1;
 		$urpm->{log}(N("un-ignoring tainted medium `%s' b/c tainted packages are installed", $medium_name));
 	    }
 	}
     }
-    if ($distribconf->getvalue('media_info', 'arch') eq 'x86_64' && uefi_type() eq 'ia32') {
+    if ($add32bit) {
 	if (!$add_by_default && !$non_regular_medium) {
 	    my $medium_name = $distribconf->getvalue($medium, 'name') || '';
-            # Enable 32-bit media by default to allow 32-bit grub2-efi to be installed/updated.
 	    if ($medium_name =~ /Core/ && $medium_name =~ /32bit/) {
 		$add_by_default = 1;
-		$urpm->{log}(N("un-ignoring 32bit medium `%s' b/c system is 32-bit EFI", $medium_name));
+		$urpm->{log}(N("un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is 32-bit EFI", $medium_name));
 	    }
 	}
     }
@@ -1162,7 +1162,19 @@ sub add_distrib_media {
 
     require urpm::mirrors;
     my $product_id = urpm::mirrors::parse_LDAP_namespace_structure(cat_('/etc/product.id'));
-    my ($nonfree, $tainted) = needed_extra_media($urpm);
+    my ($nonfree, $tainted, $add32bit) = needed_extra_media($urpm);
+
+    # On 32-bit UEFI systems, enable 32-bit media to allow 32-bit grub2-efi to be installed/updated.
+    $add32bit ||= $distribconf->getvalue('media_info', 'arch') eq 'x86_64' && uefi_type() eq 'ia32';
+
+    if (!$add32bit) {
+        # If the 'Core 32bit Release' medium is automatically enabled, allow the 32bit nonfree
+        # and tainted media to be enabled as well (mga#24438).
+        foreach my $medium ($distribconf->listmedia) {
+            next if $distribconf->getvalue($medium, 'name') ne 'Core 32bit Release';
+            $add32bit ||= !$distribconf->getvalue($medium, 'noauto');
+        }
+    }
 
     foreach my $media ($distribconf->listmedia) {
         my $media_name = $distribconf->getvalue($media, 'name') || '';
@@ -1180,7 +1192,7 @@ sub add_distrib_media {
 	    $is_update_media or next;
 	}
 
-        my $add_by_default = is_media_to_add_by_default($urpm, $distribconf, $media, $product_id, $nonfree, $tainted);
+        my $add_by_default = is_media_to_add_by_default($urpm, $distribconf, $media, $product_id, $nonfree, $tainted, $add32bit);
 
 	my $ignore;
         if ($options{ask_media}) {
