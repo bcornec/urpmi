@@ -1,3 +1,8 @@
+Version 8.119 - 19 October 2019
+
+- when adding distrib media, enable 32-bit media if needed (mga#24438)
+- translations updates
+
 Version 8.118 - 22 June 2019
 
 - ensure downloaded files are world-readable (mga#24636)
