@@ -773,7 +773,7 @@ sub needed_extra_media {
     my ($nonfree, $tainted, $add32bit);
     $db->traverse(sub {
 	my ($pkg) = @_;
-	return if $nonfree && $tainted;
+	return if $nonfree && $tainted && $add32bit;
 	my $rel = $pkg->release;
 	$nonfree ||= $rel =~ /nonfree$/;
 	$tainted ||= $rel =~ /tainted$/;

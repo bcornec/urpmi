@@ -1,3 +1,5 @@
+- fix test for whether any 32-bit packages are installed
+
 Version 8.119 - 19 October 2019
 
 - when adding distrib media, enable 32-bit media if needed (mga#24438)
