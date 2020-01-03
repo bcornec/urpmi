@@ -187,6 +187,16 @@ WriteMakefile(
     ( $ExtUtils::MakeMaker::VERSION >= 6.46 ? (
         'META_MERGE' => {
 	  "meta-spec" => { version => 2 },
+            provides => {
+		'urpm' => {
+		    file => 'urpm.pm',
+		    version => 0, # workaround RT#127881
+		},
+		'urpmi' => {
+		    file => 'urpmi.pm',
+		    version => 'v8.120',
+		},
+            },
             resources => {
                 repository  => {
 		    type => 'git',
