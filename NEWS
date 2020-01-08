@@ -7,6 +7,7 @@
 - cpan_testers:
   o actually needs perl >= 5.10 for //= operator
   o fix a test with rpm < 4.13.0
+  o fix building rpms on FreeBSD
   o fix failing scriptlets test with rpm < 4.13.0
   o fix looking for non existing libnss.so on FreeBSD
   o fix testsuite errors on CentOs (NVR vs NVRA)
