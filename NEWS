@@ -8,6 +8,7 @@
   o actually needs perl >= 5.10 for //= operator
   o fix a test with rpm < 4.13.0
   o fix failing scriptlets test with rpm < 4.13.0
+  o fix looking for non existing libnss.so on FreeBSD
   o fix testsuite errors on CentOs (NVR vs NVRA)
   o include /usr/local/bin in PATH
   o require a newer enough Test::More & rpmtools
