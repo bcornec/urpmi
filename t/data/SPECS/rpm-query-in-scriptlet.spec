@@ -12,12 +12,16 @@ x
 
 %install
 rm -rf %buildroot
+# Fix a testsuite warning ("warning: %post(rpm-query-in-scriptlet-1-1.x86_64) scriptlet failed" b/c of: "error: Failed to initialize NSS library")
 echo %{_libdir}/libnss3.so > list
+
+# Find out needed deps:
 for i in sh rpm; do
    bin=`which $i`
    echo $bin >> list
    ldd $bin | sed -e 's/^[ \t]*//' -e 's/.* => //' -e 's/ .*//' >> list
 done
+# Install the wanted tools and their deps:
 grep '/' list | (cd / ; cpio -pumd --dereference %buildroot)
 
 # prelinked libraries/binaries cause rpm to abort installation on
