@@ -140,7 +140,7 @@ sub system_should_fail {
 
 sub check_installed_fullnames {
     my (@names) = @_;
-    is(`rpm -qa --root $::pwd/root | sort`, join('', map { "$_\n" } sort(@names)));
+    is(`rpm -qa --qf '%{NVR}\\n' --root $::pwd/root | sort`, join('', map { "$_\n" } sort(@names)));
 }
 
 sub check_installed_names {
