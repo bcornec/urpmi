@@ -1,8 +1,11 @@
 package helper;
 
 use Test::More;
+use urpm::select;
+use urpm::util;
 use base 'Exporter';
 our @EXPORT = qw(need_root_and_prepare need_downloader
+		 are_weak_deps_supported
 		 start_httpd httpd_port
 		 urpmi_addmedia urpmi_removemedia urpmi_update
 		 urpm_cmd run_urpm_cmd urpmi_cmd urpmi urpmi_partial test_urpmi_fail urpme
@@ -173,6 +176,9 @@ sub check_installed_and_urpme {
     check_nothing_installed();
 }
 
+sub are_weak_deps_supported() {
+    return urpm::select::_rpm_version() gt 4.12.0
+}
 
 END { 
     $using_root and system('rm -rf root');
