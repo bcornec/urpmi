@@ -2,6 +2,8 @@
   o add support for --reinstall
 - urpmq:
   o display epoch when using -i (mga#25735)
+- library:
+  o add dummy urpmi.pm package for CPAN & proper indexation (RT#127881)
 - cpan_testers:
   o actually needs perl >= 5.10 for //= operator
   o fix failing scriptlets test with rpm < 4.13.0
