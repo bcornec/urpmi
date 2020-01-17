@@ -1,3 +1,6 @@
+# For CPAN testers that run FreeBSD:
+%global __brp_strip_static_archive %nil
+
 Summary: arch_to_noarch
 Name: arch_to_noarch
 Version: 4
