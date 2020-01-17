@@ -16,6 +16,7 @@
   o skip weak deps test on CentOS 7 (unsupported)
   o testsuite needs rpmtools
   o workaround disabled nobody account (eg on CentOS7)
+  o workaround 'nogroup' not existing on CentOS
 
 Version 8.120 - 21 October 2019
 
