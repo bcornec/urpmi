@@ -160,7 +160,7 @@ WriteMakefile(
 	'Expect'		=> '0',
 	'File::Slurp'		=> '0',
 	'Net::Server'		=> '0',
-	'rpmtools'		=> '7.11',
+	'rpmtools'		=> '7.12',
 	'Test::More'		=> '1.302',
 	'Test::Pod'		=> '0',
 	'Test::Pod::Coverage'	=> '0',
