@@ -6,6 +6,7 @@
   o add dummy urpmi.pm package for CPAN & proper indexation (RT#127881)
 - cpan_testers:
   o actually needs perl >= 5.10 for //= operator
+  o fix a test with rpm < 4.13.0
   o fix failing scriptlets test with rpm < 4.13.0
   o fix testsuite errors on CentOs (NVR vs NVRA)
   o include /usr/local/bin in PATH
