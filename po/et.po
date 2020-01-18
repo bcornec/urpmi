@@ -3,13 +3,13 @@
 #
 # Translators:
 # Marek Laane <qiilaq69@gmail.com>, 2015
-# Marek Laane <qiilaq69@gmail.com>, 2019
+# Marek Laane <qiilaq69@gmail.com>, 2019-2020
 # Riho Kurg <rx@linux.ee>, 1999
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2019-06-26 14:23+0000\n"
+"PO-Revision-Date: 2020-01-18 08:27+0000\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/et/)\n"
@@ -1066,11 +1066,13 @@ msgstr ""
 "paigaldamise tõttu"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "32-bitise andmekandja`%s' mitteeiramine, sest süsteem on 32-bitine EFI"
+msgstr ""
+"32-bitise andmekandja`%s' mitteeiramine, sest paigaldatud on 32-bitist "
+"tarkvara või on süsteem 32-bitine EFI"
 
 #: ../urpm/media.pm:844
 #, c-format
