@@ -3,7 +3,7 @@
 #
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2018
-# psyca, 2014-2017,2019
+# psyca, 2014-2017,2019-2020
 # Marc Lattemann, 2014
 # Oliver Burger <obgr_seneca@mageia.org>, 2013
 # Sigrid Carrera <sigrid.carrera@googlemail.com>, 2013
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2019-06-26 19:09+0000\n"
+"PO-Revision-Date: 2020-01-18 13:04+0000\n"
 "Last-Translator: psyca\n"
 "Language-Team: German (http://www.transifex.com/MageiaLinux/mageia/language/"
 "de/)\n"
@@ -1089,12 +1089,13 @@ msgstr ""
 "tainted Quelle wird nicht ignoriert `%s', da unfreie Pakete installiert sind"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
 msgstr ""
-"32-Bit Quelle wird nicht ignoriert `%s', da das System ein 32-Bit EFI ist"
+"32-Bit Quelle wird nicht ignoriert `%s', da 32-Bit Pakete installiert sind "
+"oder das System ein 32-Bit EFI ist"
 
 #: ../urpm/media.pm:844
 #, c-format
