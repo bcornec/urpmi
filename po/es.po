@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Translators:
-# Fito JB, 2014
+# Adolfo Jayme-Barrientos, 2014
 # Andre Paulo Machado <andre.panm@gmail.com>, 2009
 # Miguel, 2014-2015
 # Diego Bello <dbello@gmail.com>, 2010
@@ -12,12 +12,12 @@
 # José Alberto Valle Cid <mdktrans@blogdrake.net>, 2010
 # Jose Manuel López <inactive+rocholc@transifex.com>, 2014
 # José Manuel Pérez <jmprodu@hotmail.com>, 2005
-# Miguel, 2019
+# Miguel, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2019-06-27 10:59+0000\n"
+"PO-Revision-Date: 2020-01-20 09:27+0000\n"
 "Last-Translator: Miguel\n"
 "Language-Team: Spanish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "es/)\n"
@@ -1080,12 +1080,13 @@ msgstr ""
 "instalados "
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
 msgstr ""
-"reusando el repositorio tainted `%s' paquetes nonfree b/c están instalados "
+"dejano de ignorar repositorio de 32 bits `%s' porque hay paquetes de 32 "
+"instalados o porque el sistema es EFI de 32 bits."
 
 #: ../urpm/media.pm:844
 #, c-format
