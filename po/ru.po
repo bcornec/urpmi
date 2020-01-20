@@ -6,7 +6,7 @@
 # Alexander Kazancev <kazancas@mandriva.ru>, 2008-2009
 # Aleksey Smirnov <smi@logic.ru>, 2000
 # Alexander Kazancev <kazancas@gmail.com>, 2008
-# AlexL <loginov.alex.valer@gmail.com>, 2019
+# AlexL <loginov.alex.valer@gmail.com>, 2019-2020
 # Alice Lafox <alice@lafox.com.ua>, 2003
 # Alice Lafox <alice@lafox.net>, 2004-2005
 # Анатолий Валерианович <ffox909@mail.ru>, 2014
@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2019-06-26 23:11+0000\n"
+"PO-Revision-Date: 2020-01-19 23:23+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/MageiaLinux/mageia/language/"
 "ru/)\n"
@@ -1085,13 +1085,13 @@ msgstr ""
 "сомнительными условиями лицензирования"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
 msgstr ""
-"отмена игнорирования 32-битного источника пакетов `%s', поскольку система "
-"является 32-битной системой EFI"
+"отменяем игнорирование 32-битного источника пакетов «%s», поскольку "
+"устанавливаются 32-битные пакеты или система является 32-битной системой EFI"
 
 #: ../urpm/media.pm:844
 #, c-format
