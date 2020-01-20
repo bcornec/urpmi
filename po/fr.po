@@ -17,7 +17,7 @@
 # Patrick Legault <wolf@linux.ca>, 2000
 # Pixel <pixel@mandrakesoft.com>, 1999
 # Rémi Verschelde <akien@mageia.org>, 2012-2014
-# stroibe974 <sebsweb@gmail.com>, 2019
+# stroibe974 <sebsweb@gmail.com>, 2019-2020
 # Teletchéa <steletch@free.fr>, 2005
 # Thierry Vignaud <tvignaud@mandrakesot.com>, 2000-2004,2012-2013
 # Yann Ciret <mageia@zamiz.net>, 2013
@@ -26,8 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2019-06-30 17:34+0000\n"
-"Last-Translator: Yves Brungard\n"
+"PO-Revision-Date: 2020-01-20 06:22+0000\n"
+"Last-Translator: stroibe974 <sebsweb@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/MageiaLinux/mageia/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -1099,11 +1099,13 @@ msgstr ""
 "installés"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "réactivation des dépôts `%s' 32 bits car le système a un EFI 32 bits"
+msgstr ""
+"prise en compte de médias 32-bits  `%s' car des paquetages 32-bits sont "
+"installés ou le système est de type EFI 32-bits"
 
 #: ../urpm/media.pm:844
 #, c-format
