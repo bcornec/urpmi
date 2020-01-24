@@ -3,7 +3,7 @@
 #
 # Translators:
 # Filip Komar <filip.komar@guest.arnes.si>, 2012-2014,2017
-# Filip Komar <filip.komar@guest.arnes.si>, 2019
+# Filip Komar <filip.komar@guest.arnes.si>, 2019-2020
 # Gregor Pirnaver <gregor.pirnaver@mandrakeprinas.org>, 2004
 # Gregor Pirnaver <gregor.pirnaver@sdm-si.org>, 2005
 # Jaka Kranjc <jakakranjc@email.si>, 2005-2006
@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2019-06-26 09:06+0000\n"
+"PO-Revision-Date: 2020-01-23 23:17+0000\n"
 "Last-Translator: Filip Komar <filip.komar@guest.arnes.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/sl/)\n"
@@ -1078,11 +1078,13 @@ msgstr ""
 "tainted »%s«, saj je nekaj takih nameščenih"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "omogočanje 32-bitnega vira »%s«, saj je sistem 32-bitni EFI"
+msgstr ""
+"omogočanje 32-bitnega vira »%s«, saj so nameščeni 32-bitni paketi ali pa je "
+"sistem 32-bitni EFI"
 
 #: ../urpm/media.pm:844
 #, c-format
