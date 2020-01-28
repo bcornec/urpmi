@@ -3,14 +3,14 @@
 #
 # Translators:
 # Francesc Pinyol Margalef, 2012-2014
-# Davidmp <medipas@gmail.com>, 2015-2019
+# Davidmp <medipas@gmail.com>, 2015-2020
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017-2018
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2019-06-26 15:15+0000\n"
+"PO-Revision-Date: 2020-01-27 15:21+0000\n"
 "Last-Translator: Davidmp <medipas@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/MageiaLinux/mageia/language/"
 "ca/)\n"
@@ -1081,12 +1081,13 @@ msgstr ""
 "no s'ignora el mitjà tainted \"%s\" perquè hi ha paquets tainted instal·lats"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
 msgstr ""
-"no s'ignora el mitjà de 32 bits \"%s\" perquè és un sistema EFI de 32 bits"
+"no s'ignora el mitjà de 32 bits \"%s\" perquè hi ha paquets de 32 bits "
+"instal·lats o és un sistema EFI de 32 bits"
 
 #: ../urpm/media.pm:844
 #, c-format
