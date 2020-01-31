@@ -4,13 +4,13 @@
 # Translators:
 # Toma Jankovic <tomaja@net.yu>, 2003
 # Toma Jankovic <webmaster@mandrake.co.yu>, 2004
-# tomaja <toma.jankovic@gmail.com>, 2019
+# tomaja <toma.jankovic@gmail.com>, 2019-2020
 # Tomislav Jankovic <tomaja@net.yu>, 2000,2002
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2019-07-02 13:11+0000\n"
+"PO-Revision-Date: 2020-01-31 14:19+0000\n"
 "Last-Translator: tomaja <toma.jankovic@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/MageiaLinux/mageia/language/"
 "sr/)\n"
@@ -1069,11 +1069,13 @@ msgstr ""
 "не ингоришем непоуздани медиј `%s' b/c непоуздани пакети се инсталирају"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "не игноишем 32битни медиј `%s' b/c систем је 32-битни EFI"
+msgstr ""
+"не игноишем 32битни медиј `%s' b/c 32-битни пакети су инсталирани или је "
+"систем 32-битни EFI"
 
 #: ../urpm/media.pm:844
 #, c-format
