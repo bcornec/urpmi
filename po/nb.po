@@ -4,7 +4,7 @@
 # Translators:
 # Andreas Bergstrøm <abergstr@halden.net>, 2001
 # Eskild Hustvedt <zerodogg@skolelinux.no>, 2005
-# Karl Morten Ramberg <karl.m.ramberg@gmail.com>, 2017-2018
+# Karl Morten Ramberg <karl.m.ramberg@gmail.com>, 2017-2020
 # Olav Dahlum <odahlum@gmail.com>, 2009-2010
 # Per Øyvind Karlsen <peroyvind@linux-mandrake.com>, 2004-2005
 # Per Øyvind Karlsen <peroyvind@mandriva.org>, 2007
@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2018-02-14 21:54+0000\n"
+"PO-Revision-Date: 2020-02-01 19:17+0000\n"
 "Last-Translator: Karl Morten Ramberg <karl.m.ramberg@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/MageiaLinux/mageia/"
 "language/nb/)\n"
@@ -1067,11 +1067,13 @@ msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
 msgstr "bruk \"smittede\" media %s'b/c smittede pakker er installert"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "bruk \"smittede\" media %s'b/c smittede pakker er installert"
+msgstr ""
+"opphever ignorering av 32bit medium `%s' b/c 32-bit pakker installeres elelr "
+"systemet er 32-bit EFI"
 
 #: ../urpm/media.pm:844
 #, c-format
