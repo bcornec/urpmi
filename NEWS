@@ -1,3 +1,5 @@
+- urpmq:
+  o display epoch when using -i (mga#25735)
 - cpan_testers:
   o actually needs perl >= 5.10 for //= operator
   o fix failing scriptlets test with rpm < 4.13.0
