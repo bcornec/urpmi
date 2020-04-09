@@ -166,6 +166,14 @@ sub content_type {
   return "Content-type: $type\r\n";
 }
 
+sub fatal_hook  {
+  my ($self, $msg, $pkg, $file, $number, ) = @_;
+  # error message, the package, file, and line number.
+  print $self->status($number, $msg), "\r\n";
+  warn "Error - msg='$msg', pkg='$pkg', file='$file', nb='$number'\n";
+  return;
+}
+
 sub error{
   my ($self, $number, $msg) = @_;
   print $self->status($number, $msg), "\r\n";

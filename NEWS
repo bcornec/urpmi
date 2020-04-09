@@ -1,3 +1,6 @@
+- cpan_testers:
+  o check that web server has actually started
+
 Version 8.121 - 8 April 2020
 
 - urpmi:

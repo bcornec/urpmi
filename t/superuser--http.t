@@ -12,6 +12,8 @@ need_root_and_prepare();
 need_downloader();
 
 my $url = start_httpd();
+sleep(1); # give time to server to start
+is(`cat tmp/error.log`, '', 'server error logs are empty');
 
 my $name = 'various';
 
