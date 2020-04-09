@@ -37,7 +37,7 @@ sub test_urpmq {
     my @l = run_urpm_cmd("urpmq $para --sources $name");
     foreach my $dir (@wanted) {
 	my $found = shift @l;
-	is(dirname($found), $dir);
+	is(dirname($found), $dir, "directory $dir found");
     }
 }
 
@@ -49,7 +49,7 @@ sub test_urpmi {
     $s =~ s/^SECURITY: NOT checking package.*//m;
 
     ok($s =~ m!^installing $name\S* from $wanted$!m, "$wanted in <<'$s'>>");
-    isnt($s =~ m!\Q$bad/!, "$bad not in $s");
+    isnt($s =~ m!\Q$bad/!, "$bad not in $s", "$bad not in output");
 
     urpme($name);
 }

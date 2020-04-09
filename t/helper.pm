@@ -25,7 +25,7 @@ sub need_root_and_prepare() {
     -d 'media' or die "02create_pkgs.t not done\n";
 
     system('rm -rf root');
-    isnt(-d 'root', "test root dir can not be removed $!");
+    isnt(-d 'root', "test root dir can not be removed $!", "creating chroot");
     system('mkdir -p root/etc/rpm');
     system('echo "%_pkgverify_level none" >root/etc/rpm/macros');
     $using_root = 1;
@@ -117,7 +117,7 @@ sub urpmi_cfg() {
 sub set_urpmi_cfg_global_options {
     my ($options) = @_;
     require_ok('urpm::cfg');
-    ok(my $config = urpm::cfg::load_config(urpmi_cfg()));
+    ok(my $config = urpm::cfg::load_config(urpmi_cfg()), "loading urpmi config");
     $config->{global} = $options;
     ok(urpm::cfg::dump_config(urpmi_cfg(), $config), 'set_urpmi_cfg_global_options');
 }
@@ -143,16 +143,16 @@ sub system_should_fail {
 
 sub check_installed_fullnames {
     my (@names) = @_;
-    is(`rpm -qa --qf '%{NVR}\\n' --root $::pwd/root | sort`, join('', map { "$_\n" } sort(@names)));
+    is(`rpm -qa --qf '%{NVR}\\n' --root $::pwd/root | sort`, join('', map { "$_\n" } sort(@names)), 'pkgs are installed (fullnames)');
 }
 
 sub check_installed_names {
     my (@names) = @_;
-    is(`rpm -qa --qf '%{name}\\n' --root $::pwd/root | sort`, join('', map { "$_\n" } sort(@names)));
+    is(`rpm -qa --qf '%{name}\\n' --root $::pwd/root | sort`, join('', map { "$_\n" } sort(@names)), 'pkgs are installed (fullnames)');
 }
 
 sub check_nothing_installed() {
-    is(`rpm -qa --root $::pwd/root`, '');    
+    is(`rpm -qa --root $::pwd/root`, '', 'nothing is installed');
 }
 
 sub check_installed_and_remove {
