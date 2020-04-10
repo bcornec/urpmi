@@ -1,3 +1,5 @@
+Version 8.122 - 28 April 2020
+
 - cpan_testers:
   o adapt to a world where gcc is no more the apex predator
     (aka works out of the box when there's clang but not gcc)
