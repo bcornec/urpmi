@@ -45,8 +45,10 @@ sub test_urpmi {
     my ($para, $wanted, $bad) = @_;
     my $s = run_urpm_cmd("urpmi $para $name");
     $s =~ s/^Preparing.*//sm;
+    $s =~ s/^\s+$//sm;
+    $s =~ s/^SECURITY: NOT checking package.*//m;
 
-    ok($s =~ m!^installing $name\S* from $wanted$!m, "$wanted in $s");
+    ok($s =~ m!^installing $name\S* from $wanted$!m, "$wanted in <<'$s'>>");
     isnt($s =~ m!\Q$bad/!, "$bad not in $s");
 
     urpme($name);
