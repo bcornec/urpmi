@@ -1,4 +1,5 @@
 - cpan_testers:
+  o check & report where genhdlist2 is
   o check that web server has actually started
   o describe more tests to help pinpoint regressions
 
