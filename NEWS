@@ -2,6 +2,7 @@
   o check & report where genhdlist2 is
   o check that web server has actually started
   o describe more tests to help pinpoint regressions
+  o perform some file conflict tests only on Mageia
 
 Version 8.121 - 8 April 2020
 
