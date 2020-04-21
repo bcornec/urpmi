@@ -18,6 +18,12 @@ our @EXPORT = qw(need_root_and_prepare need_downloader
 sub set_path() {
     # help CPAN testers who installed genhdlist2 using cpan but do not have /usr/local/bin in their PATH:
     $ENV{PATH} .= ":/usr/local/bin";
+
+    # help when CPAN testers have not genhdlist2 installed but do have built rpmtools:
+    $ENV{PATH} .= join(':', uniq(map {
+	my $blib_script = dirname($_) . "/script";
+	-d $blib_script ? $blib_script : ();
+    } split(':', $ENV{PERL5LIB})));
 }
 
 my $using_root;
