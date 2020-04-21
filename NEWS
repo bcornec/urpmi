@@ -6,6 +6,7 @@
   o fix test with rpm < 4.13 on CentOS7
   o perform some file conflict tests only on Mageia
   o try harder to find genhdlist2 in uninstalled CPAN modules
+  o work without glibc-static-devel
 - testsuite:
   o describe it more
   o disable fsync/fdatasync while running tests
