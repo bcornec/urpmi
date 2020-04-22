@@ -11,6 +11,8 @@ BuildRequires: gcc
 
 %prep
 %setup -c -T
+# This is a simple static "shell" for scriptlets.
+# Thus it must be w/o deps (static):
 cat <<EOF > a.c 
 #include <stdio.h>
 int main(int argc, char **argv) { 
