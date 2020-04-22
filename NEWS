@@ -8,6 +8,7 @@
   o try harder to find genhdlist2 in uninstalled CPAN modules
   o work without glibc-static-devel
 - testsuite:
+  o add more extensive tests
   o describe it more
   o disable fsync/fdatasync while running tests
 
