@@ -1,6 +1,7 @@
 package helper;
 
 use Test::More;
+use Config;
 use urpm::select;
 use urpm::util;
 use base 'Exporter';
@@ -17,7 +18,7 @@ our @EXPORT = qw(need_root_and_prepare need_downloader
 
 sub set_path() {
     # help CPAN testers who installed genhdlist2 using cpan but do not have /usr/local/bin in their PATH:
-    $ENV{PATH} .= ":/usr/local/bin";
+    $ENV{PATH} .= ":/usr/local/bin:$Config{bin}";
 
     # help when CPAN testers have not genhdlist2 installed but do have built rpmtools:
     $ENV{PATH} .= join(':', uniq(map {
