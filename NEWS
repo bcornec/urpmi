@@ -7,6 +7,7 @@
   o perform some file conflict tests only on Mageia
   o try harder to find genhdlist2 in uninstalled CPAN modules
 - testsuite:
+  o describe it more
   o disable fsync/fdatasync while running tests
 
 Version 8.121 - 8 April 2020
