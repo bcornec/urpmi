@@ -4,6 +4,7 @@
   o describe more tests to help pinpoint regressions
   o do not fail test when libnss.so is not found in Debian 9 or FreeBSD
   o fix test with rpm < 4.13 on CentOS7
+  o make sure genhdlist2 works
   o perform some file conflict tests only on Mageia
   o try harder to find genhdlist2 in uninstalled CPAN modules
   o work without glibc-static-devel

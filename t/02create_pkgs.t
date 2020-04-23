@@ -19,6 +19,13 @@ my $whereis_genhdlist2 = qx(whereis -b genhdlist2);
 $whereis_genhdlist2 =~ s/^genhdlist2:\s+//;
 ok("whereis genhdlist2", "genhdlist2 emplacement=$whereis_genhdlist2");
 
+# check that genhdlist2 actually works:
+my $dir = "genhdlist2-test";
+mkdir($dir);
+my $out = `genhdlist2 $dir 2>&1`;
+chomp($out);
+is($out, "no *.rpm found in $dir (use --allow-empty-media?)", "genhdlist2 works");
+
 # locally build test rpms
 
 foreach my $dir (grep { -d $_ } glob("data/SPECS/*")) {
