@@ -12,6 +12,7 @@
   o add more extensive tests
   o describe it more
   o disable fsync/fdatasync while running tests
+  o make it more robust
 
 Version 8.121 - 8 April 2020
 
