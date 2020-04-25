@@ -5,6 +5,7 @@
   o check that web server has actually started
   o describe more tests to help pinpoint regressions
   o do not fail test when libnss.so is not found in Debian 9 or FreeBSD
+  o fix failing to build some rpms on FreeBSD
   o fix test with rpm < 4.13 on CentOS7
   o make sure genhdlist2 works
   o perform some file conflict tests only on Mageia
