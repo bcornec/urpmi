@@ -81,9 +81,11 @@ sub rpmbuild {
 
     my $dir = getcwd();
     my ($target) = $spec =~ m!-(i586|x86_64)\.spec$!;
+    $target = $target ? "--target $target" : '';
     # unsetting %__os_install_post fixes failure to build on FreeBSD:
     my $nopost = " --define '__os_install_post %nil'";
-    system_("rpmbuild --quiet --define 'rpm_version %(rpm -q --queryformat \"%{VERSION}\" rpm|sed -e \"s/\\\\.//g\")' --define '_topdir $dir/tmp' --define '_tmppath $dir/tmp' -bb --clean --nodeps $nopost ".($target ? "--target $target" : "")." $spec");
+    my $rpmv = "--define 'rpm_version %(rpm -q --queryformat \"%{VERSION}\" rpm|sed -e \"s/\\\\.//g\")' ";
+    system_("rpmbuild --quiet $rpmv --define '_topdir $dir/tmp' --define '_tmppath $dir/tmp' -bb --clean --nodeps $nopost $target $spec");
 
     my ($name) = $spec =~ m!([^/]*)\.spec$!;
 
