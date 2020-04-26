@@ -2,6 +2,7 @@
 
 use strict;
 use lib '.', 't';
+use Config;
 use helper;
 use Test::More 'no_plan';
 use Cwd;
@@ -40,6 +41,8 @@ foreach my $dir (grep { -d $_ } glob("data/SPECS/*")) {
 }
 
 foreach my $spec (glob("data/SPECS/*.spec")) {
+    warn "SKIPPING /rpm-query-in-scriptlet/" if $spec =~ /rpm-query-in-scriptlet/ && $Config{archname} =~ /bsd/;
+    next if $spec =~ /rpm-query-in-scriptlet/ && $Config{archname} =~ /bsd/;
     my $name = rpmbuild($spec);
 
     if ($name eq 'various') {
