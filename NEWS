@@ -12,6 +12,7 @@
   o perform some file conflict tests only on Mageia
   o try harder to find genhdlist2 in uninstalled CPAN modules
   o work without glibc-static-devel
+  o workaround %find_lang sometimes failing on FreeBSD
 - testsuite:
   o add more extensive tests
   o describe it more
