@@ -9,6 +9,8 @@ use Cwd;
 
 set_path();
 
+warn ">> RPM version is: ", `LC_ALL=C rpm --version`, "\n";
+
 chdir 't' if -d 't';
 system('rm -rf tmp media');
 foreach (qw(media tmp tmp/BUILD tmp/RPMS tmp/RPMS/noarch tmp/SRPMS)) {
