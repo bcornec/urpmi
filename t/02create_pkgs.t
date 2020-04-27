@@ -25,6 +25,10 @@ mkdir($dir);
 my $out = `genhdlist2 $dir 2>&1`;
 chomp($out);
 is($out, "no *.rpm found in $dir (use --allow-empty-media?)", "genhdlist2 works");
+$out = `genhdlist2 --help 2>&1`;
+chomp($out);
+my ($first) = split(/\n/, $out);
+is($first, "Usage:", "genhdlist2 --help works");
 
 # locally build test rpms
 
