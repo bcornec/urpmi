@@ -7,6 +7,7 @@
   o display RPM version in cpan-testers logs
   o do not fail test when libnss.so is not found in Debian 9 or FreeBSD
   o fix failing to build some rpms on FreeBSD
+  o fix failing tests when serving over HTTP from within /root
   o fix test with rpm < 4.13 on CentOS7
   o make sure genhdlist2 works
   o perform some file conflict tests only on Mageia
