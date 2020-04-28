@@ -8,7 +8,7 @@ use base 'Exporter';
 our @EXPORT = qw(need_root_and_prepare need_downloader
 		 are_weak_deps_supported is_mageia
 		 start_httpd httpd_port
-		 urpmi_addmedia urpmi_removemedia urpmi_update
+		 urpmi_addmedia urpmi_addmedia_should_retry urpmi_removemedia urpmi_update
 		 urpm_cmd run_urpm_cmd urpmi_cmd urpmi urpmi_partial test_urpmi_fail urpme
 		 urpmi_cfg set_urpmi_cfg_global_options
 		 set_path system_ system_should_fail
@@ -100,6 +100,10 @@ sub urpmi_addmedia {
     my ($para) = @_;
     system_(urpm_cmd('urpmi.addmedia --no-verify-rpm') . " $para");
 }
+sub urpmi_addmedia_should_retry {
+    my ($para) = @_;
+    system_should_retry(urpm_cmd('urpmi.addmedia --no-verify-rpm') . " $para");
+}
 sub urpmi_removemedia {
     my ($para) = @_;
     system_(urpm_cmd('urpmi.removemedia') . " $para");
@@ -152,6 +156,17 @@ sub system_should_fail {
     print "\n";
     $? & 127 ? is($? & 127, 0, "should fail nicely but not get killed: $cmd")
              : ok($? != 0, "should fail: $cmd");
+}
+sub system_should_retry {
+    my ($cmd) = @_;
+    system($cmd);
+    if ($? == 28) {
+	my $nb = 60;
+	warn "curl timeouted (code=28), will retry after $nb seconds\n";
+	sleep($nb);
+	system($cmd);
+    }
+    ok($? == 0, $cmd);
 }
 
 sub check_installed_fullnames {

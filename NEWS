@@ -24,6 +24,7 @@
   o disable fsync/fdatasync while running tests
   o make it more robust
   o make sure simple-httpd is really killed once tests are completed
+  o retry if curl failed with timeout
 
 Version 8.121 - 8 April 2020
 
