@@ -1,6 +1,7 @@
 package helper;
 
 use Test::More;
+use Cwd 'getcwd';
 use Config;
 use urpm::select;
 use urpm::util;
@@ -25,6 +26,9 @@ sub set_path() {
 	my $blib_script = dirname($_) . "/script";
 	-d $blib_script ? $blib_script : ();
     } split(':', $ENV{PERL5LIB})));
+
+    # Fallback to bundled genhdlist2/gendistrib if not installed:
+    $ENV{PATH} .= ':' . getcwd();
 }
 
 my $using_root;
