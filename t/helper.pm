@@ -39,6 +39,7 @@ sub need_root_and_prepare() {
     system('rm -rf root');
     isnt(-d 'root', "test root dir can not be removed $!", "creating chroot");
     system('mkdir -p root/etc/rpm');
+    system('echo "%__dbi_other fsync nofsync" >root/etc/rpm/macros');
     system('echo "%_pkgverify_level none" >root/etc/rpm/macros');
     $using_root = 1;
     $ENV{LC_ALL} = 'C';
