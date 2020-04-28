@@ -98,10 +98,12 @@ sub urpmi_cmd() { urpm_cmd('urpmi') }
 
 sub urpmi_addmedia {
     my ($para) = @_;
+    $ENV{URPMI_TESTSUITE} = 1;
     system_(urpm_cmd('urpmi.addmedia --no-verify-rpm') . " $para");
 }
 sub urpmi_addmedia_should_retry {
     my ($para) = @_;
+    $ENV{URPMI_TESTSUITE} = 1;
     system_should_retry(urpm_cmd('urpmi.addmedia --no-verify-rpm') . " $para");
 }
 sub urpmi_removemedia {
