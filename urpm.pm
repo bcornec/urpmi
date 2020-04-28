@@ -35,6 +35,8 @@ urpm - Mageia perl tools to handle the urpmi database
 C<urpm> is used by urpmi executables to manipulate packages and media
 on a Mageia Linux distribution.
 
+It rely on L<URPM> for the lower level librpm bindings.
+
 =head2 The urpm class
 
 =over 4

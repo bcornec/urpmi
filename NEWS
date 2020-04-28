@@ -15,6 +15,7 @@
   o work without glibc-static-devel
   o workaround %find_lang sometimes failing on FreeBSD
 - library:
+  o enhance the doc
   o fix rpm version check causing strange warning messages:
     "shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory"
 - testsuite:
