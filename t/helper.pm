@@ -177,7 +177,7 @@ sub check_installed_and_urpme {
 }
 
 sub are_weak_deps_supported() {
-    return urpm::select::_rpm_version() gt 4.12.0
+    return urpm::select::_rpm_version() gt 4.12.0;
 }
 
 END { 
