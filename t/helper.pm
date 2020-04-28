@@ -10,10 +10,15 @@ our @EXPORT = qw(need_root_and_prepare need_downloader
 		 urpmi_addmedia urpmi_removemedia urpmi_update
 		 urpm_cmd run_urpm_cmd urpmi_cmd urpmi urpmi_partial test_urpmi_fail urpme
 		 urpmi_cfg set_urpmi_cfg_global_options
-		 system_ system_should_fail
+		 set_path system_ system_should_fail
 		 check_installed_fullnames check_installed_names check_nothing_installed
 		 check_installed_and_remove check_installed_fullnames_and_remove check_installed_and_urpme
 	    );
+
+sub set_path() {
+    # help CPAN testers who installed genhdlist2 using cpan but do not have /usr/local/bin in their PATH:
+    $ENV{PATH} .= ":/usr/local/bin";
+}
 
 my $using_root;
 sub need_root_and_prepare() {
