@@ -602,6 +602,10 @@ sub DESTROY {}
 The L<URPM> package is used to manipulate at a lower level synthesis and rpm
 files.
 
+The L<rpmtools> package provides commands to generate synthesis and hdlist
+files (as well as other metadata): L<genhdlist2> and L<gendistrib> (a
+gendhlist2 wrapper handling a whole media set) from L<rpmtools> package.
+
 See also submodules: L<gurpmi>, L<urpm::args>, L<urpm::bug_report>,
 L<urpm::cdrom>, L<urpm::cfg>, L<urpm::download>, L<urpm::get_pkgs>,
 L<urpm::install>, L<urpm::ldap>, L<urpm::lock>, L<urpm::main_loop>,
