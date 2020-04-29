@@ -1,5 +1,6 @@
 - cpan_testers:
   o do not skip network tests on pre-UsrMove distros (eg: Mageia 2)
+  o fix running testsuite with rpm-4.9
 
 Version 8.122 - 28 April 2020
 
