@@ -194,7 +194,7 @@ WriteMakefile(
 		},
 		'urpmi' => {
 		    file => 'urpmi.pm',
-		    version => 'v8.122',
+		    version => 'v8.123',
 		},
             },
             resources => {
