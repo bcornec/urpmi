@@ -1,3 +1,5 @@
+Version 8.123 - 30 April 2020
+
 - cpan_testers:
   o BSD: prevent failing due to broken deps generator
   o do not skip network tests on pre-UsrMove distros (eg: Mageia 2)
