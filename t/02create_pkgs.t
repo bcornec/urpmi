@@ -92,6 +92,9 @@ sub rpmbuild {
     # unsetting %__os_install_post fixes failure to build on FreeBSD:
     $extra_args .= " --define '__os_install_post %nil'";
     $extra_args .= " --define 'rpm_version %(rpm -q --queryformat \"%{VERSION}\" rpm|sed -e \"s/\\\\.//g\")' ";
+    # some FreeBSD CPAN smokers sometimes fails with:
+    # error: Couldn't exec /usr/local/lib/rpm/elfdeps: No such file or directory
+    $extra_args .= " --define '__elf_provides %nil' --define '__elf_requires %nil'" if $is_bsd;
     system_("rpmbuild --quiet --define '_topdir $dir/tmp' --define '_tmppath $dir/tmp' -bb --clean --nodeps $extra_args $spec");
 
     my ($name) = $spec =~ m!([^/]*)\.spec$!;
