@@ -9,6 +9,9 @@ use Cwd;
 
 set_path();
 
+# fix bundled genhdlist2 & co to use the right perl on CPAN smokers:
+system($^X, '-pi', '-e', qq(s@^#!/usr/bin/perl.*@#!$^X@), $_) foreach qw(gendistrib genhdlist2);
+
 my $is_bsd = $Config{archname} =~ /bsd/;
 
 warn ">> RPM version is: ", `LC_ALL=C rpm --version`, "\n";
