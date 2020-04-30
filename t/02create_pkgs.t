@@ -9,6 +9,8 @@ use Cwd;
 
 set_path();
 
+my $is_bsd = $Config{archname} =~ /bsd/;
+
 warn ">> RPM version is: ", `LC_ALL=C rpm --version`, "\n";
 
 chdir 't' if -d 't';
@@ -43,8 +45,8 @@ foreach my $dir (grep { -d $_ } glob("data/SPECS/*")) {
 }
 
 foreach my $spec (glob("data/SPECS/*.spec")) {
-    warn "SKIPPING /rpm-query-in-scriptlet/" if $spec =~ /rpm-query-in-scriptlet/ && $Config{archname} =~ /bsd/;
-    next if $spec =~ /rpm-query-in-scriptlet/ && $Config{archname} =~ /bsd/;
+    warn "SKIPPING /rpm-query-in-scriptlet/" if $spec =~ /rpm-query-in-scriptlet/ && $is_bsd;
+    next if $spec =~ /rpm-query-in-scriptlet/ && $is_bsd;
     my $name = rpmbuild($spec);
 
     if ($name eq 'various') {
