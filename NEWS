@@ -1,3 +1,6 @@
+- cpan_testers:
+  o fix bundled genhdlist2 wrongly defaulting to zstd
+
 Version 8.123 - 30 April 2020
 
 - cpan_testers:
