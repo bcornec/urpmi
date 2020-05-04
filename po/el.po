@@ -3,10 +3,10 @@
 #
 # Translators:
 # ebal <ebalaskas@ebalaskas.gr>, 2005
-# Dimitrios Glentadakis <dglent@free.fr>, 2019
+# Dimitrios Glentadakis <dglent@free.fr>, 2019-2020
 # Dimitrios Glentadakis <dglent@gmail.com>, 2010-2014
 # Glentadakis Dimitrios <dglent@gmail.com>, 2008-2009
-# Jim Spentzos <jimspentzos2000@gmail.com>, 2014
+# Δημήτρης Σπέντζος <jimspentzos2000@gmail.com>, 2014
 # nikos_pap <nikos769@yahoo.gr>, 2008
 # Thanos Kyritsis <djart@hellug.gr>, 2001
 # Theophanis Mastakas <mastakas@otenet.gr>, 2006
@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2019-07-03 05:10+0000\n"
+"PO-Revision-Date: 2020-05-03 17:25+0000\n"
 "Last-Translator: Dimitrios Glentadakis <dglent@free.fr>\n"
 "Language-Team: Greek (http://www.transifex.com/MageiaLinux/mageia/language/"
 "el/)\n"
@@ -1096,12 +1096,13 @@ msgstr ""
 "πακέτα"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
 msgstr ""
-"αναίρεση αγνόησης του μέσου 32δυφίων '%s' το b/c σύστημα είναι EFI 32δυφίων"
+"συμπερίληψη του μέσου 32bit `%s' διότι υπάρχουν 32-bit πακέτα εγκατεστημένα "
+"ή το σύστημα είναι 32-bit EFI"
 
 #: ../urpm/media.pm:844
 #, c-format
