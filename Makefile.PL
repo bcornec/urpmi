@@ -1,6 +1,5 @@
 #!perl
 # Makefile.PL for urpmi
-# $Id: Makefile.PL 271298 2010-11-21 15:39:18Z peroyvind $
 
 use strict;
 use ExtUtils::MakeMaker;

@@ -598,4 +598,3 @@ urpmf(8), urpmq(8), urpmi.cfg(5), urpmi.files(5).
 
 =cut
 
-$Id: urpmi.8.pod 261993 2009-10-15 17:12:03Z cfergeau $
