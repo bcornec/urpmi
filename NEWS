@@ -1,3 +1,4 @@
+- small Kwalitee cleanups
 - cpan_testers:
   o fix bundled genhdlist2 wrongly defaulting to zstd
 
