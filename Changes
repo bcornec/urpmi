@@ -1,4 +1,5 @@
 - small Kwalitee cleanups
+- stop truncating disk names when prompting for a CD/USB key
 - cpan_testers:
   o fix bundled genhdlist2 wrongly defaulting to zstd
 
