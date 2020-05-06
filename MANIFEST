@@ -102,6 +102,7 @@ rurpmi
 skip.list
 t/01compile.t
 t/02create_pkgs.t
+t/03kwality.t
 t/cfg.t
 t/data/media.cfg
 t/data/reconfig.urpmi
