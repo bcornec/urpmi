@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-01-18 09:59+0200\n"
-"PO-Revision-Date: 2020-01-18 13:04+0000\n"
+"PO-Revision-Date: 2020-05-29 19:50+0000\n"
 "Last-Translator: psyca\n"
 "Language-Team: German (http://www.transifex.com/MageiaLinux/mageia/language/"
 "de/)\n"
@@ -632,7 +632,7 @@ msgid ""
 "You must mount CD-ROM yourself (or install perl-Hal-Cdroms to have it done "
 "automatically)"
 msgstr ""
-"Sie müssen die CD-ROM selbst einbinden (oder perl-Hal-Cdroms installieren, "
+"Sie müssen die CD-ROM selbst einhängen (oder perl-Hal-Cdroms installieren, "
 "um dies automatisch durchführen zu lassen)"
 
 #: ../urpm/cdrom.pm:81
@@ -2676,7 +2676,7 @@ msgstr "(nur ein Test, es wird keine wirkliche Installation durchgeführt)"
 #: ../urpmi:642
 #, c-format
 msgid "Press Enter when mounted..."
-msgstr "Betätigen Sie die Eingabetaste, wenn das Gerät eingebunden ist …"
+msgstr "Betätigen Sie die Eingabetaste, wenn das Gerät eingehangen ist …"
 
 #. -PO: The URI types strings 'file:', 'ftp:', 'http:', and 'cdrom:' must not be translated!
 #. -PO: neither the ``with''.  Only what is between <brackets> can be translated.
