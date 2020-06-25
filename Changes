@@ -1,3 +1,4 @@
+- Make it work with no feature qw(indirect) (aka perl7)
 - small Kwalitee cleanups
 - stop truncating disk names when prompting for a CD/USB key
 - cpan_testers:
