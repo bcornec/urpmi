@@ -336,7 +336,7 @@ msgstr "%s af gögnum verður sótt."
 #, c-format
 msgid "Proceed with the installation of one package?"
 msgid_plural "Proceed with the installation of the %d packages?"
-msgstr[0] "Halda áfram með uppsetningu á einum pakka?"
+msgstr[0] "Halda áfram með uppsetningu á %d pakka?"
 msgstr[1] "Halda áfram með uppsetningu á %d pökkum?"
 
 #: ../gurpmi2:259 ../urpmi:608
@@ -1767,7 +1767,7 @@ msgstr "Enga munaðarleysingja er hægt fjarlægja"
 msgid "To satisfy dependencies, the following package will be removed"
 msgid_plural ""
 "To satisfy dependencies, the following %d packages will be removed"
-msgstr[0] "Til að viðhalda samræmi, verður eftirfarandi pakki fjarlægður"
+msgstr[0] "Til að viðhalda samræmi, verður eftirfarandi %d pakki fjarlægður"
 msgstr[1] "Til að viðhalda samræmi, verða eftirtaldir %d pakkar fjarlægðir"
 
 #: ../urpme:151

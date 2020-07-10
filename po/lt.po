@@ -325,7 +325,7 @@ msgstr "Bus gauta %s paketų."
 #, c-format
 msgid "Proceed with the installation of one package?"
 msgid_plural "Proceed with the installation of the %d packages?"
-msgstr[0] "Tęsti vieno paketo diegimą?"
+msgstr[0] "Tęsti %d paketo diegimą?"
 msgstr[1] "Tęsti %d paketų diegimą?"
 msgstr[2] "Tęsti %d paketų diegimą"
 msgstr[3] "Tęsti %d paketų diegimą"
