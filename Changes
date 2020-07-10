@@ -1,3 +1,5 @@
+- gurpmi2:
+  o ensure download error report fits on screen
 - Make it work with no feature qw(indirect) (aka perl7)
 - small Kwalitee cleanups
 - stop truncating disk names when prompting for a CD/USB key
