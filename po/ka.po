@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2015-02-13 05:26+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Georgian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/ka/)\n"
@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
@@ -300,6 +300,7 @@ msgstr ""
 msgid "Proceed with the installation of one package?"
 msgid_plural "Proceed with the installation of the %d packages?"
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../gurpmi2:259 ../urpmi:608
 #, c-format
@@ -368,12 +369,12 @@ msgstr ""
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "არა"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "დიახ"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1359,12 +1360,14 @@ msgid_plural ""
 "%s\n"
 "are now orphaned."
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../urpm/orphans.pm:616
 #, c-format
 msgid "You may wish to remove it."
 msgid_plural "You may wish to remove them."
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../urpm/orphans.pm:633
 #, c-format
@@ -1379,6 +1382,7 @@ msgid_plural ""
 "are now orphaned, if you wish to remove them, you can use \"urpme --auto-"
 "orphans\""
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../urpm/parallel.pm:31
 #, c-format
@@ -1685,6 +1689,7 @@ msgstr ""
 msgid "Removing the following package will break your system:"
 msgid_plural "Removing the following packages will break your system:"
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../urpme:123
 #, c-format
@@ -1702,18 +1707,21 @@ msgid "To satisfy dependencies, the following package will be removed"
 msgid_plural ""
 "To satisfy dependencies, the following %d packages will be removed"
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../urpme:151
 #, c-format
 msgid "(orphan package)"
 msgid_plural "(orphan packages)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../urpme:158
 #, c-format
 msgid "Remove %d package?"
 msgid_plural "Remove %d packages?"
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../urpme:163
 #, c-format
@@ -2434,6 +2442,7 @@ msgstr ""
 msgid "The following orphan package will be removed."
 msgid_plural "The following orphan packages will be removed."
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../urpmi:599
 #, c-format

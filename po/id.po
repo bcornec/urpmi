@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2015-02-13 05:26+0000\n"
-"Last-Translator: Kiki <kiki.syahadat@yahoo.co.id>\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Indonesian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/id/)\n"
 "Language: id\n"
@@ -419,12 +419,12 @@ msgstr "merestart urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Tidak"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Ya"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1086,13 +1086,11 @@ msgstr ""
 "terinstall"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
 msgstr ""
-"tidak mengabaikan media tanted `%s' karena paket-paket tainted sudah "
-"terinstall"
 
 #: ../urpm/media.pm:844
 #, c-format

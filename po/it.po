@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2015-03-21 07:12+0000\n"
-"Last-Translator: Guybrush88 <erpizzo@alice.it>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/mageia/language/"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Italian (http://www.transifex.com/MageiaLinux/mageia/language/"
 "it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -419,12 +419,12 @@ msgstr "Riavvio di urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Sì"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1090,11 +1090,11 @@ msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
 msgstr "Attivando la fonte tainted i pacchetti tainted `%s' vengono installati"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "Attivando la fonte tainted i pacchetti tainted `%s' vengono installati"
+msgstr ""
 
 #: ../urpm/media.pm:844
 #, c-format

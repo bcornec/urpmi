@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-03-04 15:13+0000\n"
-"Last-Translator: fri\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Jiří Vírava <appukonrad@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/MageiaLinux/mageia/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -411,12 +411,12 @@ msgstr "Restartuje se urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #: ../rpm-find-leaves:15
 #, c-format

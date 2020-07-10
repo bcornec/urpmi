@@ -2,14 +2,14 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Translators:
-# Panwar108 <caspian7pena@gmail.com>, 2018
+# Panwar108 <caspian7pena@gmail.com>, 2018,2020
 # धनञ्जय शर्मा (Dhananjaya Sharma), 2003-2005
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2018-05-14 14:27+0000\n"
-"Last-Translator: Panwar108 <caspian7pena@gmail.com>\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Hindi (http://www.transifex.com/MageiaLinux/mageia/language/"
 "hi/)\n"
 "Language: hi\n"
@@ -21,12 +21,12 @@ msgstr ""
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
 msgid "Distribution Upgrade"
-msgstr ""
+msgstr "संस्करण अपग्रेड"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
 msgid "Packages installation"
-msgstr ""
+msgstr "पैकेज इंस्टॉल"
 
 #: ../gurpm/RPMProgressDialog.pm:128
 #, c-format
@@ -239,7 +239,7 @@ msgstr ""
 #: ../gurpmi.pm:115
 #, c-format
 msgid "No packages specified"
-msgstr ""
+msgstr "कोई पैकेज निर्दिष्ट नहीं है"
 
 #: ../gurpmi2:47
 #, c-format
@@ -353,7 +353,7 @@ msgstr ""
 #: ../gurpmi2:307
 #, c-format
 msgid "An error occurred:"
-msgstr "एक त्रुटि हो गयी है"
+msgstr "त्रुटि हुई :"
 
 #: ../gurpmi2:319
 #, c-format
@@ -375,7 +375,7 @@ msgstr ""
 #: ../gurpmi2:343 ../urpm/main_loop.pm:289 ../urpm/main_loop.pm:581
 #, c-format
 msgid "Installation failed:"
-msgstr ""
+msgstr "इंस्टॉल विफल :"
 
 #: ../gurpmi2:348
 #, c-format
@@ -395,12 +395,12 @@ msgstr "यू०आर०पी०एम०आई० को पुनः आर
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "नहीं"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "हाँ"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -454,7 +454,7 @@ msgstr ""
 #: ../urpm.pm:195
 #, c-format
 msgid "fail to create directory %s"
-msgstr ""
+msgstr "%s डायरेक्टरी बनाने में विफल"
 
 #: ../urpm.pm:196
 #, c-format
@@ -595,7 +595,7 @@ msgstr ""
 #: ../urpm/args.pm:534
 #, c-format
 msgid "Copyright (C) %s by %s"
-msgstr ""
+msgstr "%sद्वारा %s प्रतिलिप्याधिकार ©"
 
 #: ../urpm/bug_report.pm:67 ../urpmi:256
 #, c-format

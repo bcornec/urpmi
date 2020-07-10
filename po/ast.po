@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-04-09 00:49+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/ast/)\n"
@@ -370,12 +370,12 @@ msgstr ""
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 #: ../rpm-find-leaves:15
 #, c-format

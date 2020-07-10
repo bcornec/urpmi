@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Translators:
-# Carl Andersen <carl@black-pearl.dk>, 2015
+# 31c8ff7daf246c6bd598eefe84c1433c, 2015
 # Keld Simonsen <keld@dkuug.dk>, 2003-2005,2007-2009
 # Keld Simonsen <keld@rap.dk>, 2003,2006
 # Kenneth Christiansen, 2000
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2017-11-19 18:21+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "da/)\n"
@@ -414,12 +414,12 @@ msgstr "genstarter urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1075,11 +1075,11 @@ msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
 msgstr "afignorer tainted medie `%s' da tainted pakker er installeret"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "afignorer tainted medie `%s' da tainted pakker er installeret"
+msgstr ""
 
 #: ../urpm/media.pm:844
 #, c-format

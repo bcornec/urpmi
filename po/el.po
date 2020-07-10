@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-05-03 17:25+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: Dimitrios Glentadakis <dglent@free.fr>\n"
 "Language-Team: Greek (http://www.transifex.com/MageiaLinux/mageia/language/"
 "el/)\n"
@@ -429,12 +429,12 @@ msgstr "Επανεκκίνηση urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Όχι"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 #: ../rpm-find-leaves:15
 #, c-format

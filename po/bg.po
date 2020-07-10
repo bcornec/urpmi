@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2016-04-16 21:14+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/bg/)\n"
@@ -393,12 +393,12 @@ msgstr "рестартиране на urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Не"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: ../rpm-find-leaves:15
 #, c-format

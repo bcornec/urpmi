@@ -11,8 +11,8 @@
 # Felipe Arruda <felipemiguel@gmail.com>, 2006,2008
 # Gustavo Sverzut Barbieri <gustavo@linuxdicas.com.br>, 2003
 # Klaus Orian Vicaro <kvicaro@gmx.net>, 2004
-# lucasbackes <inactive+lucasbackes@transifex.com>, 2014
-# lucasbackes <inactive+lucasbackes@transifex.com>, 2014
+# ecc43ba9615e67defa05f36a41c75f2e_2b4afea <bf58dbd5cfe5ceb008fbc18c571e578a_190276>, 2014
+# ecc43ba9615e67defa05f36a41c75f2e_2b4afea <bf58dbd5cfe5ceb008fbc18c571e578a_190276>, 2014
 # Marcio Andre Padula <padula1000@gmail.com>, 2013-2014
 # Marcio Andre Padula <padula1000@gmail.com>, 2015-2016,2019
 # Michael Martins <michaelfm21@gmail.com>, 2017
@@ -26,8 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2019-07-23 22:28+0000\n"
-"Last-Translator: Michael Martins <michaelfm21@gmail.com>\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Marcio Andre Padula <padula1000@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/MageiaLinux/"
 "mageia/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -431,12 +431,12 @@ msgstr "reiniciando urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1095,11 +1095,11 @@ msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
 msgstr "ignorando tainted medio `%s' b/c pacotes tainted sera instalados"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "Ignorando a mídia 32bit `%s' sistema b/c é 32-bit EFI"
+msgstr ""
 
 #: ../urpm/media.pm:844
 #, c-format

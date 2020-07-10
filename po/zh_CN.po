@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2016-05-13 07:16+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: zwpwjwtz <zwpwjwtz@126.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/MageiaLinux/mageia/"
 "language/zh_CN/)\n"
@@ -402,12 +402,12 @@ msgstr "重新启动 urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1057,11 +1057,11 @@ msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
 msgstr "取消忽略 tainted 介质“%s”，因为已安装 tainted 软件包"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "取消忽略 tainted 介质“%s”，因为已安装 tainted 软件包"
+msgstr ""
 
 #: ../urpm/media.pm:844
 #, c-format

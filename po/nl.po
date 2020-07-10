@@ -1,30 +1,25 @@
-# translation of urpmi-nl.po to Nederlands
-# Nederlandse vertaling van urpmi
-# Copyright (C) 2000,2003,2004, 2005, 2007 Free Software Foundation, Inc.
-# Copyright (c) 2000, 2001 Mandriva
-# Copyright (c) 2012 Mageia
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
 #
-# Peter Bosch <peter@dromas.student.utwente.nl>, 2002-2003.
-# Niels Gras <niels.gras@wanadoo.nl>, 2000.
-# Reinout van Schouwen <reinout@gmail.com>, 2002-2009.
-# Hendrik-Jan Heins <hjh@passys.nl>, 2003,2004.
-# Rob Teng <mandrake.tips@free.fr>, 2004, 2005, 2007.
-# Remco Rijnders <remco@webconquest.com>, 2012, 2013.
-# Marja van Waes <marja@mageia.org>, 2013, 2015.
+# Translators:
+# Hendrik-Jan Heins <hjh@passys.nl>, 2003-2004
+# Marja van Waes <marja@mageia.org>, 2013,2015
+# Niels Gras <niels.gras@wanadoo.nl>, 2000
+# remmy <remco@webconquest.com>, 2012-2013
+# Rob Teng <mandrake.tips@free.fr>, 2004-2005,2007
 msgid ""
 msgstr ""
-"Project-Id-Version: urpmi-nl\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2015-01-16 22:35+0100\n"
-"Last-Translator: Marja van Waes <marja@mageia.org>\n"
-"Language-Team: Nederlands <i18n-nl@ml.mageia.org>\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Dutch (http://www.transifex.com/MageiaLinux/mageia/language/"
+"nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Dutch\n"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
@@ -364,7 +359,6 @@ msgid ""
 msgstr ""
 "Om aan afhankelijkheden te voldoen, wordt het volgende pakket geïnstalleerd:"
 
-# Should use ngettext plural forms :-/
 #: ../gurpmi2:260 ../urpmi:609
 #, c-format
 msgid ""
@@ -430,12 +424,12 @@ msgstr "urpmi herstarten"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1099,12 +1093,11 @@ msgstr ""
 "inschakelen van tainted medium `%s' want tainted pakketten zijn geïnstalleerd"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
 msgstr ""
-"inschakelen van tainted medium `%s' want tainted pakketten zijn geïnstalleerd"
 
 #: ../urpm/media.pm:844
 #, c-format
@@ -1861,7 +1854,6 @@ msgstr "Verwijderen is mislukt"
 msgid "Removal is possible"
 msgstr "Verwijderen is mogelijk"
 
-#
 #: ../urpmf:31
 #, c-format
 msgid "  --version      - print this tool's version number.\n"
@@ -2161,7 +2153,6 @@ msgstr "  --force-key    - dwing bijwerken van de gpg-sleutel af.\n"
 msgid "  --auto-orphans - remove orphans without asking\n"
 msgstr "  --auto-orphans - wezen verwijderen zonder bevestiging\n"
 
-# c-format
 #: ../urpmi:80 ../urpmq:52
 #, c-format
 msgid "  --no-recommends - do not auto select \"recommended\" packages.\n"
@@ -2270,7 +2261,6 @@ msgstr ""
 "                   installeren zonder afhankelijkhedencontrole en zonder\n"
 "                   integriteitscontrole.\n"
 
-# c-format
 #: ../urpmi:105
 #, c-format
 msgid "  --allow-recommends - auto select \"recommended\" packages.\n"
@@ -3303,209 +3293,3 @@ msgstr "Start de Mageia-pakketinstallatie"
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:2
 msgid "Authentication is required to run Mageia Package Installer"
 msgstr "Authenticatie is nodig om de Mageia-pakketinstallatie te starten"
-
-#~ msgid "(suggested)"
-#~ msgstr "(aangeraden)"
-
-#~ msgid "  --suggests     - suggests tags\n"
-#~ msgstr "  --suggests     - geeft tag-suggesties\n"
-
-#~ msgid "  --suggests     - print suggests.\n"
-#~ msgstr "  --suggests     - suggests ('suggereert') afdrukken.\n"
-
-#~ msgid "(%d package, %d MB)"
-#~ msgid_plural "(%d packages, %d MB)"
-#~ msgstr[0] "(%d pakket, %d MB)"
-#~ msgstr[1] "(%d pakketten, %d MB)"
-
-#~ msgid "[repackaging]"
-#~ msgstr "[opnieuw verpakken]"
-
-#~ msgid "curl failed: upload canceled\n"
-#~ msgstr "curl gaf een foutmelding: upload geannuleerd\n"
-
-#~ msgid "  --repackage    - Re-package the files before erasing\n"
-#~ msgstr ""
-#~ "  --repackage    - Bestanden opnieuw inpakken alvorens te verwijderen\n"
-
-#~ msgid "  --checkpoint   - set repackaging start now\n"
-#~ msgstr "  --checkpoint   - stel starttijd opnieuw verpakken in op nu\n"
-
-#~ msgid "  --noclean      - don't clean repackage directory on checkpoint\n"
-#~ msgstr ""
-#~ "  --noclean      - opnieuw-verpakkenmap niet opschonen bij checkpoint.\n"
-
-#~ msgid ""
-#~ "  --list         - list transactions since provided date/duration "
-#~ "argument\n"
-#~ msgstr ""
-#~ "  --list         - transacties tonen sinds aangegeven datum/tijdsduur\n"
-
-#~ msgid "  --list-all     - list all transactions in rpmdb (long)\n"
-#~ msgstr "  --list-all     - alle transacties in rpmdb opsommen (lang).\n"
-
-#~ msgid "  --list-safe    - list transactions since checkpoint\n"
-#~ msgstr "  --list-safe    - transacties sinds checkpoint opsommen.\n"
-
-#~ msgid ""
-#~ "  --rollback     - rollback until specified date,\n"
-#~ "                   or rollback the specified number of transactions\n"
-#~ msgstr ""
-#~ "  --rollback     - terugdraaien tot aangegeven datum,\n"
-#~ "                   of het gegeven aantal transacties terugdraaien\n"
-
-#~ msgid "  --disable      - turn off repackaging\n"
-#~ msgstr "  --disable      - opnieuw verpakken uitschakelen\n"
-
-#~ msgid "Invalid date or duration [%s]\n"
-#~ msgstr "Ongeldige datum of tijdsduur [%s]\n"
-
-#~ msgid "Repackage directory not defined\n"
-#~ msgstr "Opnieuw-verpakken-map niet gedefinieerd\n"
-
-#~ msgid "Can't write to repackage directory [%s]\n"
-#~ msgstr "Kan niet schrijven naar opnieuw-verpakken-map [%s]\n"
-
-#~ msgid "Cleaning up repackage directory [%s]...\n"
-#~ msgstr "Opschonen opnieuw-verpakken-map [%s]...\n"
-
-#~ msgid "%d file removed\n"
-#~ msgid_plural "%d files removed\n"
-#~ msgstr[0] "%d bestand verwijderd\n"
-#~ msgstr[1] "%d bestanden verwijderd\n"
-
-#~ msgid "Spurious command-line arguments [%s]\n"
-#~ msgstr "Vreemde opdrachtregel-argumenten [%s]\n"
-
-#~ msgid "You can't specify --checkpoint and --rollback at the same time\n"
-#~ msgstr "U kunt --checkpoint en --rollback niet tegelijkertijd gebruiken\n"
-
-#~ msgid "You can't specify --checkpoint and --list at the same time\n"
-#~ msgstr "U kunt --checkpoint en --list niet tegelijkertijd gebruiken\n"
-
-#~ msgid "You can't specify --rollback and --list at the same time\n"
-#~ msgstr "U kunt --rollback en --list niet tegelijkertijd gebruiken\n"
-
-#~ msgid "You can't specify --disable along with another option"
-#~ msgstr "U kunt --disable niet tegelijkertijd met een andere optie gebruiken"
-
-#~ msgid "No transaction found since %s\n"
-#~ msgstr "Geen transactie gevonden sinds %s\n"
-
-#~ msgid "You must be superuser to do this"
-#~ msgstr "U dient beheerder te zijn om dit te doen"
-
-#~ msgid "Writing rpm macros file [%s]...\n"
-#~ msgstr "Schrijven van rpm-macro's-bestand [%s]...\n"
-
-#~ msgid "No rollback date found\n"
-#~ msgstr "Geen terugdraaidatum gevonden\n"
-
-#~ msgid "Rollback until %s...\n"
-#~ msgstr "Terugdraaien tot aan %s...\n"
-
-#~ msgid "Disabling repackaging\n"
-#~ msgstr "Opnieuw verpakken wordt uitgeschakeld\n"
-
-#~ msgid ""
-#~ "urpme version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "urpme versie %s\n"
-#~ "%s\n"
-#~ "Dit is vrije software en mag worden verspreid onder de voorwaarden van de "
-#~ "GNU GPL.\n"
-#~ "\n"
-#~ "gebruik:\n"
-
-#~ msgid ""
-#~ "urpmf version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage: urpmf [options] pattern-expression\n"
-#~ msgstr ""
-#~ "urpmf versie %s\n"
-#~ "%s\n"
-#~ "Dit is vrije software en mag worden verspreid onder de voorwaarden van de "
-#~ "GNU GPL.\n"
-#~ "\n"
-#~ "gebruik: urpmf [opties] patroon-expressie\n"
-
-#~ msgid ""
-#~ "urpmi.recover version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "urpmi.recover versie %s\n"
-#~ "%s\n"
-#~ "Dit is vrije software en mag worden verspreid onder de voorwaarden van de "
-#~ "GNU GPL.\n"
-#~ "\n"
-#~ "gebruik:\n"
-
-#~ msgid ""
-#~ "urpmq version %s\n"
-#~ "%s\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "urpmq versie %s\n"
-#~ "%s\n"
-#~ "Dit is vrije software en mag worden verspreid onder de voorwaarden van de "
-#~ "GNU GPL.\n"
-#~ "\n"
-#~ "gebruik:\n"
-
-#~ msgid ""
-#~ "Installation failed, some files are missing:\n"
-#~ "%s\n"
-#~ "You may want to update your urpmi database"
-#~ msgstr ""
-#~ "Installatie is mislukt, sommige bestanden missen:\n"
-#~ "%s\n"
-#~ "Misschien moet u de urpmi database opwaarderen"
-
-#, fuzzy
-#~ msgid "Cannot write DUDF file.\n"
-#~ msgstr "Kan niet naar bestand schrijven"
-
-#~ msgid ""
-#~ "  --sources      - give all source packages before downloading (root "
-#~ "only).\n"
-#~ msgstr ""
-#~ "  --sources      - geef alle bronpakketten voor het downloaden (alleen "
-#~ "root mag dit).\n"
-
-#~ msgid "due to already installed %s"
-#~ msgstr "vanwege reeds geïnstalleerde %s"
-
-#~ msgid ""
-#~ "  --from         - use specified url for list of mirrors, the default is\n"
-#~ "                   %s\n"
-#~ msgstr ""
-#~ "  --from         - gebruik aangegeven url voor lijst van mirrors, de "
-#~ "standaard\n"
-#~ "                   is %s\n"
-
-#~ msgid "Updating media...\n"
-#~ msgstr "Bijwerken van media...\n"
-
-#~ msgid "examining %s file"
-#~ msgstr "onderzoeken van bestand %s"
-
-#~ msgid "invalid MD5SUM file"
-#~ msgstr "ongeldig MD5SUM-bestand"
-
-#~ msgid "found probed synthesis as %s"
-#~ msgstr "afgezochte synthesis gevonden als %s"

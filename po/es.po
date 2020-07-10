@@ -10,14 +10,14 @@
 # Fabian Mandelbaum <fmandelbaum@hotmail.com>, 2003-2004
 # Jaime Crespo <505201@unizar.es>, 2004-2005
 # José Alberto Valle Cid <mdktrans@blogdrake.net>, 2010
-# Jose Manuel López <inactive+rocholc@transifex.com>, 2014
+# 9d2429286e4b6db037855ee18ff950ea_21b1117 <e234ccd2dcb0d5482e17780be633a729_130514>, 2014
 # José Manuel Pérez <jmprodu@hotmail.com>, 2005
 # Miguel, 2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-01-20 09:27+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: Miguel\n"
 "Language-Team: Spanish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "es/)\n"
@@ -420,12 +420,12 @@ msgstr "reiniciando urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 #: ../rpm-find-leaves:15
 #, c-format

@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2018-12-11 01:31+0000\n"
-"Last-Translator: You-Cheng Hsieh <yochenhsieh@gmail.com>\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/MageiaLinux/mageia/"
 "language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -406,12 +406,12 @@ msgstr "正在重新啟動 urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: ../rpm-find-leaves:15
 #, c-format

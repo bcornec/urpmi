@@ -16,16 +16,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2015-05-05 13:43+0000\n"
-"Last-Translator: Daniel Napora <napcok@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/mageia/language/"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Dominik Adrian Grzywak\n"
+"Language-Team: Polish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
@@ -354,6 +355,7 @@ msgid_plural "Proceed with the installation of the %d packages?"
 msgstr[0] "Rozpocząć instalację jednego pakietu? "
 msgstr[1] "Rozpocząć instalację %d pakietów?"
 msgstr[2] "Rozpocząć instalację 1 pakietu? (%d MB)"
+msgstr[3] "Rozpocząć instalację 1 pakietu? (%d MB)"
 
 #: ../gurpmi2:259 ../urpmi:608
 #, c-format
@@ -426,12 +428,12 @@ msgstr "ponownie uruchamianie urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1454,6 +1456,10 @@ msgstr[2] ""
 "Poniższe pakiety:\n"
 "%s\n"
 "są osierocone."
+msgstr[3] ""
+"Poniższe pakiety:\n"
+"%s\n"
+"są osierocone."
 
 #: ../urpm/orphans.pm:616
 #, c-format
@@ -1462,6 +1468,7 @@ msgid_plural "You may wish to remove them."
 msgstr[0] "Być może chciałbyś odinstalować to"
 msgstr[1] "Być może chciałbyś odinstalować to"
 msgstr[2] "Być może chciałbyś odinstalować to"
+msgstr[3] "Być może chciałbyś odinstalować to"
 
 #: ../urpm/orphans.pm:633
 #, c-format
@@ -1486,6 +1493,11 @@ msgstr[1] ""
 "są osierocone, jeśli chcesz je usunąć, użyj polecenia \"urpme --auto-orphans"
 "\""
 msgstr[2] ""
+"Następujące pakiety:\n"
+"%s\n"
+"są osierocone, jeśli chcesz je usunąć, użyj polecenia \"urpme --auto-orphans"
+"\""
+msgstr[3] ""
 "Następujące pakiety:\n"
 "%s\n"
 "są osierocone, jeśli chcesz je usunąć, użyj polecenia \"urpme --auto-orphans"
@@ -1820,6 +1832,7 @@ msgid_plural "Removing the following packages will break your system:"
 msgstr[0] "Usunięcie poniższego pakietu spowoduje uszkodzenie systemu:"
 msgstr[1] "Usunięcie poniższych pakietów spowoduje uszkodzenie systemu:"
 msgstr[2] "Usunięcie poniższych pakietów spowoduje uszkodzenie systemu:"
+msgstr[3] "Usunięcie poniższych pakietów spowoduje uszkodzenie systemu:"
 
 #: ../urpme:123
 #, c-format
@@ -1839,6 +1852,7 @@ msgid_plural ""
 msgstr[0] "W celu spełnienia zależności zostanie usunięty następujący pakiet"
 msgstr[1] "W celu spełnienia zależności  usunięte zostaną %d pakiety"
 msgstr[2] "W celu spełnienia zależności  usunięte zostaną %d pakiety"
+msgstr[3] "W celu spełnienia zależności  usunięte zostaną %d pakiety"
 
 #: ../urpme:151
 #, c-format
@@ -1847,6 +1861,7 @@ msgid_plural "(orphan packages)"
 msgstr[0] "(osierocony pakiet)"
 msgstr[1] "(osierocone pakiety)"
 msgstr[2] "nieznany pakiet"
+msgstr[3] "nieznany pakiet"
 
 #: ../urpme:158
 #, c-format
@@ -1855,6 +1870,7 @@ msgid_plural "Remove %d packages?"
 msgstr[0] "Usunąć pakiet %d?"
 msgstr[1] "Usunąć pakiety %d?"
 msgstr[2] "Usunąć pakiet %d?"
+msgstr[3] "Usunąć pakiet %d?"
 
 #: ../urpme:163
 #, c-format
@@ -2661,6 +2677,7 @@ msgid_plural "The following orphan packages will be removed."
 msgstr[0] "Zostanie usunięty następujący osierocony pakiet."
 msgstr[1] "Zostaną usunięte następujące osierocone pakiety."
 msgstr[2] "Zostaną usunięte następujące osierocone pakiety."
+msgstr[3] "Zostaną usunięte następujące osierocone pakiety."
 
 #: ../urpmi:599
 #, c-format

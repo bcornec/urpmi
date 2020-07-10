@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2016-04-21 19:23+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Bengali (http://www.transifex.com/MageiaLinux/mageia/language/"
 "bn/)\n"
@@ -391,12 +391,12 @@ msgstr "urpmi আবার শুরু করা হচ্ছে"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "না"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "হ্যাঁ"
 
 #: ../rpm-find-leaves:15
 #, c-format

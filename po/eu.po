@@ -2,18 +2,19 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Translators:
-# Egoitz Rodriguez Obieta <egoitzro@gmail.com>, 2014
-# Egoitz Rodriguez Obieta <egoitzro@gmail.com>, 2014
-# Egoitz Rodriguez Obieta <egoitzro@gmail.com>, 2014
+# Egoitz Rodriguez <egoitzro@gmail.com>, 2014
+# Egoitz Rodriguez <egoitzro@gmail.com>, 2014
+# Egoitz Rodriguez <egoitzro@gmail.com>, 2015
+# Egoitz Rodriguez <egoitzro@gmail.com>, 2014
 # Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004
 # Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2003-2006,2008-2009
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2014-09-14 13:49+0000\n"
-"Last-Translator: Egoitz Rodriguez Obieta <egoitzro@gmail.com>\n"
-"Language-Team: Basque (http://www.transifex.com/projects/p/mageia/language/"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Egoitz Rodriguez <egoitzro@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.com/MageiaLinux/mageia/language/"
 "eu/)\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -225,7 +226,7 @@ msgstr ""
 #: ../gurpmi.pm:65 ../urpmi:148
 #, c-format
 msgid "  -P             - do not search in provides to find package.\n"
-msgstr "  -p - paketeak aurkitzeko bilaketa ez du 'provides'en egiten.\n"
+msgstr "  -P - paketeak aurkitzeko bilaketa ez du eskainitakoetan egiten.\n"
 
 #: ../gurpmi.pm:66 ../urpmi:107 ../urpmq:67
 #, c-format
@@ -415,12 +416,12 @@ msgstr "urpmi berrabiarazten"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Ez"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Bai"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -439,7 +440,7 @@ msgstr "   -h|--help      - laguntza-mezu hau inprimatzen du.\n"
 #: ../rpm-find-leaves:18
 #, c-format
 msgid "   --root <path>  - use the given root instead of /\n"
-msgstr "   --root <bidea>  - erabili emaniko erroa \"/\" ordez\n"
+msgstr "   --root <path>  - erabili emaniko erroa \"/\" ordez\n"
 
 #: ../rpm-find-leaves:19
 #, c-format
@@ -1088,12 +1089,11 @@ msgstr ""
 "Baliabide kutsatuak ignoratu gabe b/c `%s' pakete kutsatuak instalatuta daude"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
 msgstr ""
-"Baliabide kutsatuak ignoratu gabe b/c `%s' pakete kutsatuak instalatuta daude"
 
 #: ../urpm/media.pm:844
 #, c-format
@@ -1938,17 +1938,17 @@ msgstr "  -e             - perl kodea sartzen du zuzenean perl -e gisa.\n"
 #: ../urpmf:49
 #, c-format
 msgid "  -a             - binary AND operator.\n"
-msgstr "  -a             - ETA eragile bitarra.\n"
+msgstr "  -a             - AND eragile bitarra.\n"
 
 #: ../urpmf:50
 #, c-format
 msgid "  -o             - binary OR operator.\n"
-msgstr "  -o             - EDO eragile bitarra.\n"
+msgstr "  -o             - OR eragile bitarra.\n"
 
 #: ../urpmf:51
 #, c-format
 msgid "  !              - unary NOT.\n"
-msgstr "  !              - EZ unarioa.\n"
+msgstr "  !              - NOT unarioa.\n"
 
 #: ../urpmf:52
 #, c-format
@@ -3279,7 +3279,7 @@ msgstr "RPM fitxategiak instalatzeko interfaze grafikoa"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:1
 msgid "Run Mageia Package Installer"
-msgstr "Exekutatu Mageia PAkete Instalatzailea"
+msgstr "Exekutatu Mageia Pakete Instalatzailea"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:2
 msgid "Authentication is required to run Mageia Package Installer"

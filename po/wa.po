@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2016-06-27 23:05+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
 "Language-Team: Walloon (http://www.transifex.com/MageiaLinux/mageia/language/"
 "wa/)\n"
 "Language: wa\n"
@@ -412,12 +412,12 @@ msgstr "renondant urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Neni"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Oyi"
 
 #: ../rpm-find-leaves:15
 #, c-format

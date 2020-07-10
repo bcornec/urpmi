@@ -7,9 +7,9 @@
 # Henrik Borg <datb@thegym.net>, 2000
 # Henrik Borg <hblinux@bredband.net>, 2004
 # Kenneth Krekula <kenneth.krekula@kiruna.se>, 2004-2005
-# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2013-2014
-# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2013
-# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2014
+# Kristoffer Grundström <lovaren@gmail.com>, 2013-2014
+# Kristoffer Grundström <lovaren@gmail.com>, 2013
+# Kristoffer Grundström <lovaren@gmail.com>, 2014-2015
 # Lars Westergren <lars.westergren@home.se>, 2003,2005
 # Mattias Dahlberg <voz@home.se>, 2001-2002
 # Mattias Newzella <newzella@linux.nu>, 2002-2003
@@ -20,9 +20,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2015-02-13 05:26+0000\n"
-"Last-Translator: Michael Eklund <willard@null.net>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/mageia/language/"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Swedish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr ""
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
 msgid "Distribution Upgrade"
-msgstr "Uppgradera distribution"
+msgstr "Uppgradering av distribution"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
@@ -420,12 +420,12 @@ msgstr "startar om urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1086,11 +1086,11 @@ msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
 msgstr "slutar att ignorera tainted-media `%s' b/c tainted-paket installeras"
 
 #: ../urpm/media.pm:816
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
-msgstr "slutar att ignorera tainted-media `%s' b/c tainted-paket installeras"
+msgstr ""
 
 #: ../urpm/media.pm:844
 #, c-format

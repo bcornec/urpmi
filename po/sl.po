@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-01-23 23:17+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: Filip Komar <filip.komar@guest.arnes.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/sl/)\n"
@@ -416,12 +416,12 @@ msgstr "ponovno zaganjanje urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 #: ../rpm-find-leaves:15
 #, c-format

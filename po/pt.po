@@ -8,6 +8,7 @@
 # Jose Carlos D. S. Saraiva <jose.d.s.saraiva@clix.pt>, 2004
 # zecas <jjorge@free.fr>, 2004
 # Jose Jorge <jose.jorge@oreka.com>, 2003
+# Manuela Silva <manuelarodsilva@gmail.com>, 2020
 # Manuela Silva <manuelarodsilva@gmail.com>, 2014,2017
 # Pedro <simplew8@gmail.com>, 2012
 # Rui <xymarior@yandex.com>, 2018-2019
@@ -18,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2019-06-26 06:40+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Filip Komar <filip.komar@guest.arnes.si>\n"
 "Language-Team: Portuguese (http://www.transifex.com/MageiaLinux/mageia/"
 "language/pt/)\n"
 "Language: pt\n"
@@ -125,7 +126,7 @@ msgid ""
 "\n"
 "Proceed?"
 msgstr ""
-"Está prestes a instalar os seguintes pacotes no seu computador:\n"
+"Está prestes a instalar os seguintes pacotes de software no seu computador:\n"
 "\n"
 "%s\n"
 "\n"
@@ -140,11 +141,11 @@ msgid ""
 "\n"
 "You may prefer to just save it. What is your choice?"
 msgstr ""
-"Está prestes a instalar o seguinte pacote no seu computador:\n"
+"Está prestes a instalar o seguinte pacote de software no seu computador:\n"
 "\n"
 "%s\n"
 "\n"
-"Pode preferir apenas gravá-lo. O que deseja?"
+"Pode preferir apenas gravá-lo. Qual é a sua escolha?"
 
 #: ../gurpmi:117
 #, c-format
@@ -188,8 +189,8 @@ msgid ""
 "  --auto         - non-interactive mode, assume default answers to "
 "questions.\n"
 msgstr ""
-"  --auto         - modo não-interactivo, assume respostas predefinidas às "
-"questões.\n"
+"  --auto         - modo não interativo, assume respostas predefinidas para "
+"as questões.\n"
 
 #: ../gurpmi.pm:59 ../urpmi:75 ../urpmq:48
 #, c-format
@@ -427,12 +428,12 @@ msgstr "a reiniciar urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: ../rpm-find-leaves:15
 #, c-format
@@ -1868,7 +1869,8 @@ msgstr ""
 #: ../urpmf:33 ../urpmi:69 ../urpmq:45
 #, c-format
 msgid "  --excludemedia - do not use the given media, separated by comma.\n"
-msgstr "  --excludemedia - não usa a média indicada, separada por vírgula.\n"
+msgstr ""
+"  --excludemedia - não utilizar a opção fornecida, separada por vírgula.\n"
 
 #: ../urpmf:34
 #, c-format
@@ -2509,7 +2511,7 @@ msgstr ""
 #: ../urpmi:251
 #, c-format
 msgid "Unable to create directory [%s] for bug report"
-msgstr "Não é possível criar o directório [%s] para reportar erros"
+msgstr "Não é possível criar a diretoria [%s] para comunicar erros"
 
 #: ../urpmi:272
 #, c-format
@@ -2954,7 +2956,8 @@ msgstr "  --no-ignore    - não actualiza, marca a média como activada.\n"
 #, c-format
 msgid "  --probe-rpms   - do not use synthesis, use rpm files directly\n"
 msgstr ""
-"  --probe-rpms   - não usa synthesis, usa directamente os ficheiros rpm\n"
+"  --probe-rpms   - não utilizar synthesis, utilizar diretamente os ficheiros "
+"rpm\n"
 
 #: ../urpmi.update:51
 #, c-format

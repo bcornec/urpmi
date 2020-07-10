@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2015-07-26 10:04+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Thai (http://www.transifex.com/projects/p/mageia/language/"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Rockers <sumorock@hotmail.com>\n"
+"Language-Team: Thai (http://www.transifex.com/MageiaLinux/mageia/language/"
 "th/)\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -368,12 +368,12 @@ msgstr ""
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "ไม่ต้อง"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "ใช่"
 
 #: ../rpm-find-leaves:15
 #, c-format

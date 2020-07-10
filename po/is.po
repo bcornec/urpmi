@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2015-02-13 05:26+0000\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Icelandic (http://www.transifex.com/projects/p/mageia/"
+"Language-Team: Icelandic (http://www.transifex.com/MageiaLinux/mageia/"
 "language/is/)\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=2; plural=(n % 10 == 1 || n % 100 != 11);\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
@@ -408,12 +408,12 @@ msgstr "endurræsi urpmi"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "Nei"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "Já"
 
 #: ../rpm-find-leaves:15
 #, c-format

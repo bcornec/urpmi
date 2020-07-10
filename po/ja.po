@@ -4,16 +4,16 @@
 # Translators:
 # ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2015
 # ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2015
-# kakurasan <kakurasan@gmail.com>, 2018
-# kakurasan <kakurasan@gmail.com>, 2018
+# Masanori Kakura <kakurasan@gmail.com>, 2018
+# Masanori Kakura <kakurasan@gmail.com>, 2018
 # Taisuke Yamada <tai@imasy.or.jp>, 1999
 # UTUMI Hirosi <utuhiro@mx12.freecom.ne.jp>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-01-21 12:17+0000\n"
-"Last-Translator: kakurasan <kakurasan@gmail.com>\n"
+"PO-Revision-Date: 2020-07-10 16:45+0000\n"
+"Last-Translator: Masanori Kakura <kakurasan@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/MageiaLinux/mageia/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -404,12 +404,12 @@ msgstr "urpmi を再スタートします"
 #: ../gurpmi2:386
 #, c-format
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: ../gurpmi2:386
 #, c-format
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: ../rpm-find-leaves:15
 #, c-format
