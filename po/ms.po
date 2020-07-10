@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: urpmi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-18 09:59+0200\n"
+"POT-Creation-Date: 2020-07-10 17:41+0100\n"
 "PO-Revision-Date: 2008-08-21 23:48+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
@@ -61,7 +61,7 @@ msgstr "Memuatturun pakej `%s'..."
 msgid "Cancel"
 msgstr "Batal"
 
-#: ../gurpm/RPMProgressDialog.pm:359 ../urpm.pm:452 ../urpm/download.pm:882
+#: ../gurpm/RPMProgressDialog.pm:359 ../urpm.pm:454 ../urpm/download.pm:882
 #: ../urpm/get_pkgs.pm:277 ../urpm/media.pm:1149 ../urpm/media.pm:1682
 #: ../urpm/media.pm:1833
 #, c-format
@@ -246,7 +246,7 @@ msgid ""
 "Continue installation anyway?"
 msgstr "semua telah diinstal"
 
-#: ../gurpmi2:120
+#: ../gurpmi2:120 ../gurpmi2:386
 #, c-format
 msgid "Warning"
 msgstr "Amaran"
@@ -375,6 +375,16 @@ msgstr "Pemasangan selesai"
 msgid "restarting urpmi"
 msgstr "Tambah media urpmi"
 
+#: ../gurpmi2:386
+#, c-format
+msgid "No"
+msgstr ""
+
+#: ../gurpmi2:386
+#, c-format
+msgid "Yes"
+msgstr ""
+
 #: ../rpm-find-leaves:15
 #, c-format
 msgid ""
@@ -423,137 +433,137 @@ msgstr "Melaksanakan urpmi dalam mod terhad..."
 msgid "While some packages may have been installed, there were failures.\n"
 msgstr ""
 
-#: ../urpm.pm:193
+#: ../urpm.pm:195
 #, fuzzy, c-format
 msgid "fail to create directory %s"
 msgstr "gagal untuk mencipta direktori %s: %s\n"
 
-#: ../urpm.pm:194
+#: ../urpm.pm:196
 #, fuzzy, c-format
 msgid "invalid owner for directory %s"
 msgstr "Nilai baru utk direktori: %s\n"
 
-#: ../urpm.pm:237
+#: ../urpm.pm:239
 #, fuzzy, c-format
 msgid "Can not download packages into %s"
 msgstr "Memuatturun pakej `%s'..."
 
-#: ../urpm.pm:253
+#: ../urpm.pm:255
 #, fuzzy, c-format
 msgid "Environment directory %s does not exist"
 msgstr "Direktori didalam nama path yang diberi tidak wujud."
 
-#: ../urpm.pm:254 ../urpmf:244 ../urpmq:163
+#: ../urpm.pm:256 ../urpmf:244 ../urpmq:163
 #, fuzzy, c-format
 msgid "using specific environment on %s\n"
 msgstr "Mencipta swap dienkrip pada %s using %s:"
 
-#: ../urpm.pm:422
+#: ../urpm.pm:424
 #, c-format
 msgid "unable to open rpmdb"
 msgstr "tidak dapat membuka rpmdb"
 
-#: ../urpm.pm:441
+#: ../urpm.pm:443
 #, c-format
 msgid "invalid rpm file name [%s]"
 msgstr "nama fail rpm [%s] tidak sah"
 
-#: ../urpm.pm:447
+#: ../urpm.pm:449
 #, c-format
 msgid "retrieving rpm file [%s] ..."
 msgstr "mengambil fail rpm [%s] ..."
 
-#: ../urpm.pm:449 ../urpm/get_pkgs.pm:275
+#: ../urpm.pm:451 ../urpm/get_pkgs.pm:275
 #, c-format
 msgid "...retrieving done"
 msgstr "...capaian selesai"
 
-#: ../urpm.pm:457
+#: ../urpm.pm:459
 #, c-format
 msgid "unable to access rpm file [%s]"
 msgstr "gagal akses fail rpm [%s]"
 
-#: ../urpm.pm:462
+#: ../urpm.pm:464
 #, fuzzy, c-format
 msgid "unable to parse spec file %s [%s]"
 msgstr "tidak dapat menghurai \"%s\" dalam fail [%s]"
 
-#: ../urpm.pm:470
+#: ../urpm.pm:472
 #, c-format
 msgid "unable to register rpm file"
 msgstr "tidak dapat mendaftarkan fail rpm"
 
-#: ../urpm.pm:472
+#: ../urpm.pm:474
 #, fuzzy, c-format
 msgid "Incompatible architecture for rpm [%s]"
 msgstr "  --root         - guna root lain untuk membuang rpm.\n"
 
-#: ../urpm.pm:476
+#: ../urpm.pm:478
 #, c-format
 msgid "error registering local packages"
 msgstr "ralat pendaftaran pakej setempat"
 
-#: ../urpm.pm:588
+#: ../urpm.pm:590
 #, c-format
 msgid "This operation is forbidden while running in restricted mode"
 msgstr ""
 
-#: ../urpm/args.pm:156 ../urpm/args.pm:165
+#: ../urpm/args.pm:157 ../urpm/args.pm:166
 #, c-format
 msgid "bad proxy declaration on command line\n"
 msgstr ""
 
-#: ../urpm/args.pm:320
+#: ../urpm/args.pm:321
 #, c-format
 msgid "urpmq: cannot read rpm file \"%s\"\n"
 msgstr "urpmq: tidak dapat membaca fail rpm \"%s\"\n"
 
-#: ../urpm/args.pm:388
+#: ../urpm/args.pm:389
 #, fuzzy, c-format
 msgid "unexpected expression %s"
 msgstr "hujah tidak dijangka"
 
-#: ../urpm/args.pm:389
+#: ../urpm/args.pm:390
 #, fuzzy, c-format
 msgid "missing expression before %s"
 msgstr "12 pt sebelum"
 
-#: ../urpm/args.pm:395
+#: ../urpm/args.pm:396
 #, c-format
 msgid "unexpected expression %s (suggestion: use -a or -o ?)"
 msgstr ""
 
-#: ../urpm/args.pm:399
+#: ../urpm/args.pm:400
 #, fuzzy, c-format
 msgid "no expression to close"
 msgstr "Ungkapan corak:\n"
 
-#: ../urpm/args.pm:408
+#: ../urpm/args.pm:409
 #, c-format
 msgid "by default urpmf awaits a regexp. you should use option \"--literal\""
 msgstr ""
 
-#: ../urpm/args.pm:482
+#: ../urpm/args.pm:483
 #, c-format
 msgid "chroot directory doesn't exist"
 msgstr ""
 
-#: ../urpm/args.pm:505
+#: ../urpm/args.pm:506
 #, fuzzy, c-format
 msgid "Can't use %s without %s"
 msgstr "Tutup Tanpa Simpan"
 
-#: ../urpm/args.pm:508 ../urpm/args.pm:511 ../urpmq:155
+#: ../urpm/args.pm:509 ../urpm/args.pm:512 ../urpmq:155
 #, fuzzy, c-format
 msgid "Can't use %s with %s"
 msgstr "hidupkan penggunaan TLS dengan LDAP"
 
-#: ../urpm/args.pm:519
+#: ../urpm/args.pm:520
 #, fuzzy, c-format
 msgid "Too many arguments\n"
 msgstr "%s: terlalu banyak hujah\n"
 
-#: ../urpm/args.pm:527
+#: ../urpm/args.pm:528
 #, c-format
 msgid ""
 "%s version %s\n"
@@ -569,7 +579,7 @@ msgstr ""
 "\n"
 "penggunaan:\n"
 
-#: ../urpm/args.pm:533
+#: ../urpm/args.pm:534
 #, c-format
 msgid "Copyright (C) %s by %s"
 msgstr "Hakcipta (C) %s %s"
@@ -766,48 +776,48 @@ msgstr "mendapatkan fail rpm dari media \"%s\"..."
 msgid "removing %s"
 msgstr "membuang %s"
 
-#: ../urpm/install.pm:215
+#: ../urpm/install.pm:217
 #, c-format
 msgid "unable to extract rpm from delta-rpm package %s"
 msgstr "tidak dapat mengekstrak rpm daripada pakej delta-rpm %s"
 
-#: ../urpm/install.pm:242
+#: ../urpm/install.pm:245
 #, c-format
 msgid "unable to install package %s"
 msgstr "tidak dapat memasang pakej %s"
 
-#: ../urpm/install.pm:245
+#: ../urpm/install.pm:248
 #, fuzzy, c-format
 msgid "removing bad rpm (%s) from %s"
 msgstr "mendapatkan fail rpm dari media \"%s\"..."
 
-#: ../urpm/install.pm:246 ../urpm/install.pm:393
+#: ../urpm/install.pm:249 ../urpm/install.pm:397
 #, fuzzy, c-format
 msgid "removing %s failed: %s"
 msgstr "Sambungan Gagal"
 
-#: ../urpm/install.pm:295
+#: ../urpm/install.pm:298
 #, c-format
 msgid "removing package %s"
 msgstr "membuang pakej %s"
 
-#: ../urpm/install.pm:359
+#: ../urpm/install.pm:362
 #, c-format
 msgid ""
 "created transaction for installing on %s (remove=%d, install=%d, upgrade=%d)"
 msgstr ""
 
-#: ../urpm/install.pm:362
+#: ../urpm/install.pm:365
 #, c-format
 msgid "unable to create transaction"
 msgstr "tidak dapat mencipta transaksi"
 
-#: ../urpm/install.pm:391
+#: ../urpm/install.pm:395
 #, fuzzy, c-format
 msgid "removing installed rpms (%s) from %s"
 msgstr "Sahkan RPM untuk dipasang:"
 
-#: ../urpm/install.pm:400
+#: ../urpm/install.pm:404
 #, c-format
 msgid "More information on package %s"
 msgstr "Lebih maklumat pada pakej %s"
@@ -3043,7 +3053,7 @@ msgid ""
 "no xml info for medium \"%s\", unable to return any result for packages %s"
 msgstr ""
 
-#: ../urpmq:487
+#: ../urpmq:488
 #, c-format
 msgid "No changelog found\n"
 msgstr "Tiada log perubahan dijumpai\n"
