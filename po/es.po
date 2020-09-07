@@ -9,6 +9,7 @@
 # Fabian Mandelbaum <fabman@mandrakesoft.com>, 2001-2002,2003, 2004
 # Fabian Mandelbaum <fmandelbaum@hotmail.com>, 2003-2004
 # Jaime Crespo <505201@unizar.es>, 2004-2005
+# José Alberto Valle Cid <j.alberto.vc@gmail.com>, 2020
 # José Alberto Valle Cid <mdktrans@blogdrake.net>, 2010
 # 9d2429286e4b6db037855ee18ff950ea_21b1117 <e234ccd2dcb0d5482e17780be633a729_130514>, 2014
 # José Manuel Pérez <jmprodu@hotmail.com>, 2005
@@ -17,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-07-10 16:45+0000\n"
-"Last-Translator: Miguel\n"
+"PO-Revision-Date: 2020-09-07 18:46+0000\n"
+"Last-Translator: José Alberto Valle Cid <j.alberto.vc@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/MageiaLinux/mageia/language/"
 "es/)\n"
 "Language: es\n"
@@ -709,7 +710,7 @@ msgstr "Contraseña:"
 #: ../urpm/download.pm:288
 #, c-format
 msgid "Unknown webfetch `%s' !!!\n"
-msgstr "¡¡¡webfetch «%s» desconocido!!!\n"
+msgstr "¡¡¡gestor de descargas «%s» desconocido!!!\n"
 
 #: ../urpm/download.pm:296
 #, c-format
@@ -799,7 +800,7 @@ msgstr "protocolo desconocido definido para %s"
 #: ../urpm/download.pm:1035
 #, c-format
 msgid "no webfetch found, supported webfetch are: %s\n"
-msgstr "no se encontró webfetch, los webfetch soportados son: %s\n"
+msgstr "no se encontró gestor de descargas, los gestores soportados son: %s\n"
 
 #: ../urpm/download.pm:1050
 #, c-format
@@ -1079,14 +1080,14 @@ msgstr "Ignorando soporte non-free `%s'"
 #, c-format
 msgid "un-ignoring non-free medium `%s' b/c nonfree packages are installed"
 msgstr ""
-"usando de nuevo el repositorio non-free `%s' paquetes nonfree b/c están "
+"usando de nuevo el repositorio non-free `%s' paquetes nonfree  están "
 "instalados "
 
 #: ../urpm/media.pm:807
 #, c-format
 msgid "un-ignoring tainted medium `%s' b/c tainted packages are installed"
 msgstr ""
-"usando de nuevo el repositorio tainted `%s' paquetes nonfree b/c están "
+"usando de nuevo el repositorio tainted `%s' paquetes tainted están "
 "instalados "
 
 #: ../urpm/media.pm:816
@@ -1095,8 +1096,8 @@ msgid ""
 "un-ignoring 32bit medium `%s' b/c 32-bit packages are installed or system is "
 "32-bit EFI"
 msgstr ""
-"dejano de ignorar repositorio de 32 bits `%s' porque hay paquetes de 32 "
-"instalados o porque el sistema es EFI de 32 bits."
+"usando repositorio de 32 bits `%s' porque hay paquetes de 32 instalados o "
+"porque el sistema es EFI de 32 bits."
 
 #: ../urpm/media.pm:844
 #, c-format
@@ -2664,7 +2665,7 @@ msgstr "(sólo prueba, no se llevará a cabo la instalación)"
 #: ../urpmi:642
 #, c-format
 msgid "Press Enter when mounted..."
-msgstr "Presione «Intro» cuando el soporte sté montado..."
+msgstr "Presione «Intro» cuando el soporte esté montado..."
 
 #. -PO: The URI types strings 'file:', 'ftp:', 'http:', and 'cdrom:' must not be translated!
 #. -PO: neither the ``with''.  Only what is between <brackets> can be translated.
@@ -2897,7 +2898,7 @@ msgstr "  -a             - selecciona todos los soportes.\n"
 #: ../urpmi.removemedia:42
 #, c-format
 msgid "  -y             - fuzzy match on media names.\n"
-msgstr "  -y             - coincidencia 'fuzzy' en nombres de soportes.\n"
+msgstr "  -y             - coincidencia 'difusa' en nombres de soportes.\n"
 
 #: ../urpmi.removemedia:59
 #, c-format
