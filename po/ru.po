@@ -349,10 +349,10 @@ msgstr "Будет загружено %s пакетов."
 #, c-format
 msgid "Proceed with the installation of one package?"
 msgid_plural "Proceed with the installation of the %d packages?"
-msgstr[0] "Продолжить установку %d пакета?"
+msgstr[0] "Продолжить установку пакета?"
 msgstr[1] "Продолжить установку %d пакетов?"
 msgstr[2] "Продолжить установку %d пакетов?"
-msgstr[3] "Продолжить установку пакета?"
+msgstr[3] "Продолжить установку %d пакетов?"
 
 #: ../gurpmi2:259 ../urpmi:608
 #, c-format
@@ -1838,10 +1838,10 @@ msgstr "Нет осиротевших пакетов для удаления"
 msgid "To satisfy dependencies, the following package will be removed"
 msgid_plural ""
 "To satisfy dependencies, the following %d packages will be removed"
-msgstr[0] "Для удовлетворения зависимостей, следующий %d пакет будет удалён"
+msgstr[0] "Для удовлетворения зависимостей, следующий пакет будет удалён"
 msgstr[1] "Для удовлетворения зависимостей, следующие %d пакеты будут удалены"
 msgstr[2] "Для удовлетворения зависимостей, следующие %d пакеты будут удалены"
-msgstr[3] "Для удовлетворения зависимостей, следующий пакет будет удалён"
+msgstr[3] "Для удовлетворения зависимостей, следующие %d пакеты будут удалены"
 
 #: ../urpme:151
 #, c-format
