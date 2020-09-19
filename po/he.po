@@ -7,12 +7,13 @@
 # dovix <dovix2003@yahoo.com>, 2003-2005
 # el-cuco <cuco3001@yahoo.com>, 2003
 # lev polvoi <lev@israsrv.net.il>, 2003
+# Omer I.S., 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-07-10 16:45+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2020-09-18 13:47+0000\n"
+"Last-Translator: Omer I.S.\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
 "Language: he\n"
@@ -25,7 +26,7 @@ msgstr ""
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
 msgid "Distribution Upgrade"
-msgstr ""
+msgstr "שדרוג הפצה"
 
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
@@ -55,12 +56,12 @@ msgstr ""
 #: ../gurpm/RPMProgressDialog.pm:316
 #, c-format
 msgid "Installing package `%s' (%s/%s)..."
-msgstr "מתקין חבילה `%s' (%s/%s)..."
+msgstr "בהתקנת החבילה \"%s\" (%s/%s)..."
 
 #: ../gurpm/RPMProgressDialog.pm:345
 #, c-format
 msgid "Downloading package `%s'..."
-msgstr "מוריד חבילה `%s'..."
+msgstr "בהורדת החבילה \"%s\"..."
 
 #: ../gurpm/RPMProgressDialog.pm:349 ../gurpmi:127
 #, c-format
@@ -72,7 +73,7 @@ msgstr "ביטול"
 #: ../urpm/media.pm:1833
 #, c-format
 msgid "...retrieving failed: %s"
-msgstr "...האיחזור נכשל: %s"
+msgstr "...האחזור נכשל: %s"
 
 #: ../gurpmi:50
 #, c-format
@@ -158,7 +159,7 @@ msgstr "_ביטול"
 #: ../gurpmi:127
 #, c-format
 msgid "Choose location to save file"
-msgstr "עליך לבחור מקום לשמירת הקובץ"
+msgstr "יש לבחור מקום לשמירת הקובץ"
 
 #: ../gurpmi:127 ../gurpmi2:120
 #, c-format
@@ -168,7 +169,7 @@ msgstr "אישור"
 #: ../gurpmi.pm:56
 #, c-format
 msgid "Options:"
-msgstr ""
+msgstr "אפשרויות:"
 
 #: ../gurpmi.pm:57 ../urpme:42 ../urpmf:30 ../urpmi:67 ../urpmi.addmedia:55
 #: ../urpmi.removemedia:40 ../urpmi.update:33 ../urpmq:41
@@ -246,12 +247,12 @@ msgstr "לא צוינו חבילות"
 #: ../gurpmi2:47
 #, c-format
 msgid "Must be root"
-msgstr "עליך להיות בעל הרשאות מנהל מערכת"
+msgstr "יש להיות משתמש־על"
 
 #: ../gurpmi2:77
 #, c-format
 msgid "Preparing packages installation..."
-msgstr "מכין חבילות להתקנה..."
+msgstr "בהכנת חבילות להתקנה..."
 
 #: ../gurpmi2:92 ../urpmi:506
 #, c-format
@@ -259,7 +260,7 @@ msgid ""
 "Some requested packages cannot be installed:\n"
 "%s"
 msgstr ""
-"לא יכול להתקין כמה חבילות מבוקשות:\n"
+"לא ניתן להתקין מספר חבילות דרושות:\n"
 "%s"
 
 #: ../gurpmi2:100
@@ -899,7 +900,7 @@ msgstr "נוטש"
 #: ../urpm/main_loop.pm:58
 #, c-format
 msgid "Retry?"
-msgstr ""
+msgstr "לנסות שוב?"
 
 #: ../urpm/main_loop.pm:85
 #, c-format
@@ -1108,7 +1109,7 @@ msgstr ""
 #: ../urpm/media.pm:1115
 #, c-format
 msgid "directory %s does not exist"
-msgstr "הספריה %s אינה קיימת"
+msgstr "התיקייה %s אינה קיימת"
 
 #: ../urpm/media.pm:1123
 #, c-format
@@ -1369,22 +1370,22 @@ msgstr "B"
 #: ../urpm/msg.pm:198
 #, c-format
 msgid "KB"
-msgstr "KB"
+msgstr "ק״ב"
 
 #: ../urpm/msg.pm:198
 #, c-format
 msgid "MB"
-msgstr "MB"
+msgstr "מ״ב"
 
 #: ../urpm/msg.pm:198
 #, c-format
 msgid "GB"
-msgstr "GB"
+msgstr "ג״ב"
 
 #: ../urpm/msg.pm:198 ../urpm/msg.pm:207
 #, c-format
 msgid "TB"
-msgstr "TB"
+msgstr "ט״ב"
 
 #: ../urpm/orphans.pm:84
 #, c-format
@@ -1497,7 +1498,7 @@ msgstr "אין אפשרות לגשת למדיה \"%s\"."
 #: ../urpm/removable.pm:85 ../urpm/removable.pm:100
 #, c-format
 msgid "mounting %s"
-msgstr "מחבר את %s"
+msgstr "בעיגון %s"
 
 #: ../urpm/removable.pm:112
 #, c-format
@@ -1563,7 +1564,7 @@ msgstr "מנסה לקדם %s"
 #: ../urpm/select.pm:632
 #, c-format
 msgid "in order to keep %s"
-msgstr "בכדי לשמור %s"
+msgstr "על מנת לשמור %s"
 
 #: ../urpm/select.pm:673
 #, c-format
@@ -1586,7 +1587,7 @@ msgstr ""
 #: ../urpm/select.pm:701
 #, c-format
 msgid "in order to install %s"
-msgstr "בכדי להתקין %s"
+msgstr "על מנת להתקין %s"
 
 #: ../urpm/select.pm:707
 #, c-format
@@ -1831,7 +1832,7 @@ msgstr "  --sortmedia    - מיון מדיה בהתאם לכותרות משנה 
 #: ../urpmf:38
 #, c-format
 msgid "  --use-distrib  - use the given path to access media\n"
-msgstr "  --use-distrib  - השתמש בנתיב שהוגדר כדי לגשת למקור\n"
+msgstr "  --use-distrib  - שימוש בנתיב שהוגדר כדי לגשת לאמצעי ההתקנה\n"
 
 #: ../urpmf:39 ../urpmi:73 ../urpmq:47
 #, c-format
@@ -2411,7 +2412,7 @@ msgstr ""
 #: ../urpmi:251
 #, c-format
 msgid "Unable to create directory [%s] for bug report"
-msgstr "יצירת הספרייה. [%s] עבור דיווחי תקלות נכשלה"
+msgstr "לא ניתן ליצור את הספרייה [%s] עבור דיווח על באג"
 
 #: ../urpmi:272
 #, c-format
@@ -2451,7 +2452,7 @@ msgstr "%s (להתקין)"
 msgid ""
 "In order to satisfy the '%s' dependency, one of the following packages is "
 "needed:"
-msgstr "בכדי לענות על התלות '%s' דרושה אחת החבילות הבאות:"
+msgstr "על מנת לענות על התלות \"%s\" דרושה אחת החבילות הבאות:"
 
 #: ../urpmi:443
 #, c-format
@@ -2762,17 +2763,17 @@ msgstr ""
 #: ../urpmi.removemedia:41
 #, c-format
 msgid "  -a             - select all media.\n"
-msgstr "  -a             - select all media.\n"
+msgstr "  -a             - בחירת כל המאגרים.\n"
 
 #: ../urpmi.removemedia:42
 #, c-format
 msgid "  -y             - fuzzy match on media names.\n"
-msgstr "  -y             - זיהוי מקורב של שמות מקורות.\n"
+msgstr "  -y             - זיהוי מקורב של שמות מדיה.\n"
 
 #: ../urpmi.removemedia:59
 #, c-format
 msgid "Only superuser is allowed to remove media"
-msgstr "רק מנהל מערכת מורשה להסיר מקור תוכנה"
+msgstr "רק מנהל מערכת מורשה להסיר מאגר"
 
 #: ../urpmi.removemedia:71
 #, c-format
@@ -2810,7 +2811,7 @@ msgstr "  --force-key    - אלץ עדכון מפתח gpg.\n"
 #: ../urpmi.update:47
 #, c-format
 msgid "  --ignore       - don't update, mark the media as ignored.\n"
-msgstr "  --ignore       - אל תעדכן, סמן מקור זה כלא-פעיל.\n"
+msgstr "  --ignore       - לא לעדכן, סימון מאגר זה כלא פעיל.\n"
 
 #: ../urpmi.update:48
 #, c-format
@@ -2840,7 +2841,7 @@ msgstr "  -f             - באמת אלץ עדכון synthesis.\n"
 #: ../urpmi.update:70
 #, c-format
 msgid "Only superuser is allowed to update media"
-msgstr "רק מנהל מערכת מורשה לעדכן מקור תוכנה"
+msgstr "רק מנהל מערכת מורשה לעדכן מאגר"
 
 #: ../urpmi.update:87
 #, c-format
@@ -3128,7 +3129,7 @@ msgstr "מתקין חבילות תוכנה"
 
 #: ../gurpmi.desktop.in.h:2
 msgid "Graphical front end to install RPM files"
-msgstr "ממשק גרפי להתקנת חבילות RPM"
+msgstr "ממשק משתמש גרפי להתקנת חבילות RPM"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:1
 msgid "Run Mageia Package Installer"
