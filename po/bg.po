@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-07-10 16:45+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2020-07-20 22:19+0000\n"
+"Last-Translator: Georgi Georgiev\n"
 "Language-Team: Bulgarian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/bg/)\n"
 "Language: bg\n"
@@ -889,7 +889,7 @@ msgstr ""
 #: ../urpm/main_loop.pm:58
 #, c-format
 msgid "Retry?"
-msgstr ""
+msgstr "Повторен опит?"
 
 #: ../urpm/main_loop.pm:85
 #, c-format
