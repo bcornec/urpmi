@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-09-18 13:47+0000\n"
+"PO-Revision-Date: 2020-10-11 17:32+0000\n"
 "Last-Translator: Omer I.S.\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -890,7 +890,7 @@ msgstr ""
 #: ../urpm/lock.pm:114
 #, c-format
 msgid "%s database is locked. Waiting..."
-msgstr "בסיס הנתונים %s נעול. ממתין..."
+msgstr "מסד הנתונים %s נעול. בהמתנה..."
 
 #: ../urpm/lock.pm:115
 #, c-format
@@ -1134,7 +1134,7 @@ msgstr ""
 #: ../urpm/media.pm:1242
 #, c-format
 msgid "retrieving media.cfg file..."
-msgstr "מאחזר את הקובץ  media.cfg..."
+msgstr "באחזור הקובץ media.cfg..."
 
 #: ../urpm/media.pm:1285
 #, c-format
@@ -1144,7 +1144,7 @@ msgstr "ניסיון לבחור במאגר שאינו קיים \"%s\""
 #: ../urpm/media.pm:1288
 #, c-format
 msgid "selecting multiple media: %s"
-msgstr "בוחר הרבה מדיה:%s"
+msgstr "בחירת מדיה מרובה:%s"
 
 #: ../urpm/media.pm:1347
 #, c-format
@@ -1154,7 +1154,7 @@ msgstr "מסיר מאגר \"%s\""
 #: ../urpm/media.pm:1438
 #, c-format
 msgid "reconfiguring urpmi for media \"%s\""
-msgstr "מגדיר מחדש את urpmi למקור \"%s\""
+msgstr "בהגדרת urpmi מחדש למאגר \"%s\""
 
 #: ../urpm/media.pm:1472
 #, c-format
@@ -1815,7 +1815,7 @@ msgstr "  --env          - שימוש בסביבה מסויימת (בדרך כל
 #: ../urpmf:33 ../urpmi:69 ../urpmq:45
 #, c-format
 msgid "  --excludemedia - do not use the given media, separated by comma.\n"
-msgstr "  --excludemedia - do not use the given media, separated by comma.\n"
+msgstr "  --excludemedia - לא להשתמש במאגר הנתון, מופרד עם פסיק.\n"
 
 #: ../urpmf:34
 #, c-format
@@ -1827,7 +1827,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  --sortmedia    - sort media according to substrings separated by comma.\n"
-msgstr "  --sortmedia    - מיון מדיה בהתאם לכותרות משנה המופרדים ע\"י פסיק.\n"
+msgstr "  --sortmedia    - מיון מדיה בהתאם לכותרות משנה המופרדים עם פסיק.\n"
 
 #: ../urpmf:38
 #, c-format
@@ -2039,7 +2039,7 @@ msgstr ""
 #: ../urpmf:79
 #, c-format
 msgid "  -m             - the media in which the package was found\n"
-msgstr "  -m             - המקור בו נמצאה החבילה\n"
+msgstr "  -m             - המאגר בו נמצאה החבילה\n"
 
 #: ../urpmf:80 ../urpmq:97
 #, c-format
@@ -2297,7 +2297,7 @@ msgstr "  --excludepath  - exclude path separated by comma.\n"
 #: ../urpmi:135
 #, c-format
 msgid "  --excludedocs  - exclude doc files.\n"
-msgstr "  --excludedocs  - למעט קבצי מסמכים.\n"
+msgstr "  --excludedocs  - למעט קבצי doc.\n"
 
 #: ../urpmi:136
 #, c-format
@@ -2666,7 +2666,7 @@ msgstr ""
 #: ../urpmi.addmedia:78
 #, c-format
 msgid "  --virtual      - create virtual media wich are always up-to-date.\n"
-msgstr "  --virtual      - יצירת מקור וירטואלי שתמיד יהיה עדכני,\n"
+msgstr "  --virtual      - יצירת מאגר וירטואלי שתמיד יהיה עדכני.\n"
 
 #: ../urpmi.addmedia:79 ../urpmi.update:45
 #, c-format
@@ -2676,13 +2676,12 @@ msgstr "  --no-md5sum    - נטרל בדיקת חתימת MD5SUM של הקובץ
 #: ../urpmi.addmedia:80
 #, c-format
 msgid "  --nopubkey     - don't import pubkey of added media\n"
-msgstr "  --nopubkey     - אל תייבא את מפתח האימות של המקור שנוסף\n"
+msgstr "  --nopubkey     - לא לייבא את מפתח האימות של המאגר שנוסף\n"
 
 #: ../urpmi.addmedia:81
 #, c-format
 msgid "  --raw          - add the media in config, but don't update it.\n"
-msgstr ""
-"  --raw          - הוסף את המקור לרשימה, אבל אל תעדכן את רשימת הקבצים.\n"
+msgstr "  --raw          - להוסיף המאגר לרשימה, אך לא לעדכן את רשימת הקבצים.\n"
 
 #: ../urpmi.addmedia:82 ../urpmi.removemedia:43 ../urpmi.update:54
 #, c-format
@@ -2712,7 +2711,7 @@ msgstr "כתובת <url> שגויה (לספריות מקומיות הנתיב צ
 #: ../urpmi.addmedia:116
 #, c-format
 msgid "Only superuser is allowed to add media"
-msgstr "רק מנהל מערכת מורשה להוסיף מקור תוכנה"
+msgstr "רק למנהלי מערכת הרשאה להוספת מאגרים"
 
 #: ../urpmi.addmedia:119
 #, c-format
@@ -2768,7 +2767,7 @@ msgstr "  -a             - בחירת כל המאגרים.\n"
 #: ../urpmi.removemedia:42
 #, c-format
 msgid "  -y             - fuzzy match on media names.\n"
-msgstr "  -y             - זיהוי מקורב של שמות מדיה.\n"
+msgstr "  -y             - זיהוי עמום של שמות מאגרים.\n"
 
 #: ../urpmi.removemedia:59
 #, c-format
@@ -2801,7 +2800,7 @@ msgstr ""
 #: ../urpmi.update:44
 #, c-format
 msgid "  --update       - update only update media.\n"
-msgstr "  --update       - update only update media.\n"
+msgstr "  --update       - עדכון מאגר העדכון בלבד.\n"
 
 #: ../urpmi.update:46
 #, c-format
@@ -2816,7 +2815,7 @@ msgstr "  --ignore       - לא לעדכן, סימון מאגר זה כלא פע
 #: ../urpmi.update:48
 #, c-format
 msgid "  --no-ignore    - don't update, mark the media as enabled.\n"
-msgstr "  --no-ignore    - אל תעדכן, סמן מקור זה כמאופשר.\n"
+msgstr "  --no-ignore    - לא לעדכן, לסמן מאגר זה בתור מאופשר.\n"
 
 #: ../urpmi.update:50
 #, c-format
@@ -2865,12 +2864,12 @@ msgstr "\"%s\""
 #: ../urpmi.update:100
 #, c-format
 msgid "ignoring media %s"
-msgstr "מתעלם ממקור \"%s\""
+msgstr "בהתעלמות ממאגר \"%s\""
 
 #: ../urpmi.update:100
 #, c-format
 msgid "enabling media %s"
-msgstr "מאפשר את המקור %s"
+msgstr "באפשור המאגר %s"
 
 #: ../urpmq:44
 #, c-format
@@ -2878,7 +2877,7 @@ msgid ""
 "  --searchmedia  - use only the given media to search requested (or updated) "
 "packages.\n"
 msgstr ""
-"  --searchmedia  - השתמש רק במקור הנתון לחיפוש החבילות המבוקשות (או עדכון "
+"  --searchmedia  - שימוש במאגר הנתון בלבד לחיפוש החבילות המבוקשות (או עדכון "
 "שלהן).\n"
 
 #: ../urpmq:49
@@ -2906,7 +2905,7 @@ msgstr "  --list         - list available packages.\n"
 #: ../urpmq:57
 #, c-format
 msgid "  --list-media   - list available media.\n"
-msgstr "  --list-media   - list available media.\n"
+msgstr "  --list-media   - פירוט המאגרים הזמינים.\n"
 
 #: ../urpmq:58
 #, c-format
@@ -3129,7 +3128,7 @@ msgstr "מתקין חבילות תוכנה"
 
 #: ../gurpmi.desktop.in.h:2
 msgid "Graphical front end to install RPM files"
-msgstr "ממשק משתמש גרפי להתקנת חבילות RPM"
+msgstr "גישור גלוי גרפי להתקנת חבילות RPM"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:1
 msgid "Run Mageia Package Installer"
