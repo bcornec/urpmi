@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-10-30 19:49+0000\n"
+"PO-Revision-Date: 2020-11-01 22:37+0000\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian (http://www.transifex.com/MageiaLinux/mageia/"
 "language/ast/)\n"
@@ -146,7 +146,7 @@ msgstr ""
 #: ../gurpmi:127 ../gurpmi2:120
 #, c-format
 msgid "Ok"
-msgstr ""
+msgstr "Aceutar"
 
 #: ../gurpmi.pm:56
 #, c-format
@@ -211,6 +211,8 @@ msgid ""
 "  --test         - only verify if the installation can be achieved "
 "correctly.\n"
 msgstr ""
+"  --test         - namás verifica si la instalación pue facese "
+"correutamente.\n"
 
 #: ../gurpmi.pm:68 ../urpmi:71
 #, c-format
@@ -239,6 +241,8 @@ msgid ""
 "Some requested packages cannot be installed:\n"
 "%s"
 msgstr ""
+"Dalgunos paquetes solicitaos nun puen instalase:\n"
+"%s"
 
 #: ../gurpmi2:100
 #, c-format
@@ -247,6 +251,9 @@ msgid ""
 "%s\n"
 "Continue installation anyway?"
 msgstr ""
+"Dalgunos paquetes solicitaos nun puen instalase:\n"
+"%s\n"
+"¿Siguir cola instalación de toes toes?"
 
 #: ../gurpmi2:120 ../gurpmi2:386
 #, c-format
@@ -285,6 +292,9 @@ msgid ""
 "%s\n"
 "Continue installation anyway?"
 msgstr ""
+"Los paquetes de darréu tienen de desaniciase pa qu'otros s'anueven:\n"
+"%s\n"
+"¿Siguir la instalación de toes toes?"
 
 #: ../gurpmi2:250 ../urpmi:617
 #, c-format
@@ -1000,6 +1010,8 @@ msgid ""
 "--synthesis cannot be used with --media, --excludemedia, --sortmedia, --"
 "update, --use-distrib or --parallel"
 msgstr ""
+"--synthesis nun pue usase con --media, --excludemedia, --sortmedia, --"
+"update, --use-distrib o --parallel"
 
 #: ../urpm/media.pm:793
 #, c-format
@@ -1584,12 +1596,12 @@ msgstr ""
 #: ../urpm/sys.pm:235
 #, c-format
 msgid "You should restart your computer for %s"
-msgstr ""
+msgstr "Deberíes reaniciar l'ordenador por %s"
 
 #: ../urpm/sys.pm:237
 #, c-format
 msgid "You should restart your session for %s"
-msgstr ""
+msgstr "Deberíes reaniciar la sesión por %s"
 
 #: ../urpm/sys.pm:239
 #, c-format
@@ -2375,6 +2387,9 @@ msgid ""
 "that are older than the installed ones:\n"
 "%s"
 msgstr ""
+"El paquete de darréu nun pue instalase porque depende de paquetes que\n"
+"son más vieyos que los instalaos:\n"
+"%s"
 
 #: ../urpmi:487
 #, c-format
@@ -2402,6 +2417,8 @@ msgid ""
 "A requested package cannot be installed:\n"
 "%s"
 msgstr ""
+"Nun pue instalase un paquete solicitáu:\n"
+"%s"
 
 #: ../urpmi:526
 #, c-format
@@ -2423,6 +2440,9 @@ msgid ""
 "have to be removed for others to be upgraded:\n"
 "%s\n"
 msgstr ""
+"La instalación nun pue siguir porque los paquetes de darréu\n"
+"tienen de desaniciase pa qu'otros s'anueven:\n"
+"%s\n"
 
 #: ../urpmi:544
 #, c-format
@@ -2794,7 +2814,7 @@ msgstr ""
 #: ../urpmq:59
 #, c-format
 msgid "  --list-nodes   - list available nodes when using --parallel.\n"
-msgstr ""
+msgstr "  --list-nodes   - llista los noyos disponibles al usar --parallel.\n"
 
 #: ../urpmq:60
 #, c-format
