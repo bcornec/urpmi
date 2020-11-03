@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-10-11 17:32+0000\n"
+"PO-Revision-Date: 2020-11-03 19:49+0000\n"
 "Last-Translator: Omer I.S.\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -73,7 +73,7 @@ msgstr "ביטול"
 #: ../urpm/media.pm:1833
 #, c-format
 msgid "...retrieving failed: %s"
-msgstr "...האחזור נכשל: %s"
+msgstr "...האחזור כשל: %s"
 
 #: ../gurpmi:50
 #, c-format
@@ -465,7 +465,7 @@ msgstr ""
 #: ../urpm.pm:195
 #, c-format
 msgid "fail to create directory %s"
-msgstr "יצירת הספרייה %s נכשלה"
+msgstr "יצירת התיקייה %s היתה כישלון"
 
 #: ../urpm.pm:196
 #, c-format
@@ -510,7 +510,7 @@ msgstr "...האחזור הסתיים"
 #: ../urpm.pm:459
 #, c-format
 msgid "unable to access rpm file [%s]"
-msgstr "הגישה לחבילה [%s] נכשלה"
+msgstr "לא ניתן לגשת לחבילת [%s] מסוג rpm"
 
 #: ../urpm.pm:464
 #, c-format
@@ -617,7 +617,7 @@ msgstr "כל הזכויות שמורות (C) %s %s"
 #: ../urpm/bug_report.pm:67 ../urpmi:256
 #, c-format
 msgid "Copying failed"
-msgstr "ההעתקה נכשלה"
+msgstr "ההעתקה כשלה"
 
 #: ../urpm/cdrom.pm:79
 #, c-format
@@ -659,7 +659,7 @@ msgstr "המקור '%s' מוגדר פעמים, נוטש"
 #: ../urpm/cfg.pm:248 ../urpm/media.pm:560
 #, c-format
 msgid "unable to write config file [%s]"
-msgstr "כתיבת קובץ ההגדרות [%s] נכשלה"
+msgstr "לא ניתן לכתוב לקובץ ההגדרות [%s]"
 
 #: ../urpm/download.pm:95
 #, c-format
@@ -704,7 +704,7 @@ msgstr "%s כשל: הסתיים עם %d"
 #: ../urpm/download.pm:331
 #, c-format
 msgid "copy failed"
-msgstr "העתקה נכשלה"
+msgstr "ההעתקה כשלה"
 
 #: ../urpm/download.pm:337
 #, c-format
@@ -784,7 +784,7 @@ msgstr "לא נמצא webfetch מבין אלו הנתמכים: %s\n"
 #: ../urpm/download.pm:1050
 #, c-format
 msgid "unable to handle protocol: %s"
-msgstr "השימוש בפרוטוקול : %s נכשל"
+msgstr "לא ניתן לטפל בפרוטוקול: %s"
 
 #: ../urpm/get_pkgs.pm:28
 #, c-format
@@ -814,7 +814,7 @@ msgstr "אין אפשרות לחלץ rpm מתוך חבילת delta-rpm ששמה 
 #: ../urpm/install.pm:245
 #, c-format
 msgid "unable to install package %s"
-msgstr "התקנת החבילה %s נכשלה"
+msgstr "לא ניתן להתקין את החבילה %s"
 
 #: ../urpm/install.pm:248
 #, c-format
@@ -824,7 +824,7 @@ msgstr "מסיר חבילה תקולה (%s) מתוך %s"
 #: ../urpm/install.pm:249 ../urpm/install.pm:397
 #, c-format
 msgid "removing %s failed: %s"
-msgstr "הסרת %s נכשלה: %s"
+msgstr "הסרת %s כשלה: %s"
 
 #: ../urpm/install.pm:298
 #, c-format
@@ -943,7 +943,7 @@ msgstr "האם להמשיך בתהליך ההתקנה?"
 #: ../urpm/main_loop.pm:299
 #, c-format
 msgid "Installation failed"
-msgstr "ההתקנה נכשלה"
+msgstr "ההתקנה כשלה"
 
 #: ../urpm/main_loop.pm:159
 #, c-format
@@ -1159,7 +1159,7 @@ msgstr "בהגדרת urpmi מחדש למאגר \"%s\""
 #: ../urpm/media.pm:1472
 #, c-format
 msgid "...reconfiguration failed"
-msgstr "...ההגדרה מחדש נכשלה"
+msgstr "...ההגדרה מחדש כשלה"
 
 #: ../urpm/media.pm:1478
 #, c-format
@@ -1194,7 +1194,7 @@ msgstr "מעתיק [%s] עבור המקורר \"%s\"..."
 #: ../urpm/media.pm:1561 ../urpm/media.pm:1631 ../urpm/media.pm:1884
 #, c-format
 msgid "...copying failed"
-msgstr "...ההעתקה נכשלה"
+msgstr "...ההעתקה כשלה"
 
 #: ../urpm/media.pm:1627
 #, c-format
@@ -1209,7 +1209,7 @@ msgstr "...ההעתקה הסתיימה"
 #: ../urpm/media.pm:1660
 #, c-format
 msgid "copy of [%s] failed (file is suspiciously small)"
-msgstr "העתקת [%s] נכשלה (הקובץ קטן מהמצופה)"
+msgstr "העתקת [%s] כשלה (הקובץ קטן מהמצופה)"
 
 #: ../urpm/media.pm:1708
 #, c-format
@@ -1219,7 +1219,7 @@ msgstr "מחשב חתימות md5sum של קובץ synthesis"
 #: ../urpm/media.pm:1710 ../urpm/media.pm:2193
 #, c-format
 msgid "retrieval of [%s] failed (md5sum mismatch)"
-msgstr "אחזור [%s] נכשל (חתימת md5sum אינה תואמת)"
+msgstr "אחזור [%s] כשל (חתימת md5sum אינה תואמת)"
 
 #: ../urpm/media.pm:1725
 #, c-format
@@ -1795,7 +1795,7 @@ msgstr ""
 #: ../urpme:180
 #, c-format
 msgid "Removal failed"
-msgstr "ההסרה נכשלה"
+msgstr "ההסרה כשלה"
 
 #: ../urpme:182
 #, c-format
