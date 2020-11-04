@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-03 19:49+0000\n"
+"PO-Revision-Date: 2020-11-04 09:45+0000\n"
 "Last-Translator: Omer I.S.\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -83,7 +83,7 @@ msgstr "התקנת חבילות תוכנה"
 #: ../gurpmi:64
 #, c-format
 msgid "Error: unable to find file %s, will cancel operation"
-msgstr "שגיאה: לא ניתן למצוא את הקובץ %s, הפעולה תבוטל"
+msgstr "שגיאה: אין אפשרות למצוא את הקובץ %s, הפעולה תבוטל"
 
 #: ../gurpmi:65 ../gurpmi2:174 ../gurpmi2:203
 #, c-format
@@ -510,7 +510,7 @@ msgstr "...האחזור הסתיים"
 #: ../urpm.pm:459
 #, c-format
 msgid "unable to access rpm file [%s]"
-msgstr "לא ניתן לגשת לחבילת [%s] מסוג rpm"
+msgstr "אין אפשרות לגשת לחבילה [%s] מסוג rpm"
 
 #: ../urpm.pm:464
 #, c-format
@@ -649,7 +649,7 @@ msgstr "שגיאת תחביר בקובץ בשורה %s בקובץ התצורה"
 #: ../urpm/cfg.pm:106
 #, c-format
 msgid "unable to read config file [%s]"
-msgstr "לא ניתן לקרוא את קובץ התצורה [%s]"
+msgstr "אין אפשרות לקרוא את קובץ התצורה [%s]"
 
 #: ../urpm/cfg.pm:132
 #, c-format
@@ -659,7 +659,7 @@ msgstr "המקור '%s' מוגדר פעמים, נוטש"
 #: ../urpm/cfg.pm:248 ../urpm/media.pm:560
 #, c-format
 msgid "unable to write config file [%s]"
-msgstr "לא ניתן לכתוב לקובץ ההגדרות [%s]"
+msgstr "אין אפשרות לכתוב לקובץ ההגדרות [%s]"
 
 #: ../urpm/download.pm:95
 #, c-format
@@ -784,7 +784,7 @@ msgstr "לא נמצא webfetch מבין אלו הנתמכים: %s\n"
 #: ../urpm/download.pm:1050
 #, c-format
 msgid "unable to handle protocol: %s"
-msgstr "לא ניתן לטפל בפרוטוקול: %s"
+msgstr "אין אפשרות לטפל בפרוטוקול: %s"
 
 #: ../urpm/get_pkgs.pm:28
 #, c-format
@@ -814,7 +814,7 @@ msgstr "אין אפשרות לחלץ rpm מתוך חבילת delta-rpm ששמה 
 #: ../urpm/install.pm:245
 #, c-format
 msgid "unable to install package %s"
-msgstr "לא ניתן להתקין את החבילה %s"
+msgstr "אין אפשרות להתקין את החבילה %s"
 
 #: ../urpm/install.pm:248
 #, c-format
@@ -840,7 +840,7 @@ msgstr "יצר עסקה עבור התקנה על %s (הסרה=%d, התקנה=%d,
 #: ../urpm/install.pm:365
 #, c-format
 msgid "unable to create transaction"
-msgstr "בלתי אפשרי לעשות עסקה"
+msgstr "אין אפשרות לבצע את ההעברה"
 
 #: ../urpm/install.pm:395
 #, c-format
@@ -1028,7 +1028,7 @@ msgstr "כתיבת קובץ הגדרות [%s]"
 #: ../urpm/media.pm:654
 #, c-format
 msgid "Can't use parallel mode with use-distrib mode"
-msgstr "אין אפשרות להפעיל מצב parallel עם מצב use-distrib"
+msgstr "לא ניתן להשתמש במצב parallel יחד עם מצב use-distrib"
 
 #: ../urpm/media.pm:662
 #, c-format
@@ -1269,7 +1269,7 @@ msgstr ".. מפתח %s מיובא מתוך קובץ ציבורי של \"%s\""
 #: ../urpm/media.pm:1948
 #, c-format
 msgid "unable to import pubkey file of \"%s\""
-msgstr "לא יכול לייבוא קובץ של מפתח ציבורי של \"%s\""
+msgstr "אין אפשרות לייבא קובץ של מפתח ציבורי של \"%s\""
 
 #: ../urpm/media.pm:1989
 #, c-format
@@ -1652,17 +1652,17 @@ msgstr ""
 #: ../urpm/sys.pm:377
 #, c-format
 msgid "Can't write file"
-msgstr "לא מצליח לכתוב קובץ"
+msgstr "לא ניתן לכתוב לקובץ"
 
 #: ../urpm/sys.pm:377
 #, c-format
 msgid "Can't open file"
-msgstr "לא מצליח לפתוח קובץ"
+msgstr "לא ניתן לפתוח את הקובץ"
 
 #: ../urpm/sys.pm:390
 #, c-format
 msgid "Can't move file %s to %s"
-msgstr "לא מצליח להעביר את הקובץ %s אל %s"
+msgstr "לא ניתן להעביר את הקובץ %s אל %s"
 
 #: ../urpme:43
 #, c-format
@@ -2412,7 +2412,7 @@ msgstr ""
 #: ../urpmi:251
 #, c-format
 msgid "Unable to create directory [%s] for bug report"
-msgstr "לא ניתן ליצור את הספרייה [%s] עבור דיווח על באג"
+msgstr "אין אפשרות ליצור את התיקייה [%s] עבור דיווח על באג"
 
 #: ../urpmi:272
 #, c-format
@@ -2721,7 +2721,7 @@ msgstr "יוצר את קובץ ההגדרות [%s]"
 #: ../urpmi.addmedia:120
 #, c-format
 msgid "Can't create config file [%s]"
-msgstr "לא מצליח ליצור את קובץ ההגדרות [%s]"
+msgstr "לא ניתן ליצור את קובץ התצורה [%s]"
 
 #: ../urpmi.addmedia:128
 #, c-format
@@ -2738,7 +2738,7 @@ msgstr ""
 #: ../urpmi.addmedia:156 ../urpmi.addmedia:181
 #, c-format
 msgid "unable to add medium"
-msgstr "לא ניתן להוסיף את המקור"
+msgstr "אין אפשרות להוסיף את אמצעי ההתקנה"
 
 #: ../urpmi.addmedia:164
 #, c-format
@@ -2748,7 +2748,7 @@ msgstr "חסר <relative path of hdlist>\n"
 #: ../urpmi.addmedia:167
 #, c-format
 msgid "Can't use %s with remote medium"
-msgstr "לא מצליח להשתמש ב-%s עם מקור מרוחק"
+msgstr "לא ניתן להשתמש ב־%s עם אמצעי התקנה מרוחק"
 
 #: ../urpmi.removemedia:38
 #, c-format
@@ -3109,13 +3109,15 @@ msgstr "אין מידע ב-xml למקור \"%s\", תוצאה חלקית בלבד
 #, c-format
 msgid ""
 "no xml info for medium \"%s\", unable to return any result for package %s"
-msgstr "אין מידע ב-xml למקור \"%s\", אין כל תוצאה עבור החבילה %s"
+msgstr ""
+"אין מידע ב־xml לאמצעי ההתקנה \"%s\", אין אפשרות למצוא תוצאות עבור החבילה %s"
 
 #: ../urpmq:420
 #, c-format
 msgid ""
 "no xml info for medium \"%s\", unable to return any result for packages %s"
-msgstr "אין מידע ב-xml למקור \"%s\", אין כל תוצאה עבור החבילות %s"
+msgstr ""
+"אין מידע ב־xml לאמצעי ההתקנה \"%s\", אין אפשרות למצוא תוצאות עבור החבילה %s"
 
 #: ../urpmq:488
 #, c-format
