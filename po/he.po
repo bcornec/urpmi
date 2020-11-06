@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-04 09:45+0000\n"
+"PO-Revision-Date: 2020-11-06 08:53+0000\n"
 "Last-Translator: Omer I.S.\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -391,7 +391,7 @@ msgstr "ההתקנה כשלה:"
 #: ../gurpmi2:348
 #, c-format
 msgid "The package(s) are already installed"
-msgstr "הכל כבר מותקן"
+msgstr "החבילה/ות כבר מותקנ(ו)ת"
 
 #: ../gurpmi2:350
 #, c-format
@@ -749,7 +749,7 @@ msgstr ""
 #: ../urpm/download.pm:736
 #, c-format
 msgid "Failed to download %s"
-msgstr ""
+msgstr "כשל בהורדת %s"
 
 #: ../urpm/download.pm:854
 #, c-format
