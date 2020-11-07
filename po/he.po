@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-06 08:53+0000\n"
+"PO-Revision-Date: 2020-11-07 16:56+0000\n"
 "Last-Translator: Omer I.S.\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -46,7 +46,7 @@ msgstr "בודק את החתימות של החבילות..."
 #: ../gurpm/RPMProgressDialog.pm:309 ../urpm/install.pm:108
 #, c-format
 msgid "Preparing..."
-msgstr "הכנה..."
+msgstr "בהכנה..."
 
 #: ../gurpm/RPMProgressDialog.pm:313
 #, c-format
@@ -689,7 +689,7 @@ msgstr "ססמה:"
 #: ../urpm/download.pm:288
 #, c-format
 msgid "Unknown webfetch `%s' !!!\n"
-msgstr ""
+msgstr "‏webfetch לא ידוע \"%s\" !!!\n"
 
 #: ../urpm/download.pm:296
 #, c-format
