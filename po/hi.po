@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-07-10 16:45+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2020-10-21 16:52+0000\n"
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/MageiaLinux/mageia/language/"
 "hi/)\n"
 "Language: hi\n"
@@ -1317,7 +1317,7 @@ msgstr ""
 #: ../urpm/msg.pm:160
 #, c-format
 msgid "Version"
-msgstr ""
+msgstr "संस्करण"
 
 #: ../urpm/msg.pm:160
 #, c-format
