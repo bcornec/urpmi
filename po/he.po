@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-07 16:56+0000\n"
+"PO-Revision-Date: 2020-11-09 13:12+0000\n"
 "Last-Translator: Omer I.S.\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -188,8 +188,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  --auto-select  - automatically select packages to upgrade the system.\n"
-msgstr ""
-"  --auto-select  - automatically select packages to upgrade the system.\n"
+msgstr "  --auto-select  - לבחור אוטומטית את החבילות לשדרוג המערכת.\n"
 
 #: ../gurpmi.pm:60 ../urpme:46 ../urpmi:100 ../urpmq:64
 #, c-format
@@ -282,7 +281,7 @@ msgstr "אזהרה"
 #: ../gurpmi2:170
 #, c-format
 msgid " (to upgrade)"
-msgstr " (לשדרג)"
+msgstr " (לשדרוג)"
 
 #: ../gurpmi2:171
 #, c-format
@@ -835,7 +834,7 @@ msgstr "מסיר חבילה %s"
 #, c-format
 msgid ""
 "created transaction for installing on %s (remove=%d, install=%d, upgrade=%d)"
-msgstr "יצר עסקה עבור התקנה על %s (הסרה=%d, התקנה=%d, עדכון=%d)"
+msgstr "נוצרה העברה להתקנה על %s (הסרה=%d, התקנה=%d, עדכון=%d)"
 
 #: ../urpm/install.pm:365
 #, c-format
@@ -2132,7 +2131,7 @@ msgstr ""
 #: ../urpmi:89
 #, c-format
 msgid "  --split-length - small transaction length, default is %d.\n"
-msgstr "  --split-length - אורך טרנזקציה קצרה, ברירת המחדל היא %d.\n"
+msgstr "  --split-length - אורך העברה קצרה, ברירת המחדל היא %d.\n"
 
 #: ../urpmi:91
 #, c-format
@@ -2187,7 +2186,7 @@ msgid ""
 "  --allow-force  - allow asking user to install packages without\n"
 "                   dependencies checking and integrity.\n"
 msgstr ""
-"  --allow-force  - מאפשר לתשאל את המשתמש אודות התקנת חבילות\n"
+"  --allow-force  - מאפשר לתשאל את המשתמש על התקנת חבילות\n"
 "                   בלי בדיקת תלויות.\n"
 
 #: ../urpmi:105
@@ -2427,13 +2426,13 @@ msgstr ""
 #: ../urpmi:426
 #, c-format
 msgid "%s: %s (to upgrade)"
-msgstr "%s: %s (לשדרג)"
+msgstr "%s: %s (לשדרוג)"
 
 #. -PO: here format is "<package_name> (to upgrade)"
 #: ../urpmi:428
 #, c-format
 msgid "%s (to upgrade)"
-msgstr "%s (לשדרג)"
+msgstr "%s (לשדרוג)"
 
 #. -PO: here format is "<package_name>: <summary> (to install)"
 #: ../urpmi:432
@@ -2527,8 +2526,8 @@ msgid ""
 "have to be removed for others to be upgraded:\n"
 "%s\n"
 msgstr ""
-"ההתקנה לא יכולה להמשיך בגלל החבילות הבאות\n"
-"יש צורך להסיר אותן, בכדי לשדרג את האחרות:\n"
+"לא ניתן להמשיך את ההתקנה בגלל החבילות הבאות\n"
+"שיש צורך להסיר אותן לשדרוג האחרות:\n"
 "%s\n"
 
 #: ../urpmi:544
@@ -3126,7 +3125,7 @@ msgstr "לא נמצאה רשימת שינויים\n"
 
 #: ../gurpmi.desktop.in.h:1
 msgid "Software Installer"
-msgstr "מתקין חבילות תוכנה"
+msgstr "אשף התקנת תוכנה"
 
 #: ../gurpmi.desktop.in.h:2
 msgid "Graphical front end to install RPM files"
