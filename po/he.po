@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-09 13:12+0000\n"
+"PO-Revision-Date: 2020-11-10 15:38+0000\n"
 "Last-Translator: Omer I.S.\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -611,7 +611,7 @@ msgstr ""
 #: ../urpm/args.pm:534
 #, c-format
 msgid "Copyright (C) %s by %s"
-msgstr "כל הזכויות שמורות (C) %s %s"
+msgstr "זכויות היוצרים (C) ‏%s שמורות ל־%s"
 
 #: ../urpm/bug_report.pm:67 ../urpmi:256
 #, c-format
