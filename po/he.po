@@ -7,13 +7,13 @@
 # dovix <dovix2003@yahoo.com>, 2003-2005
 # el-cuco <cuco3001@yahoo.com>, 2003
 # lev polvoi <lev@israsrv.net.il>, 2003
-# Omer I.S., 2020
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-10 15:38+0000\n"
-"Last-Translator: Omer I.S.\n"
+"PO-Revision-Date: 2020-11-12 14:37+0000\n"
+"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
 "Language: he\n"
@@ -51,12 +51,12 @@ msgstr "בהכנה..."
 #: ../gurpm/RPMProgressDialog.pm:313
 #, c-format
 msgid "Removing package `%s' ..."
-msgstr ""
+msgstr "בהסרת החבילה „%s”..."
 
 #: ../gurpm/RPMProgressDialog.pm:316
 #, c-format
 msgid "Installing package `%s' (%s/%s)..."
-msgstr "בהתקנת החבילה \"%s\" (%s/%s)..."
+msgstr "בהתקנת החבילה „%s” (%s/%s)..."
 
 #: ../gurpm/RPMProgressDialog.pm:345
 #, c-format
