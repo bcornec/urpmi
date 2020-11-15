@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-15 17:01+0000\n"
+"PO-Revision-Date: 2020-11-15 18:30+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -828,7 +828,7 @@ msgstr "הסרת %s כשלה: %s"
 #: ../urpm/install.pm:298
 #, c-format
 msgid "removing package %s"
-msgstr "מסיר חבילה %s"
+msgstr "כעת בהסרת החבילה %s"
 
 #: ../urpm/install.pm:362
 #, c-format
@@ -894,7 +894,7 @@ msgstr "מסד הנתונים %s נעול. כעת בהמתנה..."
 #: ../urpm/lock.pm:115
 #, c-format
 msgid "aborting"
-msgstr "נוטש"
+msgstr "כעת בנטישה"
 
 #: ../urpm/main_loop.pm:58
 #, c-format
@@ -1098,7 +1098,7 @@ msgstr "מוסיף את המקור \"%s\" לפני המקור המרוחק \"%s\
 #: ../urpm/media.pm:1020
 #, c-format
 msgid "adding medium \"%s\""
-msgstr "מוסיף את המקור \"%s\""
+msgstr "כעת בהוספת המאגר \"%s\""
 
 #: ../urpm/media.pm:1044
 #, c-format
@@ -1502,7 +1502,7 @@ msgstr "בעיגון %s"
 #: ../urpm/removable.pm:112
 #, c-format
 msgid "unmounting %s"
-msgstr "מנתק את %s"
+msgstr "כעת בניתוק %s"
 
 #: ../urpm/select.pm:44
 #, c-format
@@ -2863,12 +2863,12 @@ msgstr "\"%s\""
 #: ../urpmi.update:100
 #, c-format
 msgid "ignoring media %s"
-msgstr "בהתעלמות ממאגר %s"
+msgstr "כעת בהתעלמות ממאגר %s"
 
 #: ../urpmi.update:100
 #, c-format
 msgid "enabling media %s"
-msgstr "באפשור המאגר %s"
+msgstr "כעת בהפעלת המאגר %s"
 
 #: ../urpmq:44
 #, c-format
