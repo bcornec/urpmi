@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-12 14:37+0000\n"
+"PO-Revision-Date: 2020-11-15 17:01+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -46,7 +46,7 @@ msgstr "בודק את החתימות של החבילות..."
 #: ../gurpm/RPMProgressDialog.pm:309 ../urpm/install.pm:108
 #, c-format
 msgid "Preparing..."
-msgstr "בהכנה..."
+msgstr "כעת בהכנה..."
 
 #: ../gurpm/RPMProgressDialog.pm:313
 #, c-format
@@ -56,12 +56,12 @@ msgstr "בהסרת החבילה „%s”..."
 #: ../gurpm/RPMProgressDialog.pm:316
 #, c-format
 msgid "Installing package `%s' (%s/%s)..."
-msgstr "בהתקנת החבילה „%s” (%s/%s)..."
+msgstr "כעת בהתקנת החבילה „%s” (%s/%s)..."
 
 #: ../gurpm/RPMProgressDialog.pm:345
 #, c-format
 msgid "Downloading package `%s'..."
-msgstr "בהורדת החבילה \"%s\"..."
+msgstr "בהורדת החבילה „%s”..."
 
 #: ../gurpm/RPMProgressDialog.pm:349 ../gurpmi:127
 #, c-format
@@ -120,11 +120,11 @@ msgid ""
 "\n"
 "Proceed?"
 msgstr ""
-"חבילות התוכנה הבאות יותקנו כעת במחשבך:\n"
+"חבילות התוכנה שלהלן עומדות להיות מותקנות במחשבך:\n"
 "\n"
 "%s\n"
 "\n"
-"האם ברצונך להמשיך?"
+"להמשיך?"
 
 #: ../gurpmi:99
 #, c-format
@@ -135,11 +135,11 @@ msgid ""
 "\n"
 "You may prefer to just save it. What is your choice?"
 msgstr ""
-"חבילת התוכנה הבאה תותקן במחשבך:\n"
+"התקנת חבילת התוכנה שלהלן עומדת להיות מותקנת במחשבך:\n"
 "\n"
 "%s\n"
 "\n"
-"ייתכן וברצונך רק לשמור את החבילה לדיסק. מה ברצונך לעשות?"
+"ייתכן שברצונך רק לשמור אותה. מה ברצונך לעשות?"
 
 #: ../gurpmi:117
 #, c-format
@@ -688,7 +688,7 @@ msgstr "ססמה:"
 #: ../urpm/download.pm:288
 #, c-format
 msgid "Unknown webfetch `%s' !!!\n"
-msgstr "‏webfetch לא ידוע \"%s\" !!!\n"
+msgstr "‏webfetch לא ידוע „%s” !!!\n"
 
 #: ../urpm/download.pm:296
 #, c-format
@@ -889,7 +889,7 @@ msgstr ""
 #: ../urpm/lock.pm:114
 #, c-format
 msgid "%s database is locked. Waiting..."
-msgstr "מסד הנתונים %s נעול. בהמתנה..."
+msgstr "מסד הנתונים %s נעול. כעת בהמתנה..."
 
 #: ../urpm/lock.pm:115
 #, c-format
@@ -2863,7 +2863,7 @@ msgstr "\"%s\""
 #: ../urpmi.update:100
 #, c-format
 msgid "ignoring media %s"
-msgstr "בהתעלמות ממאגר \"%s\""
+msgstr "בהתעלמות ממאגר %s"
 
 #: ../urpmi.update:100
 #, c-format
@@ -2954,7 +2954,7 @@ msgstr ""
 #: ../urpmq:79
 #, c-format
 msgid "  --changelog    - print changelog.\n"
-msgstr "  --changelog    - הדפס דו\"ח שינויים.\n"
+msgstr "  --changelog    - הדפסת יומן שינויים.\n"
 
 #: ../urpmq:80
 #, c-format
