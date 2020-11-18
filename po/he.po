@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-15 18:30+0000\n"
+"PO-Revision-Date: 2020-11-18 08:55+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -41,7 +41,7 @@ msgstr "נא להמתין..."
 #: ../gurpm/RPMProgressDialog.pm:290
 #, c-format
 msgid "Verifying package signatures..."
-msgstr "בודק את החתימות של החבילות..."
+msgstr "כעת בבדיקת חתימות החבילות..."
 
 #: ../gurpm/RPMProgressDialog.pm:309 ../urpm/install.pm:108
 #, c-format
@@ -51,7 +51,7 @@ msgstr "כעת בהכנה..."
 #: ../gurpm/RPMProgressDialog.pm:313
 #, c-format
 msgid "Removing package `%s' ..."
-msgstr "בהסרת החבילה „%s”..."
+msgstr "כעת בהסרת החבילה „%s”..."
 
 #: ../gurpm/RPMProgressDialog.pm:316
 #, c-format
@@ -61,7 +61,7 @@ msgstr "כעת בהתקנת החבילה „%s” (%s/%s)..."
 #: ../gurpm/RPMProgressDialog.pm:345
 #, c-format
 msgid "Downloading package `%s'..."
-msgstr "בהורדת החבילה „%s”..."
+msgstr "כעת בהורדת החבילה „%s”..."
 
 #: ../gurpm/RPMProgressDialog.pm:349 ../gurpmi:127
 #, c-format
@@ -251,7 +251,7 @@ msgstr "יש להיות משתמש־על"
 #: ../gurpmi2:77
 #, c-format
 msgid "Preparing packages installation..."
-msgstr "בהכנת חבילות להתקנה..."
+msgstr "כעת בהכנת חבילות להתקנה..."
 
 #: ../gurpmi2:92 ../urpmi:506
 #, c-format
@@ -798,7 +798,7 @@ msgstr "החבילה %s לא נמצאה."
 #: ../urpm/get_pkgs.pm:268
 #, c-format
 msgid "retrieving rpm files from medium \"%s\"..."
-msgstr "מעתיק חבילות תוכנה מהמקור \"%s\"..."
+msgstr "כעת באחזור קובצי rpm ממאגר \"%s\"..."
 
 #: ../urpm/install.pm:116 ../urpme:164
 #, c-format
@@ -1133,7 +1133,7 @@ msgstr ""
 #: ../urpm/media.pm:1242
 #, c-format
 msgid "retrieving media.cfg file..."
-msgstr "באחזור הקובץ media.cfg..."
+msgstr "כעת באחזור הקובץ media.cfg..."
 
 #: ../urpm/media.pm:1285
 #, c-format
@@ -1153,7 +1153,7 @@ msgstr "מסיר מאגר \"%s\""
 #: ../urpm/media.pm:1438
 #, c-format
 msgid "reconfiguring urpmi for media \"%s\""
-msgstr "בהגדרת urpmi מחדש למאגר \"%s\""
+msgstr "כעת בהגדרת urpmi מחדש למאגר \"%s\""
 
 #: ../urpm/media.pm:1472
 #, c-format
@@ -1497,7 +1497,7 @@ msgstr "אין אפשרות לגשת למדיה \"%s\"."
 #: ../urpm/removable.pm:85 ../urpm/removable.pm:100
 #, c-format
 msgid "mounting %s"
-msgstr "בעיגון %s"
+msgstr "כעת בעיגון %s"
 
 #: ../urpm/removable.pm:112
 #, c-format
