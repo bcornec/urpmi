@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-18 08:55+0000\n"
+"PO-Revision-Date: 2020-11-21 21:30+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -31,7 +31,7 @@ msgstr "שדרוג הפצה"
 #: ../gurpm/RPMProgressDialog.pm:47
 #, c-format
 msgid "Packages installation"
-msgstr ""
+msgstr "התקנת חבילות"
 
 #: ../gurpm/RPMProgressDialog.pm:128
 #, c-format
@@ -464,7 +464,7 @@ msgstr ""
 #: ../urpm.pm:195
 #, c-format
 msgid "fail to create directory %s"
-msgstr "יצירת התיקייה %s היתה כישלון"
+msgstr "כישלון ביצירת התיקייה %s"
 
 #: ../urpm.pm:196
 #, c-format
