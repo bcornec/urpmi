@@ -390,7 +390,7 @@ if (@names) {
     ) || $force or exit 1;
 
     if (%requested) {
-	$urpm->{log}("found package(s): " . join(" ", map { scalar $urpm->{depslist}[$_]->fullname } 
+	$urpm->{log}("found package(s): " . join(" ", sort map { scalar $urpm->{depslist}[$_]->fullname }
 						      map { split /\|/ } keys %requested));
     }
 }
