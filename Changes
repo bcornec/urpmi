@@ -1,3 +1,5 @@
+Version 8.124 - 24 November 2020
+
 - gurpmi2:
   o ensure download error report fits on screen
 - Make it work with no feature qw(indirect) (aka perl7)
