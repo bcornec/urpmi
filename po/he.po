@@ -7,13 +7,14 @@
 # dovix <dovix2003@yahoo.com>, 2003-2005
 # el-cuco <cuco3001@yahoo.com>, 2003
 # lev polvoi <lev@israsrv.net.il>, 2003
-# Omer I.S. <omeritzicschwartz@gmail.com>, 2020
+# Omeritzics Games <omeritzicschwartz@gmail.com>, 2020
+# Omeritzics Games <omeritzicschwartz@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-21 21:30+0000\n"
-"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
+"PO-Revision-Date: 2020-11-25 23:57+0000\n"
+"Last-Translator: Omeritzics Games <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
 "Language: he\n"
@@ -120,7 +121,7 @@ msgid ""
 "\n"
 "Proceed?"
 msgstr ""
-"חבילות התוכנה שלהלן עומדות להיות מותקנות במחשבך:\n"
+"חבילות התכנה שלהלן עומדות להיות מותקנות במחשבך:\n"
 "\n"
 "%s\n"
 "\n"
@@ -135,7 +136,7 @@ msgid ""
 "\n"
 "You may prefer to just save it. What is your choice?"
 msgstr ""
-"התקנת חבילת התוכנה שלהלן עומדת להיות מותקנת במחשבך:\n"
+"התקנת חבילת התכנה שלהלן עומדת להיות מותקנת במחשבך:\n"
 "\n"
 "%s\n"
 "\n"
@@ -400,7 +401,7 @@ msgstr "ההתקנה הסתיימה"
 #: ../gurpmi2:363 ../urpmi:694
 #, c-format
 msgid "restarting urpmi"
-msgstr "מפעיל מחדש את urpmi"
+msgstr "כעת בהפעלת urpmi מחדש"
 
 #: ../gurpmi2:386
 #, c-format
@@ -524,7 +525,7 @@ msgstr "אין אפשרות לבצע רישום של החבילה"
 #: ../urpm.pm:474
 #, c-format
 msgid "Incompatible architecture for rpm [%s]"
-msgstr "האריכטקטורה אינה תואמת את חבילת התוכנה [%s]"
+msgstr "הארכיטקטורה אינה תואמת את rpm ‏[%s]"
 
 #: ../urpm.pm:478
 #, c-format
@@ -1073,7 +1074,7 @@ msgstr "תחילת חיפוש: %s סיום: %s"
 #: ../urpm/media.pm:861
 #, c-format
 msgid "skipping package %s"
-msgstr "מדלג על חבילה %s"
+msgstr "דילוג על החבילה %s"
 
 #: ../urpm/media.pm:877
 #, c-format
@@ -1093,7 +1094,7 @@ msgstr ""
 #: ../urpm/media.pm:1014
 #, c-format
 msgid "adding medium \"%s\" before remote medium \"%s\""
-msgstr "מוסיף את המקור \"%s\" לפני המקור המרוחק \"%s\""
+msgstr "כעת בהוספת מאגר \"%s\" לפני המאגר המרוחק \"%s\""
 
 #: ../urpm/media.pm:1020
 #, c-format
@@ -1148,7 +1149,7 @@ msgstr "בחירת מדיה מרובה:%s"
 #: ../urpm/media.pm:1347
 #, c-format
 msgid "removing medium \"%s\""
-msgstr "מסיר מאגר \"%s\""
+msgstr "כעת בהסרת מאגר \"%s\""
 
 #: ../urpm/media.pm:1438
 #, c-format
@@ -1178,7 +1179,7 @@ msgstr "המקור \"%s\" עדכני"
 #: ../urpm/media.pm:1526
 #, c-format
 msgid "examining synthesis file [%s]"
-msgstr "בודק את קובץ הsynthesis [%s]"
+msgstr "כעת בבדיקת קובץ synthesis [%s]"
 
 #: ../urpm/media.pm:1546
 #, c-format
@@ -1188,7 +1189,7 @@ msgstr "בעיה בקריאת קובץ מיזוג של מאגר \"%s\""
 #: ../urpm/media.pm:1559 ../urpm/media.pm:1654
 #, c-format
 msgid "copying [%s] for medium \"%s\"..."
-msgstr "מעתיק [%s] עבור המקורר \"%s\"..."
+msgstr "כעת בהעתקת [%s] עבור מאגר \"%s\"..."
 
 #: ../urpm/media.pm:1561 ../urpm/media.pm:1631 ../urpm/media.pm:1884
 #, c-format
@@ -1324,7 +1325,7 @@ msgstr " (כן/*לא) "
 #: ../urpm/msg.pm:129
 #, c-format
 msgid "Sorry, bad choice, try again\n"
-msgstr "מצטער ,בחירה רעה, יש לנסות שנית\n"
+msgstr "סליחה, הבחירה גרועה, נא לנסות שוב\n"
 
 #: ../urpm/msg.pm:160
 #, c-format
@@ -1339,7 +1340,7 @@ msgstr "גרסה"
 #: ../urpm/msg.pm:160
 #, c-format
 msgid "Release"
-msgstr "שחרור"
+msgstr "גרסה"
 
 #: ../urpm/msg.pm:160
 #, c-format
@@ -1354,7 +1355,7 @@ msgstr ""
 #: ../urpm/msg.pm:184
 #, c-format
 msgid "medium \"%s\""
-msgstr "מקור \"%s\""
+msgstr "מאגר \"%s\""
 
 #: ../urpm/msg.pm:184
 #, c-format
@@ -1364,7 +1365,7 @@ msgstr ""
 #: ../urpm/msg.pm:198
 #, c-format
 msgid "B"
-msgstr "B"
+msgstr "ב׳"
 
 #: ../urpm/msg.pm:198
 #, c-format
@@ -1558,7 +1559,7 @@ msgstr "עקב תלות %s שלא מולאה"
 #: ../urpm/select.pm:631
 #, c-format
 msgid "trying to promote %s"
-msgstr "מנסה לקדם %s"
+msgstr "כעת בניסיון לקידום %s"
 
 #: ../urpm/select.pm:632
 #, c-format
