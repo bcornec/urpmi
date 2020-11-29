@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-11-25 23:57+0000\n"
+"PO-Revision-Date: 2020-11-29 10:08+0000\n"
 "Last-Translator: Omeritzics Games <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -937,7 +937,7 @@ msgstr "לחבילות הבאות יש בעיה בחתימות"
 #: ../urpm/main_loop.pm:140
 #, c-format
 msgid "Do you want to continue installation ?"
-msgstr "האם להמשיך בתהליך ההתקנה?"
+msgstr "האם ברצונך להמשיך בהתקנה ?"
 
 #: ../urpm/main_loop.pm:155 ../urpm/main_loop.pm:184 ../urpm/main_loop.pm:291
 #: ../urpm/main_loop.pm:299
