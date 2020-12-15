@@ -7,14 +7,14 @@
 # dovix <dovix2003@yahoo.com>, 2003-2005
 # el-cuco <cuco3001@yahoo.com>, 2003
 # lev polvoi <lev@israsrv.net.il>, 2003
-# Omeritzics Games <omeritzicschwartz@gmail.com>, 2020
-# Omeritzics Games <omeritzicschwartz@gmail.com>, 2020
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2020
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-12-02 23:08+0000\n"
-"Last-Translator: Omeritzics Games <omeritzicschwartz@gmail.com>\n"
+"PO-Revision-Date: 2020-12-15 11:49+0000\n"
+"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
 "Language: he\n"
@@ -57,7 +57,7 @@ msgstr "כעת בהסרת החבילה „%s”..."
 #: ../gurpm/RPMProgressDialog.pm:316
 #, c-format
 msgid "Installing package `%s' (%s/%s)..."
-msgstr "כעת בהתקנת החבילה „%s” (%s/%s)..."
+msgstr "כעת בהתקנת החבילה „%s” ‏(%s/%s)..."
 
 #: ../gurpm/RPMProgressDialog.pm:345
 #, c-format
@@ -1304,7 +1304,7 @@ msgstr ""
 #: ../urpm/mirrors.pm:306
 #, c-format
 msgid "getting mirror list from %s"
-msgstr "כעת בקבלת רשימת אתרי המראה מתוך %s"
+msgstr "כעת בקבלת רשימת אתרי המַּראָה מתוך %s"
 
 #: ../urpm/msg.pm:74 ../urpmi:492 ../urpmi:510 ../urpmi:628
 #, c-format
@@ -3130,7 +3130,7 @@ msgstr "אשף התקנת תוכנה"
 
 #: ../gurpmi.desktop.in.h:2
 msgid "Graphical front end to install RPM files"
-msgstr "גישור גלוי גרפי להתקנת חבילות RPM"
+msgstr "ממשק גרפי להתקנת חבילות RPM"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:1
 msgid "Run Mageia Package Installer"
