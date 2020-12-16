@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-12-15 11:49+0000\n"
+"PO-Revision-Date: 2020-12-16 12:37+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -57,7 +57,7 @@ msgstr "כעת בהסרת החבילה „%s”..."
 #: ../gurpm/RPMProgressDialog.pm:316
 #, c-format
 msgid "Installing package `%s' (%s/%s)..."
-msgstr "כעת בהתקנת החבילה „%s” ‏(%s/%s)..."
+msgstr "כעת בהתקנת החבילה „%s” ‏‏(%s/%s)..."
 
 #: ../gurpm/RPMProgressDialog.pm:345
 #, c-format
@@ -89,7 +89,7 @@ msgstr "שגיאה: אין אפשרות למצוא את הקובץ %s, הפעו�
 #: ../gurpmi:65 ../gurpmi2:174 ../gurpmi2:203
 #, c-format
 msgid "_Ok"
-msgstr "_המשך"
+msgstr "אי_שור"
 
 #: ../gurpmi:85
 #, c-format
@@ -247,7 +247,7 @@ msgstr "לא צוינו חבילות"
 #: ../gurpmi2:47
 #, c-format
 msgid "Must be root"
-msgstr "יש להיות משתמש־על"
+msgstr "נדרשות הרשאות משתמש שורש (root)"
 
 #: ../gurpmi2:77
 #, c-format
@@ -302,7 +302,7 @@ msgstr "אחת החבילות הבאות נדרשת:"
 #: ../gurpmi2:204
 #, c-format
 msgid "_Abort"
-msgstr "_בטל"
+msgstr "_ביטול"
 
 #: ../gurpmi2:239
 #, c-format
@@ -465,7 +465,7 @@ msgstr ""
 #: ../urpm.pm:195
 #, c-format
 msgid "fail to create directory %s"
-msgstr "כישלון ביצירת התיקייה %s"
+msgstr "יצירת התיקייה %s כשלה"
 
 #: ../urpm.pm:196
 #, c-format
@@ -1493,7 +1493,7 @@ msgstr ""
 #: ../urpm/removable.pm:45
 #, c-format
 msgid "unable to access medium \"%s\"."
-msgstr "אין אפשרות לגשת למדיה \"%s\"."
+msgstr "אין אפשרות לגשת למאגר \"%s\"."
 
 #: ../urpm/removable.pm:85 ../urpm/removable.pm:100
 #, c-format
@@ -1581,7 +1581,7 @@ msgid ""
 "The following packages have to be removed for others to be upgraded:\n"
 "%s"
 msgstr ""
-"החבילות הבאות עומדות להימחק בכדי שניתן יהיה לשדרג חבילות אחרות: \n"
+"החבילות הבאות עומדות להימחק כדי שניתן יהיה לשדרג חבילות אחרות:\n"
 "%s"
 
 #: ../urpm/select.pm:701
@@ -1637,7 +1637,7 @@ msgstr ""
 #: ../urpm/sys.pm:235
 #, c-format
 msgid "You should restart your computer for %s"
-msgstr ""
+msgstr "יש להפעיל את המחשב שלך מחדש בשביל %s"
 
 #: ../urpm/sys.pm:237
 #, c-format
@@ -1647,7 +1647,7 @@ msgstr ""
 #: ../urpm/sys.pm:239
 #, c-format
 msgid "You should restart %s for %s"
-msgstr ""
+msgstr "יש להפעיל את %s מחדש בשביל %s"
 
 #: ../urpm/sys.pm:377
 #, c-format
@@ -1979,7 +1979,7 @@ msgstr "  --group        - קבוצה\n"
 #: ../urpmf:67
 #, c-format
 msgid "  --license      - license\n"
-msgstr ""
+msgstr "  --license      - רישיון\n"
 
 #: ../urpmf:68
 #, c-format
@@ -2034,7 +2034,7 @@ msgstr "  --url          - url\n"
 #: ../urpmf:78
 #, c-format
 msgid "  --vendor       - vendor\n"
-msgstr ""
+msgstr "  --vendor       - יצרן\n"
 
 #: ../urpmf:79
 #, c-format
@@ -3130,7 +3130,7 @@ msgstr "אשף התקנת תוכנה"
 
 #: ../gurpmi.desktop.in.h:2
 msgid "Graphical front end to install RPM files"
-msgstr "ממשק גרפי להתקנת חבילות RPM"
+msgstr "ממשק גרפי להתקנה מקובצי RPM"
 
 #: ../polkit/org.mageia.gurpmi2.policy.in.h:1
 msgid "Run Mageia Package Installer"
