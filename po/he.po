@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-12-16 12:37+0000\n"
+"PO-Revision-Date: 2020-12-19 17:33+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -79,7 +79,7 @@ msgstr "...האחזור כשל: %s"
 #: ../gurpmi:50
 #, c-format
 msgid "RPM installation"
-msgstr "התקנת חבילות תוכנה"
+msgstr "התקנה מ־RPM"
 
 #: ../gurpmi:64
 #, c-format
@@ -495,7 +495,7 @@ msgstr "אין אפשרות לפתוח את בסיס הנתונים של החב�
 #: ../urpm.pm:443
 #, c-format
 msgid "invalid rpm file name [%s]"
-msgstr "שם החבילה [%s] אינו תקין"
+msgstr "שם לא תקין לחבילת RPM ‏[%s]"
 
 #: ../urpm.pm:449
 #, c-format
@@ -819,7 +819,7 @@ msgstr "אין אפשרות להתקין את החבילה %s"
 #: ../urpm/install.pm:248
 #, c-format
 msgid "removing bad rpm (%s) from %s"
-msgstr "מסיר חבילה תקולה (%s) מתוך %s"
+msgstr "כעת בהסרת חבילת RPM פגומה (%s) מתוך %s"
 
 #: ../urpm/install.pm:249 ../urpm/install.pm:397
 #, c-format
@@ -913,7 +913,7 @@ msgid ""
 "Installation failed, bad rpms:\n"
 "%s"
 msgstr ""
-"ההתקנה כשלה, חבילות תקולות:\n"
+"ההתקנה כשלה, חבילות RPM פגומות:\n"
 "%s"
 
 #: ../urpm/main_loop.pm:108
@@ -2157,7 +2157,7 @@ msgstr "  --clean        - remove rpm from cache before anything else.\n"
 #: ../urpmi:95
 #, c-format
 msgid "  --noclean      - don't clean rpms from cache.\n"
-msgstr "  --noclean      - אל תמחק חבילות מהמטמון.\n"
+msgstr "  --noclean      - לא למחוק חבילות RPM מהמטמון.\n"
 
 #: ../urpmi:97
 #, c-format
