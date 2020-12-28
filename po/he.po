@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mageia\n"
 "POT-Creation-Date: 2020-07-10 17:41+0100\n"
-"PO-Revision-Date: 2020-12-19 17:33+0000\n"
+"PO-Revision-Date: 2020-12-28 15:56+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/MageiaLinux/mageia/language/"
 "he/)\n"
@@ -359,7 +359,7 @@ msgstr "אין אפשרות לקרוא חבילות מהמאגר, הפעולה �
 #: ../gurpmi2:287 ../urpmi:636
 #, c-format
 msgid "Please insert the medium named \"%s\""
-msgstr "נא להכניס את המדיה בשם \"%s\""
+msgstr "נא להכניס את אמצעי ההתקנה בשם \"%s\""
 
 #: ../gurpmi2:307
 #, c-format
